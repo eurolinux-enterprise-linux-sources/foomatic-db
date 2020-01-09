@@ -4,7 +4,7 @@
 Summary: Database of printers and printer drivers
 Name: foomatic-db
 Version: %{dbver_rel}
-Release: 7.%{dbver_snap}%{?dist}
+Release: 8.%{dbver_snap}%{?dist}
 License: GPLv2+
 Group: System Environment/Libraries
 Requires: %{name}-filesystem = %{version}-%{release}
@@ -126,10 +126,14 @@ rm -rf %{buildroot}
 
 %files ppds
 %defattr(-,root,root,-)
+%doc COPYING
 %{_datadir}/foomatic/db/source/PPD
 %{_datadir}/cups/model/foomatic-db-ppds
 
 %changelog
+* Mon Oct 03 2016 Zdenek Dohnal <zdohnal@redhat.com> - 4.0-8.20091126
+- foomatic-db-ppds subpackage must also include a copy of license text (bug #613705)
+
 * Thu Nov 26 2009 Tim Waugh <twaugh@redhat.com> 4.0-7.20091126
 - Updated to foomatic-db-4.0-20091126 (bug #538994).
 
