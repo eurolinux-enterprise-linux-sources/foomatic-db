@@ -1,0 +1,23 @@
+<printer id="printer/Canon-LIPS-IV">
+  <make>Canon</make>
+  <model>LIPS-IV</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+	</dpi>
+      </resolution>
+    </mechanism>
+  <lang>
+    <proprietary />
+    </lang>
+  <autodetect></autodetect>
+  <functionality>A</functionality>
+  <!--not "unverified"-->
+  <driver>lips4</driver>
+  <comments>
+    <en>Imported from old Red Hat japanese printer database</en>
+    </comments>
+  </printer>

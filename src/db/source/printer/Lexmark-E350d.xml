@@ -1,0 +1,70 @@
+<printer id="printer/Lexmark-E350d">
+   <make>Lexmark</make>
+   <model>E350d</model>
+   <mechanism>
+   <!--not "color"-->
+      <laser/>
+      <resolution>
+         <dpi>
+            <x>1200</x>
+            <y>1200</y>
+         </dpi>
+      </resolution>
+   </mechanism>
+   <url></url>
+   <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+   <autodetect>
+    <general>
+      <ieee1284>MFG: Lexmark International ;MDL: Lexmark E350d</ieee1284>
+      <manufacturer>Lexmark International </manufacturer>
+      <model>Lexmark E350d</model>
+    </general>
+      <parallel>
+         <model>Lexmark E350d</model>
+         <manufacturer>Lexmark International</manufacturer>
+         <description>Lexmark E350d</description>
+         <commandset>PCL 6 Emulation, PostScript Level 3 Emulation, NPAP, PJL</commandset>
+      </parallel>
+   </autodetect>
+   <functionality>B</functionality>
+   <driver>Postscript-Lexmark</driver>
+  <drivers>
+    <driver>
+      <id>Postscript-Lexmark</id>
+      <ppd>PPD/Lexmark/PS/Lexmark-E350d.ppd</ppd>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>pxlmono</id>
+    </driver>
+    <driver>
+      <id>lj5gray</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      Throughput = 35
+
+      Foomatic entry made by PPDtoXML T/G 0.05
+      
+      &lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 35 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

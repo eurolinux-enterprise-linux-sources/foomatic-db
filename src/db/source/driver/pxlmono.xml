@@ -1,0 +1,735 @@
+<driver id='driver/pxlmono'>
+  <name>pxlmono</name>
+  <url>http://www.ghostscript.com/</url>
+  <execution>
+    <ghostscript/>
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dNOPAUSE%B%A%Z -sOutputFile=- - | perl -p -e 'if (! $did) { s/\xc0.\xf8\x26/\xc0%E\xf8\x26/ &amp;&amp; $did++; }'</prototype>
+    <ppdentry>
+     *DefaultResolution: 1200dpi
+    </ppdentry>
+  </execution>
+  <comments>
+    <en>
+    Driver for monochrome PCL 6 printers, much faster than the
+    "lj5gray"/"lj5mono" drivers.&lt;p&gt;
+
+    The "pxlmono" and the "pxlcolor" driver are the same code, the
+    difference is only that the "pxlcolor" gives colour and the
+    "pxlmono" grayscale output. This entry for the "pxlmono" driver
+    lists only monochrome printers. See the &quot;&lt;a href="show_driver.cgi?driver=pxlcolor"&gt;pxlcolor&lt;/a&gt;&quot; driver entry
+    for color printers.&lt;p&gt;
+
+    Due to a bug in Ghostscript Duplex does not work with the
+    "pxlmono" and the "pxlcolor" drivers. Here is a &lt;a
+    href="http://www.openprinting.org/download/printing/ghostscript-pxl-patches/duplex.patch"&gt;patch&lt;/a&gt;
+    for GPL Ghostscript 8.63. This patch is needed so that the Duplex
+    option of the PPDs from this site works. Setting Duplex with PJL
+    commands does not work.&lt;p&gt;
+
+    The resolution must be given both with the "-r" option on the
+    command line of Ghostscript and as PJL command. Here is a &lt;a
+    href="http://www.openprinting.org/download/printing/ghostscript-pxl-patches/resolution.patch"&gt;patch&lt;/a&gt;
+    for GPL Ghostscript 8.63 so that giving the PJL commands is not
+    necessary any more.&lt;p&gt;
+
+    The PPDs from this site use an ugly Perl workaround to patch
+    Ghostscript's output data stream in order to make paper tray
+    selection work as the driver has a bug which breaks this
+    functionality. This &lt;a
+    href="http://www.openprinting.org/download/printing/ghostscript-pxl-patches/inputslot.patch"&gt;patch&lt;/a&gt;
+    for GPL Ghostscript 8.63 fixes the problem and allows to set the
+    input tray with the "-dMediaPosition=X" commmand line option for
+    Ghostscript. "X" is an integer number which depends on the printer
+    model and tray. For HP "0" is usually the printer default, "1"
+    automatic selection, "2" manual feed, "4" the upper, and "5" the
+    lower tray. Note that for PCL 5/5e these numbers are
+    different.&lt;p&gt;
+
+    GPL Ghostscript 8.63 comes with a CUPS filter ("pstopxl") and 2
+    PPD files for the "pxlmono" and "pxlcolor" drivers. Note that you
+    will need all the three patches mentioned here to make the options
+    in the PPD files actually work. With this &lt;a
+    href="http://www.openprinting.org/download/printing/ghostscript-cups-patches/pstopxl-pdf-input.patch"&gt;patch&lt;/a&gt;
+    the filter and the PPDs will be made ready for &lt;a
+    href="https://www.linuxfoundation.org/en/OpenPrinting/PDF_as_Standard_Print_Job_Format"&gt;PDF
+    input&lt;/a&gt;.&lt;p&gt;
+
+    The patches are all committed to the Subversion repository of GPL
+    Ghostscript, so they are not needed any more in future
+    versions (8.64 and later).&lt;p&gt;
+
+  </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Brother-DCP-8045D</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-1250</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-1270N</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-1450</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-1470N</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-1650</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-1660e</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-1670N</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-1850</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-1870N</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-2140</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-2060</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-2170W</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-2460</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-2460N</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-5030</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-5040</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-5050</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-5070N</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-5140</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-5150D</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-5170DN</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-7050</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-HL-7050N</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-LBP-1000</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-LBP-1760</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-LBP-3360</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-LBP-3460</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-LBP-5970</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-LBP-5975</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_1023</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_1023N</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_1023iF</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2016</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2016i</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2018</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2020</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2020i</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2022</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2200</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2230</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2270</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_2800</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_3025</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_3225</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_3300</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_5000</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_6000</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_7086</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_7095</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_7105</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-imageRunner_8070</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-5800</id>
+      <comments>
+        <en>This driver works at all resolutions.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-5800PS</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-5900</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-5900PS</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-6100</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-6100PS</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-N2050</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-N2050PS</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-N2050PSplus</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-N2050plus</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-N2120</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-N2500</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-N2500PS</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-N2750</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-N2750PS</id>
+    </printer>
+    <printer>
+      <id>printer/Fujitsu-PrintPartner_20W</id>
+    </printer>
+    <printer>
+      <id>printer/Generic-PCL_6_PCL_XL_Printer</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_1200</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_1220</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_1300</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_1320</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_2100</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_2100M</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_2200</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_2300</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3200</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3200m</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3200se</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3300_MFP</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3310_MFP</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3320N_MFP</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3320_MFP</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3330_MFP</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_4000</id>
+      <comments>
+        <en>Might work for 1200dpi mono?</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_4050</id>
+      <comments>
+        <en>to 1200dpi</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_4100</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_4200</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_4300</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_5</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_5100</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_8150</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_9000</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_M1522n_MFP</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_M1522nf_MFP</id>
+    </printer>
+    <printer>
+      <id>printer/IBM-Infoprint_12</id>
+      <comments>
+        <en>Prints 1200x1200 using pxlmono driver, but I could only make it work after
+setting to 1200dpi using PJL.  You can do this conveniently using Matt
+Simpson's pup utility.  If you do use pup, the resolution option for
+HP2100M worked fine (i.e. no need to compile IEEE1284 into your kernel).</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1000</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1000plus</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1010</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1050</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1200</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1700plus</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1750</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1800</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1800plus</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1900</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-3700plus</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-3750</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-3800</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-6700</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-7000plus</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-9000</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-9100DN</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-9500DN</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-1530</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-1810</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-2030</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-2530</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-3530</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-4230</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-4530</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-5230</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-5530</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-KM-6230</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-E120n</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-E230</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-E238</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-X342n</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-X642e</id>
+    </printer>
+    <printer>
+      <id>printer/Minolta-PagePro_1100</id>
+      <comments>
+        <en>
+
+    I've been able to print various things using this driver, but
+    when attempting to print PostScript created by Gnumeric, I get the
+    following from the printer on some pages:&lt;p>
+
+    &lt;tt>PCL XL error&lt;br>
+    Subsystem:  STATE&lt;br>
+    Error:      IllegalAttributeDataType&lt;br>
+    Operator:   SetLineDash&lt;br>
+    Position:   ...&lt;p>&lt;/tt>
+
+    I wonder whether the fault lies in Gnumeric's PostScript
+    generator (which Ghostscript renders without complaining) or in
+    the printer's PCL XL interpreter. Using "ljet4"
+    driver helped to solve this, but I suspect it worked just because
+    PCL 5 is a bit dumber than PCL 6, so Ghostscript could not pass it
+    so high-level data and have filtered out the bad
+    PostScript...&lt;p>
+
+        </en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Oce-fx2080</id>
+    </printer>
+    <printer>
+      <id>printer/Oce-sx1480</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B2400</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B2400n</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B4200</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B4250</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B4300</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B4350</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B4400</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B4400n</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B4600</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B4600n</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-B4600n_PS</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-Okipage_10ex</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-Okipage_14ex</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-2330</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-4510</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-4520</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-8016P</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-8020E</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-8045</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-8060</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-C213</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-C262</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-C264</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-DP-C354</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1250</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1450</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1450PS</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1650</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1651N</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1750</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2150</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2150PS</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2151N</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2151NPS</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2152W</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2152WPS</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2250</id>
+      <comments>
+        <en>The Foomatic/pxlmono driver works with this printer.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2550</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2551N</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2552W</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-4600</id>
+      <comments>
+        <en>
+
+    Use this one to use the PCL6 language and to permit the printer to
+    use 1200 dpi mode.
+
+        </en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-6060</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-6060N</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-6060S</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-7000</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-7000N</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-7000P</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-7050</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-7300</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-7300N</id>
+    </printer>
+    <printer>
+      <id>printer/Sharp-AR-161</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_1101</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_1351</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_162</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_162d</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_167</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_203l</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_233</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_237</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_283</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_353</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_450s</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_453</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_500p</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_500s</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_523</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_523t</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_603</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_603t</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_723</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_723t</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_853</id>
+    </printer>
+    <printer>
+      <id>printer/Toshiba-e-Studio_901</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3150</id>
+    </printer>
+  </printers>
+</driver>
