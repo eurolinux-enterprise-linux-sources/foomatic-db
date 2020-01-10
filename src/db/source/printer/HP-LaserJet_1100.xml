@@ -1,0 +1,66 @@
+<printer id="printer/HP-LaserJet_1100">
+  <make>HP</make>
+  <model>LaserJet 1100</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/eschome.html</url>
+  <lang>
+    <pcl level="5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>MLC,PCL,PJL</commandset>
+      <description>HP LaserJet 1100 Printer</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 1100</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+    Overall, a nice, pretty, cheap ($400+ US) laser.  Comes in a
+    variety of bundlings; i.e. 1100se, 1100xi.)  This printer can be
+    converted to an 1100A with a scanner attachment (list US$150).
+    For the status of the scanner see the &lt;a
+    href=&quot;show_printer.cgi?recnum=HP-LaserJet_1100A&quot;&gt;1100A&lt;/a&gt;.
+    This printer is slow with Ghostscript versions prior to
+    5.50.&lt;p&gt;
+    
+    For basic printing functionality use the &lt;a
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS driver
+    &lt;/a&gt;. For advanced functionality such as printer status and
+    maintenance features, use the &lt;a
+    href=&quot;http://hplipopensource.com/&quot;&gt; HPLIP driver&lt;/a&gt;
+    (which includes HPIJS).&lt;p&gt;
+
+    Unfortunately, this printer has a little hardware problem: The
+    paper separation pad hardens with the time and the printer pulls
+    in several sheets of paper at once. HP is aware of this and
+    offered a kit to fix this without needing to disassemble the
+    printer for free. Unfortunately, HP discontinued this kit. You can
+    perhaps get these kits from other suppliers online for around 10
+    USD.&lt;p&gt;
+
+    The HP LaserJet 1100 has the same engine as the Canon LBP-320,
+    LBP-320 PRO, and LBP-350, and these have the same hardware
+    problem. It is quite feasible to solve this by gluing a 0.5mm
+    rubber strip over the hardened grey separation pad.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Cartridge containing toner and drum in one unit&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

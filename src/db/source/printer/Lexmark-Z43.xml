@@ -1,0 +1,27 @@
+<printer id="printer/Lexmark-Z43">
+  <make>Lexmark</make>
+  <model>Z43</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/US/Products/printers/0,2792,MTg0M3wx,00.html</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+    The printer is more or less compatible to the Z42, but faster.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 2 cartridges (color and black or color and photo)&lt;p&gt;
+    </en>
+  </comments>
+</printer>

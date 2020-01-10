@@ -1,0 +1,44 @@
+<printer id="printer/Epson-Stylus_Photo_2200">
+  <make>Epson</make>
+  <model>Stylus Photo 2200</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2880</x>
+        <y>1440</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+      Probably similar to/the same as the Epson Stylus Photo
+      2100&lt;p&gt;
+
+      7-ink (CcMmYKk, has light black ink) 13x19/A3-large-format
+      high-end photo printer with roll feeder, automatic paper cutter,
+      full bleed (borderless) printing, prints also directly on
+      CDs.&lt;p&gt;
+    
+      96 nozzles per color.&lt;p&gt;
+
+      USB2, Parallel, and FireWire (IEEE 1394).&lt;p&gt;
+
+      Supported in Gimp-Print 4.2.2rc2, 4.3.4, or newer.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 7 separate ink tanks: Cyan, light cyan, magenta, light magenta,
+	yellow, black (photo or matte black), light black&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

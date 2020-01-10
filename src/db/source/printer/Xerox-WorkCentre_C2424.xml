@@ -1,0 +1,73 @@
+<printer id="printer/Xerox-WorkCentre_C2424">
+  <make>Xerox</make>
+  <model>WorkCentre C2424</model>
+  <mechanism>
+    <color />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>2400</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.office.xerox.com/multifunction-printer/color-multifunction/workcentre-c2424/enus.html</url>
+  <lang>
+    <postscript level="3" />
+    <pcl level="5c" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Xerox;CMD:Adobe PostScript 3, PCL;MDL:WorkCentre C2424;CLS:Printer;DES:Xerox WorkCentre C2424, Color Printer, PostScript 3, Letter/A4 Size</ieee1284>
+      <commandset>Adobe PostScript 3, PCL</commandset>
+      <description>Xerox WorkCentre C2424, Color Printer, PostScript 3, Letter/A4 Size</description>
+      <manufacturer>Xerox</manufacturer>
+      <model>WorkCentre C2424</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Xerox</driver>
+  <drivers>
+    <driver>
+      <id>cljet5</id>
+    </driver>
+    <driver>
+      <id>hpijs-pcl5c</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Xerox</id>
+      <ppd>PPD/Xerox/xrxc2424.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      High-end Solid ink multi function printer. Comes with a built in IPP server and Web configuration. Scanning works PERFECTLY with Linux since you scan at printer side and download via its web server to your workstation.&lt;p&gt;
+
+The printer is a very efficient thing, and since it supports PostScript Level 3, there is no problem using it with CUPS, I have deployed it for a Linux/MacOS X workgroup of 15 computers and we all print to it without any problems.&lt;p&gt;
+
+Highly recommended for volume Colour printing and Multifunction.&lt;p&gt;The printer has both a USB connection and built in Ethernet, which supports LPR, IPP, JetDirect and AppSocket. We use IPP over Ethernet exclusively, using local host CUPS daemons which spool via at the uri: ipp://ip-of-printer/ipp&lt;p&gt;
+      
+      Throughput = 24
+      
+      Foomatic entry made by PPDtoXML T/G 0.18 on 2008-05-25
+      
+      &lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 24 pages/min&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Solid Ink Charges, CMYK independent&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

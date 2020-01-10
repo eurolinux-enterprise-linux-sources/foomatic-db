@@ -1,0 +1,25 @@
+<printer id="printer/Epson-EPL-5200plus">
+  <make>Epson</make>
+  <model>EPL-5200+</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ljet3</driver>
+  <comments>
+    <en>I don't know what is the difference between the EPL-5200 and the EPL-5200+</en>
+  </comments>
+</printer>

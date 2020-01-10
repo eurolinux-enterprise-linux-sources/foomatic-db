@@ -1,0 +1,42 @@
+<printer id="printer/HP-OfficeJet">
+  <make>HP</make>
+  <model>OfficeJet</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/prodhome/oj.html</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+    Multi-function device (printer/copier/fax).&lt;p&gt;
+
+    In contrary to other multi-function devices from HP the hardware
+    only supports printing from the PC, not scanning or PC-assisted
+    faxing or copying. Faxing or copying can only be done via the
+    front panel.
+
+    The printing engine of this device is the same as in the
+    monochrome DeskJet 520 printer, so printing will work with
+    various drivers.&lt;p&gt;
+
+    This printer has a 600x300-dpi-REt mode which is not accessible
+    with free software.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Black ink cartridge 51626A&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,26 @@
+<printer id="printer/Canon-BJ-330">
+  <make>Canon</make>
+  <model>BJ-330</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>bj200</driver>
+  <comments>
+    <en>Drives Canon at 360dpi in Epson emulation mode.&lt;p&gt;
+
+      Consumables/Refills: Canon Ink Cartridge BJI-642 ($25 +/-)&lt;p&gt;</en>
+  </comments>
+</printer>

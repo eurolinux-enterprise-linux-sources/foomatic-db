@@ -1,0 +1,28 @@
+<printer id="printer/Oce-9050">
+  <make>Oce</make>
+  <model>9050</model>
+  <mechanism>
+    <impact />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl />
+  </lang>
+  <functionality>A</functionality>
+  <driver>oce9050</driver>
+  <comments>
+    <en>
+
+    The information about this printer shown here is only based in the
+    source code of the &quot;oce9050&quot; Ghostscript driver. I have
+    only entered it to obtain foomatic configuration files for this
+    printer. Any information about this printer is welcome.
+
+    </en>
+  </comments>
+</printer>

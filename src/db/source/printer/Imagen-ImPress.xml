@@ -1,0 +1,21 @@
+<printer id="printer/Imagen-ImPress">
+  <make>Imagen</make>
+  <model>ImPress</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>imagen</driver>
+  <comments>
+    <en>Special Ghostscript driver; should work fine.</en>
+  </comments>
+</printer>

@@ -1,0 +1,38 @@
+<printer id="printer/Sharp-AR-161">
+  <make>Sharp</make>
+  <model>AR-161</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.sharpelectronics.com/products/business/spec_161.html</url>
+  <lang>
+    <pcl level="6" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PCL</commandset>
+      <manufacturer>SHARP</manufacturer>
+      <model>AR-160/200 series</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>pxlmono</driver>
+  <comments>
+    <en>Digital copier; printer functionality is option AR-PB8.
+&lt;br&gt;Postscript option available.
+&lt;br&gt;Network option avaialble (NC3D).
+&lt;br&gt;Fax option available.
+&lt;br&gt;16 ppm; 8MB std(?), but takes regular DIMMs to 136MB.&lt;br&gt;&lt;p&gt;
+
+      Consumables/Refills: toner?&lt;p&gt;</en>
+  </comments>
+</printer>

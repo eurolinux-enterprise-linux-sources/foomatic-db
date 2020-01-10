@@ -1,0 +1,58 @@
+<printer id="printer/HP-LaserJet_3200">
+  <make>HP</make>
+  <model>LaserJet 3200</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="6, 5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <usb>
+      <commandset>PJL,MLC,PCL,PCLXL</commandset>
+      <description>Hewlett-Packard LaserJet 3200</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 3200</model>
+    </usb>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>pxlmono</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+    Multi-function printer-scanner-fax-copier.&lt;p&gt;
+    
+    For basic printing functionality use the pxlmono or the PostScript
+    PPD, note that this printer does not support PostScript by
+    default, so the PostScript PPD will only work if the optional
+    PostScript module is installed.&lt;p&gt;
+
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS).&lt;p&gt;
+
+    Stand-alone copying should just work, it does not need the PC.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: UltraPrecise Print Cartridge C4092A, ~$60&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

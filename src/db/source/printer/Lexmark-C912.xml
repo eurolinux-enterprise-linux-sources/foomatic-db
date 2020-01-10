@@ -1,0 +1,34 @@
+<printer id="printer/Lexmark-C912">
+  <make>Lexmark</make>
+  <model>C912</model>
+  <mechanism>
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+  </lang>
+  <functionality>B</functionality>
+  <driver>Postscript-Lexmark</driver>
+  <drivers>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Lexmark</id>
+      <ppd>PPD/Lexmark/Lexmark_C912.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      Throughput = 29
+
+      Foomatic entry made by PPDtoXML T/G 0.05
+      </en>
+  </comments>
+</printer>

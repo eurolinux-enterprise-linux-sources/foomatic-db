@@ -1,0 +1,33 @@
+<printer id="printer/Epson-Stylus_Color_980">
+  <make>Epson</make>
+  <model>Stylus Color 980</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2880</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>ESC/P2</commandset>
+      <manufacturer>Epson</manufacturer>
+      <model>Stylus Color 980</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Works perfectly with Gimp-Print.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

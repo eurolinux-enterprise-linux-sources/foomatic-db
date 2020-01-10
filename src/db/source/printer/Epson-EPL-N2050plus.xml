@@ -1,0 +1,31 @@
+<printer id="printer/Epson-EPL-N2050plus">
+  <make>Epson</make>
+  <model>EPL-N2050+</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.epson.co.uk/product/printers/lasers/epln2050p/index.htm</url>
+  <lang>
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>eplaser</driver>
+  <comments>
+    <en>
+       Epson provides a free (LGPL) driver for this printer. With this the
+       printer should work to its full extent.&lt;p&gt;
+
+      Consumables/Refills: toner cartridge, drum cartridge&lt;p&gt;
+    </en>
+  </comments>
+</printer>

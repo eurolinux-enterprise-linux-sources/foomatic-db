@@ -1,0 +1,128 @@
+<driver id="driver/bjc600">
+  <name>bjc600</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=bjc600%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <comments>
+    <en>
+
+     Ghostscript's built-in standard driver for Canon's inkjet
+     printers.&lt;p&gt;
+
+     NOTE: Due to a &lt;a
+     href=&quot;http://bugs.ghostscript.com/show_bug.cgi?id=690032&quot;&gt;bug&lt;/a&gt;
+     GPL Ghostscript 8.63 crashes when using this driver with PDF
+     input data. With PostScript the driver works just fine.&lt;p&gt;
+
+     The bug is fixed in Ghostscript 8.64 and later. For Ghostscript
+     8.63 (and older) there is a &lt;a
+     href=&quot;http://www.openprinting.org/download/printing/ghostscript-bjc600-bjc800-patches/bjc600-bjc800-pdf.patch&quot;&gt;patch&lt;/a&gt;
+     available.&lt;p&gt;
+
+     The PPDs from this site need Ghostscript 8.64 or newer or the
+     patch to work correctly with PDF input.&lt;p&gt;
+
+   </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Canon-BJC-1000</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-2000</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-2010</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-210</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-2100</id>
+      <comments>
+        <en>Using Ghostscript options -sPAPERSIZE=a4 and -r360x360</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-2110</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-240</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-250</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-3000</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-4000</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-4100</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-4200</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-4300</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-4310SP</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-4400</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-50</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-55</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-600</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-610</id>
+      <comments>
+        <en>Traditional Ghostscript driver.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-620</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-70</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-80</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJC-85</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-MultiPASS_C2500</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-MultiPASS_C3000</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-MultiPASS_C3500</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-MultiPASS_C5000</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-MultiPASS_C5500</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-S100</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-S400</id>
+    </printer>
+  </printers>
+</driver>

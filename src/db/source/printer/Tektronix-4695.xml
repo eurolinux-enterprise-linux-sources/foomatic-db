@@ -1,0 +1,18 @@
+<printer id="printer/Tektronix-4695">
+  <make>Tektronix</make>
+  <model>4695</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>120</x>
+        <y>120</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>tek4696</driver>
+</printer>

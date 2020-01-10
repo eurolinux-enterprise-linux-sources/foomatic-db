@@ -1,0 +1,26 @@
+<printer id="printer/NEC-Silentwriter2_model_290">
+  <make>NEC</make>
+  <model>Silentwriter2 model 290</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="1" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Comes with two megs of memory, fully functional but slow.&lt;p&gt;
+
+      Consumables/Refills: EPS cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

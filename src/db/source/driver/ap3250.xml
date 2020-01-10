@@ -1,0 +1,14 @@
+<driver id="driver/ap3250">
+  <name>ap3250</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=ap3250%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/Epson-ActionPrinter_3250</id>
+    </printer>
+  </printers>
+</driver>

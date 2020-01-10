@@ -1,0 +1,73 @@
+<printer id="printer/Kyocera-FS-3750">
+  <make>Kyocera</make>
+  <model>FS-3750</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.kyoceramita.com/</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Kyocera;Model:Kyocera FS-3750;COMMAND SET: POSTSCRIPT,PJL,PCL</ieee1284>
+      <commandset>POSTSCRIPT,PJL,PCL</commandset>
+      <description>Kyocera FS-3750</description>
+      <manufacturer>Kyocera</manufacturer>
+      <model>Kyocera FS-3750</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Kyocera</driver>
+  <drivers>
+    <driver>
+      <id>lj5gray</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Kyocera</id>
+      <ppd>PPD/Kyocera/en/Kyocera_FS-3750_en.ppd</ppd>
+    </driver>
+    <driver>
+      <id>pxlmono</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      Optionally available: 10MBit or 100MBit Network-Module with 32MB RAM &lt;br&gt;
+      Works fine with linux &lt;br&gt;
+      Use the
+      &lt;a href=&quot;/download/PPD/Kyocera/&quot;&gt;Kyocera PPD file&lt;/a&gt;
+      for PostScript,
+      &lt;a href=&quot;ppd-doc.html&quot;&gt;Instructions&lt;/a&gt; &lt;br&gt;
+      Use ljet4 for PCL5e but PCL5e is limited to 600dpi &lt;br&gt;
+      In case of duplex option use ljet4d for PCL5e and duplex &lt;br&gt;
+      Using pxlmono (PCL6) may be the fastest way to get good printouts.
+    
+      &lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 18 pages/min&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: just toner, cheap&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

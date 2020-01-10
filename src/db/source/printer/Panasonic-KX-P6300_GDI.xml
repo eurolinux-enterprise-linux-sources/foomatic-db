@@ -1,0 +1,19 @@
+<printer id="printer/Panasonic-KX-P6300_GDI">
+  <make>Panasonic</make>
+  <model>KX-P6300 GDI</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <url>http://www.panasonic.co.jp/</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>I can't really find a good specs page for this printer, but it appears to be a &quot;GDI&quot; printer.
+&lt;br&gt;It seems to use the same Windows driver as the 6500?
+&lt;br&gt;The Japan Panasonic page has the most info, with various resease notes etc.&lt;p&gt;
+
+      Consumables/Refills: toner&lt;p&gt;</en>
+  </comments>
+</printer>

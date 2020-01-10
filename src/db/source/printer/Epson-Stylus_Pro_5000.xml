@@ -1,0 +1,30 @@
+<printer id="printer/Epson-Stylus_Pro_5000">
+  <make>Epson</make>
+  <model>Stylus Pro 5000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1440</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://prographics.epson.com/products/stypro5000/index.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+      Working in gimp-print 4.1.8.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

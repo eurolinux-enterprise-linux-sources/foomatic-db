@@ -1,0 +1,73 @@
+<printer id="printer/Kyocera-KM-1810">
+  <make>Kyocera</make>
+  <model>KM-1810</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1800</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.kyoceramita.com/</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Kyocera Mita:Model:KM-1810;COMMAND SET: POSTSCRIPT,PJL,PCL</ieee1284>
+      <commandset>POSTSCRIPT,PJL,PCL</commandset>
+      <description>Kyocera Mita KM-1810</description>
+      <manufacturer>Kyocera Mita</manufacturer>
+      <model>KM-1810</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>Postscript-Kyocera</driver>
+  <drivers>
+    <driver>
+      <id>lj5gray</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Kyocera</id>
+      <ppd>PPD/Kyocera/en/Kyocera_Mita_KM-1810_en.ppd</ppd>
+    </driver>
+    <driver>
+      <id>pxlmono</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      For printing the category is &quot;Perfectly&quot; &lt;br&gt;
+      Nevertheless the overall category is &quot;Mostly&quot; because
+      of the scanner which is not supported. &lt;br&gt;
+      Use the
+      &lt;a href=&quot;/download/PPD/Kyocera/&quot;&gt;Kyocera PPD file&lt;/a&gt;
+      for PostScript,
+      &lt;a href=&quot;ppd-doc.html&quot;&gt;Instructions&lt;/a&gt; &lt;br&gt;
+      Using the Foomatic drivers may be limited to 600x600dpi &lt;br&gt;
+      Use ljet4 for PCL5e but PCL5e is limited to 600dpi &lt;br&gt;
+      In case of duplex option use ljet4d for PCL5e and duplex &lt;br&gt;
+      Using pxlmono (PCL6) may be the fastest way to get good printouts.
+    
+      &lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 18 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

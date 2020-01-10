@@ -1,0 +1,27 @@
+<printer id="printer/Citizen-ProJet_IIc">
+  <make>Citizen</make>
+  <model>ProJet IIc</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>cdj500</driver>
+  <comments>
+    <en>Clone of Olivetti JP450.&lt;p&gt;
+
+      Consumables/Refills: Individual color/black cartridges, manual change, black availabl&lt;p&gt;</en>
+  </comments>
+</printer>

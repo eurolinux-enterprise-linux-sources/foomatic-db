@@ -1,0 +1,40 @@
+<printer id="printer/HP-DesignJet_500ps">
+  <make>HP</make>
+  <model>DesignJet 500ps</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/</url>
+  <lang>
+    <proprietary />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>dnj650c</driver>
+  <comments>
+    <en>
+
+    Large-format printer.&lt;p&gt;
+
+    This is not a PostScript printer, the &quot;ps&quot; in the name is
+    misleading.&lt;p&gt;
+
+    Thanks to Oleksandr Shneyder (oleksandr dot shneyder at
+    treuchtlingen dot de) for the info about getting this printer to
+    work.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: &lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

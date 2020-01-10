@@ -1,0 +1,24 @@
+<printer id="printer/Samsung-ML-85">
+  <make>Samsung</make>
+  <model>ML-85</model>
+  <mechanism>
+    <led />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.samsungelectronics.com</url>
+  <lang>
+    <pcl level="4/5" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>This printer is a Proper HP4/HP5 PCL compatible printer.&lt;p&gt;
+
+      Consumables/Refills: ML+85D2/XAR   @ tigerdirect.com&lt;p&gt;</en>
+  </comments>
+</printer>

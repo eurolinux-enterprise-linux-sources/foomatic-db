@@ -1,0 +1,22 @@
+<printer id="printer/Canon-BJC-4200">
+  <make>Canon</make>
+  <model>BJC-4200</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>bjc600</driver>
+</printer>

@@ -1,0 +1,22 @@
+<printer id="printer/LaserMaster-LM_1000">
+  <make>LaserMaster</make>
+  <model>LM 1000</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1000</x>
+        <y>1000</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>A 1000dpi laser from 1989.  Uses  a proprietary  video  interface to support DDPI (whatever that is) protocol.
+&lt;br&gt;
+Contact: Tommi Rintala</en>
+  </comments>
+</printer>

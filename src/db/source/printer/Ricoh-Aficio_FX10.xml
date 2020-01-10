@@ -1,0 +1,23 @@
+<printer id="printer/Ricoh-Aficio_FX10">
+  <make>Ricoh</make>
+  <model>Afico FX10</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>400</x>
+        <y>400</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.ricoh-usa.com/prodshw/digimgsys/affx10.htm</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>Scanner/fax/copier/printer.
+&lt;br&gt;Web site says PCL 4.5 in Windows DOS box; I assume this means no onboard PCL.
+&lt;br&gt;Scanner also not known to work.</en>
+  </comments>
+</printer>

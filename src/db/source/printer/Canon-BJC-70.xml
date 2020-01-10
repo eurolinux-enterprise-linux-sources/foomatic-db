@@ -1,0 +1,29 @@
+<printer id="printer/Canon-BJC-70">
+  <make>Canon</make>
+  <model>BJC-70</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>bjc600</driver>
+  <comments>
+    <en>
+    Use the &quot;bj200&quot; Ghostscript driver for fast
+    black-and-white printing, the &quot;bjc600&quot; driver for
+    colour.&lt;p&gt;
+
+    There are many options; see the Ghostscript documentation and the
+    &quot;Execution Details&quot; page on this site.&lt;p&gt;
+
+    Note that if this has a scanner cartridge option, it isn't
+    supported.
+    </en>
+  </comments>
+</printer>

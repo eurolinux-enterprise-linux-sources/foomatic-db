@@ -1,0 +1,17 @@
+<printer id="printer/Oce-im7520">
+  <make>Oce</make>
+  <model>im7520</model>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+  </lang>
+  <functionality>B</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+      Throughput = 75
+
+      Foomatic entry made by PPDtoXML T/G 0.06
+      </en>
+  </comments>
+</printer>

@@ -1,0 +1,37 @@
+<printer id="printer/Epson-EPL-5700L">
+  <make>Epson</make>
+  <model>EPL-5700L</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.epson.co.uk/sohoprod/printers/lasers/epl5700l/</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>epsonepl</driver>
+  <comments>
+    <en>
+
+    Known not to use a standard protocol as PostScript or PCL; not to
+    be confused with the &lt;a
+    href=&quot;show_printer.cgi?recnum=Epson-EPL-5700&quot;&gt;EPL-5700&lt;/a&gt;.
+    &lt;p&gt;
+
+    Dr H. T. Leung and Roberto Ragusa have developed a &lt;a
+    href=&quot;http://epsonepl.sourceforge.net/&quot;&gt;driver&lt;/a&gt;;
+    based on reverse-engineering of the printer's protocol.&lt;p&gt;
+
+    Printing works through both the parallel and USB port.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Separate photoconductor drum and toner cartridge&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

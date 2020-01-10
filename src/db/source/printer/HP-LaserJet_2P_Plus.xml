@@ -1,0 +1,31 @@
+<printer id="printer/HP-LaserJet_2P_Plus">
+  <make>HP</make>
+  <model>LaserJet 2P Plus</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ljet2p</driver>
+  <comments>
+    <en>
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+  </en>
+  </comments>
+</printer>

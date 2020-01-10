@@ -1,0 +1,29 @@
+<printer id="printer/NEC-SuperScript_750C">
+  <make>NEC</make>
+  <model>SuperScript 750C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cssweb.nectech.com/SScript/ss750c/index.htm</url>
+  <lang>
+    <pcl level="3+" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>pcl3</driver>
+  <comments>
+    <en>CMYK four-color printing or black-only; two heads.
+&lt;br&gt;Should(tm) work perfectly; if you have one and it does, change this entry!&lt;p&gt;
+
+      Consumables/Refills: ink cartridges, one per head.&lt;p&gt;</en>
+  </comments>
+</printer>

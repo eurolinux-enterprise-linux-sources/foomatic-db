@@ -1,0 +1,62 @@
+<printer id="printer/HP-LaserJet_4250">
+  <make>HP</make>
+  <model>LaserJet 4250</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PJL,MLC,PCLXL,PCL,PJL,POSTSCRI</commandset>
+      <description>Hewlett-Packard LaserJet 4250</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>hp LaserJet 4250</model>
+    </parallel>
+    <snmp>
+      <description>hp LaserJet 4250</description>
+    </snmp>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+    PostScript Level 3, PCL5, PCL6, HP-GL/2&lt;p&gt;
+
+    Up to 45 pages/min.
+
+    64 MB std, depending on flavour (512 MB max.).&lt;p&gt;
+
+    For basic printing functionality use the Postscript PPD.
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;
+
+    Optional accessories are duplexer, additional trays up to 1500
+    sheet, hard drive, extra memory, ethernet adapter,
+    stapler/stacker.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner and drum in one cartridge (12000 pages)&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

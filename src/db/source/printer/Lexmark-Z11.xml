@@ -1,0 +1,41 @@
+<printer id="printer/Lexmark-Z11">
+  <make>Lexmark</make>
+  <model>Z11</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/printers/inkjet/Z11/</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>LOWENDLEXCPD</commandset>
+      <description>(none)</description>
+      <manufacturer>Lexmark</manufacturer>
+      <model>Lexmark Z11</model>
+    </parallel>
+  </autodetect>
+  <functionality>D</functionality>
+  <driver>lz11-V2</driver>
+  <comments>
+    <en>
+
+    Prints only full, unidirectional sweeps with free
+    software.&lt;p&gt;
+
+    One can either print with a black cartridge or a 3-ink color
+    cartridge, not with both.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: black (Standard Yield P/N 12A1970, High Yield P/N 12A1975) color&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

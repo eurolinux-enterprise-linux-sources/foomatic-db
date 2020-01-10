@@ -1,0 +1,33 @@
+<printer id="printer/HP-LaserJet_4P">
+  <make>HP</make>
+  <model>LaserJet 4P</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+    For basic printing functionality use the Postscript PPD. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+    
+    Works pretty good.  KDE has an HP Laserjet utility app you can try.&lt;p&gt;
+
+      Consumables/Refills: toner cartridge, $69&lt;p&gt;</en>
+  </comments>
+</printer>

@@ -1,0 +1,45 @@
+<printer id="printer/Brother-HL-1020">
+  <make>Brother</make>
+  <model>HL-1020</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <pjl />
+  </lang>
+  <functionality>A</functionality>
+  <driver>hl7x0</driver>
+  <comments>
+    <en>
+    Had trouble finding notes for hl-1020. Documentation was for
+    hl-1020/hl-820.&lt;p&gt;
+
+    Followed instructions on this page for hl-820. Works well with gs
+    hl7x0 driver.&lt;p&gt;
+
+    SourceForge Foomatic bug #121159 reports that the bl7x0 driver
+    prints with an offset to the right of about half a page. This
+    happens only for printing in the default resolution of 300
+    dpi. Make sure that Ghostscript prints with 600 dpi (option
+    &quot;-r600&quot;).
+   &lt;p&gt;
+
+    Brother publishes proprietary Linux drivers for CUPS and LPD for
+    most of their laser printers and multi-function devices, including
+    SANE drivers for the scanners. They can be downloaded free of
+    charge on their &lt;a
+    href=&quot;http://solutions.brother.com/linux/en_us/&quot;&gt;Linux driver
+    page&lt;/a&gt;.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: toner cart good for 2,400 sheet&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

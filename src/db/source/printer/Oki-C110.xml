@@ -1,0 +1,52 @@
+<printer id="printer/Oki-C110">
+  <make>Oki</make>
+  <model>C110</model>
+  <mechanism>
+    <laser/>
+    <color/>
+    <resolution>
+      <dpi>
+	<x>1200</x>
+	<y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+	<unit>mm</unit>
+	<top>4</top>
+	<bottom>4</bottom>
+	<left>4</left>
+	<right>4</right>
+      </general>
+    </margins>
+  </mechanism>
+  <url>http://my.okidata.com/PP-C110.nsf?opendatabase</url>
+  <lang>
+    <proprietary/>
+  </lang>
+  <autodetect>
+    <usb>
+      <ieee1284>MFG:OKI DATA CORP;CMD:GDI;MDL:C110;CLS:PRINTER;DES:OKI C110;</ieee1284>
+      <manufacturer>OKI DATA CORP</manufacturer>
+      <model>C110</model>
+      <commandset>GDI;MDL</commandset>
+    </usb>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>foo2lava</driver>
+  <comments>
+    <en>
+
+      The Oki C110 is a USB color laser printer with a
+      2009 street price of $150 USD.  This printer is supported
+      by the foo2lava open software printer driver.&lt;p&gt;
+
+      Is it actually a Konica-Minolta magicolor 1600W.&lt;p&gt;
+
+      Consumables: Separate toner cartridges black (4500 prints, ~$79),
+      yellow/magenta/cyan (4500 prints, ~$119 each), drum Cartridge (45000
+      prints, ~$149)
+
+    </en>
+  </comments>
+</printer>

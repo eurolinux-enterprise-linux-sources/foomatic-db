@@ -1,0 +1,24 @@
+<printer id="printer/Tally-MT908">
+  <make>Tally</make>
+  <model>MT908</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ljet3</driver>
+  <comments>
+    <en>Works in lj3 emulation mode; the printer also has proprinter and epson modes.</en>
+  </comments>
+</printer>

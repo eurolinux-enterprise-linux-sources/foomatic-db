@@ -1,0 +1,20 @@
+<printer id="printer/Lexmark-Optra_S_1855">
+  <make>Lexmark</make>
+  <model>Optra S 1855</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <lang>
+    <postscript level="2" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Also does PCL 5 without problems; don't try PCL 6.
+&lt;p&gt; Note Lexmark sends a Winduhs driver, but you can set it up as plain Postscript without problems.</en>
+  </comments>
+</printer>

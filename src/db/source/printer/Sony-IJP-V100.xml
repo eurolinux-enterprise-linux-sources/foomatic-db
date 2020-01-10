@@ -1,0 +1,49 @@
+<printer id="printer/Sony-IJP-V100">
+  <make>Sony</make>
+  <model>IJP-V100</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.ita.sel.sony.com/support/vaioaccess/printers/</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Sony;MDL:All-in-One IJP-V100;CMD:MLC,PCL,PML;CLASS:PRINTER;</ieee1284>
+      <commandset>MLC,PCL,PML</commandset>
+      <manufacturer>Sony</manufacturer>
+      <model>All-in-One IJP-V100</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hpijs-pcl3</driver>
+  <comments>
+    <en>
+
+    Multifunction device (copier/scanner/fax/etc).&lt;p&gt;
+
+    To get its maximum quality, use the HPIJS driver. 600
+    dpi in colour is not supported by the hardware.&lt;p&gt;
+
+    Stand-alone copying should just work, it does not need the
+    PC.&lt;p&gt;
+
+    Faxing from and to the PC or PC-controlled copying is not
+    supported.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 2 Cartridges: Color (CMY) and Black&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

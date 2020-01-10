@@ -1,0 +1,16 @@
+<printer id="printer/Epson-Stylus_Photo_2000P">
+  <make>Epson</make>
+  <model>Stylus Photo 2000P</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <escp />
+  </lang>
+  <functionality>D</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>Not well tuned yet in the stp driver.  It can be expected to work well in the future.</en>
+  </comments>
+</printer>

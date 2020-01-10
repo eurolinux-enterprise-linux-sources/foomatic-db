@@ -1,0 +1,23 @@
+<printer id="printer/Xerox-WorkCentre_XE90fx">
+  <make>Xerox</make>
+  <model>WorkCentre XE90fx</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.xerox.com/go/xrx/products/PT_1_1_1.jsp?id=XE90fx&amp;cat=%2fEquipment%2fPrinting%2fMultifunction&amp;catOID=-8162&amp;catOID=-816</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>Nice flatbed multifunction (P/S/C/F) Shame it's a paperweight:-(&lt;p&gt;
+
+      Consumables/Refills: toner cartridge, drum cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

@@ -1,0 +1,34 @@
+<printer id="printer/Olympus-P-10">
+  <make>Olympus</make>
+  <model>P-10</model>
+  <mechanism>
+    <sublimation />
+    <color />
+    <resolution>
+      <dpi>
+        <x>310</x>
+        <y>310</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Dye-sublimation printer, 310dpi, 24bit color depth, max. paper
+    size 4x6in/10x15cm, laminate overcoat, full-bleed
+    (border-less). Does not print on normal paper, so it is not
+    suitable for documents, it is only for photos.&lt;p&gt;
+
+    Can print directly from digital camera (PictBridge compatible),
+    USB connection.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Packs with special paper and three-color ribbon&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

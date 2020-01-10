@@ -1,0 +1,31 @@
+<driver id="driver/m2300w">
+  <name>m2300w</name>
+  <url>http://m2300w.sf.net/</url>
+  <thirdpartysupplied />
+  <execution>
+    <filter />
+    <nopjl />
+  </execution>
+  <comments>
+    <en>
+
+	This is an open source driver developed for the
+	Minolta magicolor 2300W color laser printer.&lt;p&gt;
+
+        Foomatic execution data, and prefabricated PPD files, are
+        included with the driver itself. Use those.&lt;p&gt;
+
+	Note that both the &quot;m2300w&quot; and &quot;m2400w&quot; drivers are in one
+	source code package.&lt;p&gt;
+	
+    </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Minolta-magicolor_2300W</id>
+    </printer>
+    <printer>
+      <id>printer/KONICA_MINOLTA-magicolor_2300W</id>
+    </printer>
+  </printers>
+</driver>

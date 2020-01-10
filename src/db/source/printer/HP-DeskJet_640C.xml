@@ -1,0 +1,57 @@
+<printer id="printer/HP-DeskJet_640C">
+  <make>HP</make>
+  <model>DeskJet 640C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/eschome.html</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <usb>
+      <commandset>MLC,PCL,PML</commandset>
+      <description>Hewlett-Packard DeskJet 640C</description>
+      <manufacturer>HEWLETT-PACKARD</manufacturer>
+      <model>DESKJET 640C</model>
+    </usb>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+    The resolution of 600x600 dpi you get only in black and white. In
+    colour the highest resolution is 600x300 dpi.&lt;p&gt;
+
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+    
+    The best printout quality you will probably get with the
+    HPLIP driver, provided by &lt;a
+    href=&quot;http://hplipopensource.com/&quot;&gt;HP&lt;/a&gt;.
+    &lt;p&gt;
+
+    Other drivers as Gimp-Print
+    (&quot;gimp-print&quot;/&quot;stp&quot;) or some of the
+    &quot;cdj...&quot; work, too.&lt;p&gt;
+
+    Use Gimp-Print for 600-dpi grayscale printing.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: HP C6614DN (black), HP 51649A (color), C1816A (photo)&lt;p&gt;
+    </en>
+  </comments>
+</printer>

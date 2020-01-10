@@ -1,0 +1,26 @@
+<printer id="printer/Tektronix-Phaser_850">
+  <make>Tektronix</make>
+  <model>Phaser 850</model>
+  <mechanism>
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Built-in Ethernet.  Print to it as if it were a *nix box, spool name ps.&lt;p&gt;
+
+      Consumables/Refills: Wax Blocks&lt;p&gt;</en>
+  </comments>
+</printer>

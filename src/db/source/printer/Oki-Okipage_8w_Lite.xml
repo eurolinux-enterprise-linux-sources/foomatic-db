@@ -1,0 +1,12 @@
+<printer id="printer/Oki-Okipage_8w_Lite">
+  <make>Oki</make>
+  <model>Okipage 8w Lite</model>
+  <mechanism>
+    <led />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>oki4w</driver>
+</printer>

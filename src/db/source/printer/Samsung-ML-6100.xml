@@ -1,0 +1,24 @@
+<printer id="printer/Samsung-ML-6100">
+  <make>Samsung</make>
+  <model>ML-6100</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.samsungtelecom.com</url>
+  <lang>
+    <pcl level="5" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>The 6000 and 6100 are PCL5 printers and will work unsing HP drivers without a problem.&lt;p&gt;
+
+      Consumables/Refills: ML+6000D5/XAR @ tigerdirect.com&lt;p&gt;</en>
+  </comments>
+</printer>

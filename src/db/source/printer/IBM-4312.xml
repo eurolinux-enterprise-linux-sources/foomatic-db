@@ -1,0 +1,27 @@
+<printer id="printer/IBM-4312">
+  <make>IBM</make>
+  <model>4312</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>laserjet</driver>
+  <comments>
+    <en>&lt;p&gt;
+
+      Consumables/Refills: $150 new, $90 refill&lt;p&gt;
+    </en>
+  </comments>
+</printer>

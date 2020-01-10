@@ -1,0 +1,27 @@
+<printer id="printer/Canon-MultiPASS_C5000">
+  <make>Canon</make>
+  <model>MultiPASS C5000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>bjc600</driver>
+  <comments>
+    <en>Can be set to DOS emulation: information is not in the manual but is available from the CCSI web site. Still can't do much more than print ASCII, however.&lt;p&gt;
+
+      Consumables/Refills: Black, color, neon, photo&lt;p&gt;</en>
+  </comments>
+</printer>

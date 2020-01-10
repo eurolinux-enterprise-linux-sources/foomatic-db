@@ -1,0 +1,20 @@
+<driver id="driver/xes">
+  <name>xes</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=xes%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/Xerox-2700_XES</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-3700_XES</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-4045_XES</id>
+    </printer>
+  </printers>
+</driver>

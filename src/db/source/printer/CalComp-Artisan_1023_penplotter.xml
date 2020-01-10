@@ -1,0 +1,18 @@
+<printer id="printer/CalComp-Artisan_1023_penplotter">
+  <make>CalComp</make>
+  <model>Artisan 1023 penplotter</model>
+  <mechanism>
+    <impact />
+    <color />
+  </mechanism>
+  <url>http://www.calgraphinc.com/Support/plotterfils.html</url>
+  <lang>
+    <pcl />
+  </lang>
+  <functionality>A</functionality>
+  <comments>
+    <en>This plotter works with software that can produce hpgl .plt files.
+One example is VariCAD for Linux,(oldplt driver). Setup a spooldirectory without printfilter.
+Serialport baudrate must be 9600.</en>
+  </comments>
+</printer>

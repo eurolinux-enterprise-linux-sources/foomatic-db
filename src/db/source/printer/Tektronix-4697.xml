@@ -1,0 +1,28 @@
+<printer id="printer/Tektronix-4697">
+  <make>Tektronix</make>
+  <model>4697</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>216</x>
+        <y>216</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>tek4696</driver>
+  <comments>
+    <en>Just change the resolution in the
+4696 driver&lt;p&gt;
+
+      Consumables/Refills: No cartridge, individal ink refills&lt;p&gt;</en>
+  </comments>
+</printer>

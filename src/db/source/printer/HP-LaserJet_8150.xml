@@ -1,0 +1,50 @@
+<printer id="printer/HP-LaserJet_8150">
+  <make>HP</make>
+  <model>LaserJet 8150</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.pandi.hp.com/pandi/pdf/lj8150.pdf</url>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PJL,MLC,PCL,PCLXL,POSTSCRIPT</commandset>
+      <description>Hewlett-Packard LaserJet 8150 Series</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 8150 Series</model>
+    </parallel>
+    <snmp>
+      <description>HP LaserJet 8150 Series</description>
+    </snmp>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+    For basic printing functionality use the Postscript PPD. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+    
+    High performance (32 ppm, A3, 11x17 inch) network laser.
+    Scanning/copying unit available.</en>
+  </comments>
+</printer>

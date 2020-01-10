@@ -1,0 +1,34 @@
+<printer id="printer/Epson-Stylus_Color_3000">
+  <make>Epson</make>
+  <model>Stylus Color 3000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1440</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://support.epson.com/hardware/printer/inkjet/sc3k__/index.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>Using the stcolor drivers, max resolution is 360dpi.
+Most other features are working, though. Epson sends a RIP module with
+the windows drivers that is a PS to ESP/2 converter. I bought the
+printer expecting it to have native PS but it doesn't.
+&lt;br&gt;
+Should work quite well with the stp gimp-print driver.  Someone let me
+know if it qualifies for perfect.  (The gim-print folks say that it does; good enough for me).&lt;p&gt;
+
+      Consumables/Refills: 4 separate ink cartridges&lt;p&gt;</en>
+  </comments>
+</printer>

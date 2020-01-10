@@ -1,0 +1,27 @@
+<printer id="printer/Star-NL-10">
+  <make>Star</make>
+  <model>NL-10</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>240</x>
+        <y>216</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epson</driver>
+  <comments>
+    <en>Alternate drivers: eps9mid, eps9high
+&lt;br&gt;Margin adjustments may need some tuning.&lt;p&gt;
+
+      Consumables/Refills: cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

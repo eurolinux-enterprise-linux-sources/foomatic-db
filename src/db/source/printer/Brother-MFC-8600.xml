@@ -1,0 +1,55 @@
+<printer id="printer/Brother-MFC-8600">
+  <make>Brother</make>
+  <model>MFC-8600</model>
+  <mechanism>
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>hl7x0</driver>
+  <drivers>
+    <driver>
+      <id>hl7x0</id>
+    </driver>
+    <driver>
+      <id>laserjet</id>
+    </driver>
+    <driver>
+      <id>ljet3</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+    HP LaserJet (PCL drivers) work OK for small print files, but give
+    &quot;Memory full&quot; error messages on large print jobs, even
+    at low resolution.&lt;p&gt;
+
+    The device does all jobs correctly with the &quot;hl7x0&quot;
+    driver.&lt;p&gt;
+
+    The memory is upgradable; We do not know if it is standard
+    memory or a funky module.
+    &lt;p&gt;
+
+    Brother publishes proprietary Linux drivers for CUPS and LPD for
+    most of their laser printers and multi-function devices, including
+    SANE drivers for the scanners. They can be downloaded free of
+    charge on their &lt;a
+    href=&quot;http://solutions.brother.com/linux/en_us/&quot;&gt;Linux driver
+    page&lt;/a&gt;.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,40 @@
+<printer id="printer/Epson-Stylus_Office_BX610FW">
+  <make>Epson</make>
+  <model>Stylus Office BX610FW</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>5760</x>
+        <y>1440</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.epson.com/</url>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:EPSON;CMD:ESCPL2,BDC,D4,D4PX,ESCPR2;MDL:Epson Stylus Office BX610FW;CLS:PRINTER;DES:EPSON Epson Stylus Office BX610FW</ieee1284>
+      <commandset>ESCPL2,BDC,D4,D4PX,ESCPR2</commandset>
+      <description>EPSON Epson Stylus Office BX610FW</description>
+      <manufacturer>EPSON</manufacturer>
+      <model>Epson Stylus Office BX610FW</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>epson-stylus-office-tx610fw-series</driver>
+  <drivers>
+    <driver>
+      <id>epson-escpr</id>
+    </driver>
+    <driver>
+      <id>epson-stylus-office-tx610fw-series</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      All-in-One color inkjet printer.&lt;p&gt;
+      Maximum paper width: 21.0 cm / 8.3 inches&lt;p&gt;
+    </en>
+  </comments>
+</printer>

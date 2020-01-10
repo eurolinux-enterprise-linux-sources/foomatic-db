@@ -1,0 +1,21 @@
+<printer id="printer/Oki-ML_321">
+  <make>Oki</make>
+  <model>ML 321</model>
+  <mechanism>
+    <dotmatrix />
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>okiibm</driver>
+  <comments>
+    <en>Works without problems in the IBM emulation mode.&lt;p&gt;
+    As the ML 320 but a large format (A3/11x17) printer.&lt;p&gt;
+
+      Consumables/Refills: ribbon&lt;p&gt;</en>
+  </comments>
+</printer>

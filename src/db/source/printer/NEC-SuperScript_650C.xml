@@ -1,0 +1,29 @@
+<printer id="printer/NEC-SuperScript_650C">
+  <make>NEC</make>
+  <model>SuperScript 650C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cssweb.nectech.com/SScript/ss650c/index.htm</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>pcl3</driver>
+  <comments>
+    <en>Should(tm) work perfectly; change this entry if so!
+&lt;br&gt;CMYK four-color printing; separate black for text.&lt;p&gt;
+
+      Consumables/Refills: color and black cartridges&lt;p&gt;</en>
+  </comments>
+</printer>

@@ -1,0 +1,49 @@
+<printer id="printer/HP-2500CM">
+  <make>HP</make>
+  <model>2500CM</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/eschome.html</url>
+  <lang>
+    <postscript level="3" />
+    <pcl level="3e" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+
+    For basic printing functionality use the &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS&lt;/a&gt;. For advanced functionality such as printer status and maintenance features, use the &lt;a href=&quot;http://hplip.sf.net/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+	    
+    CMYK printing, PostScript Level3, large format: 13x19inch/A3
+    paper, ethernet connection.&lt;p&gt;
+
+    The 2500CM model has 12M RAM, the 2500CM Pro model has
+    20MB RAM.&lt;p&gt;
+
+    In PCL mode this printer can be used as a printer of the old
+    DeskJet 900 series (DeskJet 970C and alike) with HP's
+    HPLIP, but the photo mode is not supported. Due to
+    several other modes not working Gimp-Print is the better PCL
+    driver for this printer.&lt;p&gt;
+
+    In the PCL-5c (Color LaserJet) emulation this printer is extremely
+    slow.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 4 cartridges: one each for CMYK.  Also 4 replaceable printheads.&lt;p&gt;
+    
+
+    </en>
+  </comments>
+</printer>

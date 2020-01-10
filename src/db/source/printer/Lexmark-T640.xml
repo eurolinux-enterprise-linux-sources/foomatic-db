@@ -1,0 +1,25 @@
+<printer id="printer/Lexmark-T640">
+  <make>Lexmark</make>
+  <model>T640</model>
+  <mechanism>
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+  </lang>
+  <functionality>B</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+      Throughput = 35
+
+      Foomatic entry made by PPDtoXML T/G 0.05
+      </en>
+  </comments>
+</printer>

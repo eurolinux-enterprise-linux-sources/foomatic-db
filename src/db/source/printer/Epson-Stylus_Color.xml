@@ -1,0 +1,31 @@
+<printer id="printer/Epson-Stylus_Color">
+  <make>Epson</make>
+  <model>Stylus Color</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://support.epson.com/hardware/printer/inkjet/styc__/index.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <contrib_url>http://eunuchs.org/epson/index.html</contrib_url>
+  <comments>
+    <en>Uniprint parameter files stc.upp, stc_l.upp, or stc_h.upp.
+&lt;br&gt;CMYK 4 color printing.
+&lt;br&gt;Should also work with stcolor gs driver.&lt;p&gt;
+
+      Consumables/Refills: dual cartridges; color/black&lt;p&gt;</en>
+  </comments>
+</printer>

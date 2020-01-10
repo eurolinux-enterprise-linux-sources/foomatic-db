@@ -1,0 +1,24 @@
+<printer id="printer/Tektronix-Phaser_780">
+  <make>Tektronix</make>
+  <model>Phaser 780</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="2" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>used RedHat's &quot;printtool&quot;; set to &quot;postscript,&quot; color test page printed perfectly (in fact, stunningly).&lt;p&gt;
+
+      Consumables/Refills: CMYK Toner&lt;p&gt;</en>
+  </comments>
+</printer>

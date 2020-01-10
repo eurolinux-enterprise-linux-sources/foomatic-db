@@ -1,0 +1,30 @@
+<printer id="printer/Panasonic-KX-P1624">
+  <make>Panasonic</make>
+  <model>KX-P1624</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>epson</driver>
+  <comments>
+    <en>I guess this is a dot matrix, but I have no idea about drivers etc.  Perhaps the
+usual Epson dot matrix drivers?
+&lt;p&gt;
+Until we figure out how to run it, I've marked it partially.  It probably works
+somewhat better than that; do tell...&lt;p&gt;
+
+      Consumables/Refills: ribbon, 24 pin print head&lt;p&gt;</en>
+  </comments>
+</printer>

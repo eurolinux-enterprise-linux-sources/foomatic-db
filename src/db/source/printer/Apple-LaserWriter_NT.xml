@@ -1,0 +1,29 @@
+<printer id="printer/Apple-LaserWriter_NT">
+  <make>Apple</make>
+  <model>LaserWriter NT</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript />
+  </lang>
+  <functionality>B</functionality>
+  <driver>Postscript1</driver>
+  <comments>
+    <en>
+
+      Works via serial port; see more info for a report detailing Red Hat
+      5.1 setup.&lt;br&gt;
+
+      Only problem is that 5% of jobs need to be sent twice due to some
+      serial snafu.
+
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,56 @@
+<printer id="printer/HP-DeskJet_940C">
+  <make>HP</make>
+  <model>DeskJet 940C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://hpshopping.speedera.net/www.shopping.hp.com/shopping/data_sheet/c6431b.html</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>MLC,PCL,PML</commandset>
+      <description>Hewlett-Packard DeskJet 940C</description>
+      <manufacturer>HEWLETT-PACKARD</manufacturer>
+      <model>DESKJET 940C</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    The best output one gets with HP's HPIJS 1.3 or newer. If you
+    cannot update to HPIJS 1.3 for some reason, you can also use HPIJS
+    1.2.2 with the patches from Matthias Bunte and Richard
+    Spencer-Smith (&quot;hpijs-rss&quot;). The Gimp-Print driver also
+    works (Model setting: &quot;pcl-900&quot;), but only up to 600
+    dpi.&lt;p&gt;
+
+    An optional duplex unit is available, but this does not work with
+    Gimp-Print, use &quot;hpijs-rss&quot;, HPLIP,
+    &quot;cdj970&quot; or &quot;pcl3&quot; instead.&lt;p&gt;
+
+      Consumables/Refills: Separate BW+color cartridge, used simultaniously&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

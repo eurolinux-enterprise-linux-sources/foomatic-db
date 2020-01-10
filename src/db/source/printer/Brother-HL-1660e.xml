@@ -1,0 +1,36 @@
+<printer id="printer/Brother-HL-1660e">
+  <make>Brother</make>
+  <model>HL-1660e</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.brother.com/usa/printer/info/hl1660e/index.html</url>
+  <lang>
+    <postscript level="2" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hl1250</driver>
+  <comments>
+    <en>They advertise 1200x600 but this is only with the Windows DIB emulation. Even at 600x600 produces crisp, readable 9-up output.&lt;p&gt;
+
+    Brother publishes proprietary Linux drivers for CUPS and LPD for
+    most of their laser printers and multi-function devices, including
+    SANE drivers for the scanners. They can be downloaded free of
+    charge on their &lt;a
+    href=&quot;http://solutions.brother.com/linux/en_us/&quot;&gt;Linux driver
+    page&lt;/a&gt;.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner/Drum cartridge, ~$175&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,53 @@
+<printer id="printer/HP-PSC_380">
+  <make>HP</make>
+  <model>PSC 380</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/nonjsnav/hpofficeje43060.html</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Hewlett-Packard;MDL:Printer/Scanner/Copier 300;CMD:MLC,PCL,PML;CLASS:PRINTER;</ieee1284>
+      <commandset>MLC,PCL,PML</commandset>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>Printer/Scanner/Copier 300</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+600 dpi in colour is not supported by the hardware.&lt;p&gt;
+
+    To get all functionality of this printer working under Linux,
+    especially also the non-printing features, like scamnning, printer
+    status, maintenance, and photo download from memory cards, use the
+    &lt;a href=&quot;show_driver.cgi?driver=hplip&quot;&gt;HPLIP
+    driver package from HP&lt;/a&gt;.&lt;p&gt;
+
+    Stand-alone copying works only for black-and-white copies. Color
+    copying can only be done by software, under free operating systems
+    preferrably with &quot;&lt;tt&gt;xsane&lt;/tt&gt;&quot;. Note that
+    this is very slow due to the necessity of downloading the whole
+    image to the PC and converting it to PostScript and back to a
+    bitmap.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 2 cartridges&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

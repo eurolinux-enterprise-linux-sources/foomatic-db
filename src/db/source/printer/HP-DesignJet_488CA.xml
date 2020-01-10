@@ -1,0 +1,32 @@
+<printer id="printer/HP-DesignJet_488CA">
+  <make>HP</make>
+  <model>DesignJet 488CA</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Large-format inkjet printer.&lt;p&gt;
+
+      Consumables/Refills: 4 Cartriges (Cyan, Magenta, Yellow, Black)&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

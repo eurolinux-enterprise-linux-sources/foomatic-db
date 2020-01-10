@@ -1,0 +1,22 @@
+<printer id="printer/Xerox-WorkCentre_385">
+  <make>Xerox</make>
+  <model>WorkCentre 385</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>I actually have no information on this printer.  If anyone knows anything, speak now!&lt;p&gt;
+
+      Consumables/Refills: cartidge&lt;p&gt;</en>
+  </comments>
+</printer>

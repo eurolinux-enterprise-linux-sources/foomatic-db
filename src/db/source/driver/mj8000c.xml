@@ -1,0 +1,28 @@
+<driver id="driver/mj8000c">
+  <name>mj8000c</name>
+  <url>http://www.openprinting.org/download/japanese_printers/</url>
+  <obsolete replace="gutenprint" />
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=mj8000c%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <comments>
+    <en>
+
+      Special japanese printer driver.&lt;p&gt;
+
+      This driver was not maintained any more for longer time and is
+      &lt;a
+      href=&quot;http://bugs.ghostscript.com/show_bug.cgi?id=689595&quot;&gt;broken
+      in current Ghostscript&lt;/a&gt;. Please use Gutenprint for
+      these printers.&lt;p&gt;
+
+    </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Epson-Stylus_Color_3000</id>
+    </printer>
+  </printers>
+</driver>

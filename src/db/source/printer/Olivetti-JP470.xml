@@ -1,0 +1,25 @@
+<printer id="printer/Olivetti-JP470">
+  <make>Olivetti</make>
+  <model>JP470</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="III+" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>cdj500</driver>
+  <comments>
+    <en>I have never traied yet to print using linux.
+I have just used this printer with windows 95 untill now.
+It's the first time that I install Linux Mandrake 7.0!!!!!
+Sorry...I'm very ignorant.... Sob,Sob...</en>
+  </comments>
+</printer>

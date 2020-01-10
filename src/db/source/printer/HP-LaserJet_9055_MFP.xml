@@ -1,0 +1,55 @@
+<printer id="printer/HP-LaserJet_9055_MFP">
+  <make>HP</make>
+  <model>LaserJet 9055 MFP</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://h10010.www1.hp.com/wwpc/us/en/sm/WF05a/18972-238444-410636-12004-f55-339831.html</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PCL,POSTSCRIPT</commandset>
+      <manufacturer>Hewlett-Packard</manufacturer>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+    
+    For basic printing functionality use the Postscript PPD. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    Fast, high-quality printing and copying. Improve office productivity 
+    with fast print, copy and scan speeds of up to 55 pages per minute (ppm) 
+    and a first-copy-out speed of 3.4 seconds.&lt;p&gt;
+    High-capacity, versatile paper handling. With up to seven paper input 
+    sources and an input capacity of up to 6,600 sheets, the MFP supports 
+    high-volume printing and copying, minimizes intervention and offers 
+    flexibility that will meet the needs of every department user.&lt;p&gt;
+    HP&apos;s built-in Electronic Copy Monitor is an easy way to track, report and ultimately 
+    optimize your copying costs.&lt;p&gt;
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,21 @@
+<printer id="printer/Apple-ImageWriter_LQ">
+  <make>Apple</make>
+  <model>ImageWriter LQ</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>320</x>
+        <y>216</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>iwhi</driver>
+</printer>

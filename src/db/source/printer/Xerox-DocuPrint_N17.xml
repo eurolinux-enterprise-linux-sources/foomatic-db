@@ -1,0 +1,37 @@
+<printer id="printer/Xerox-DocuPrint_N17">
+  <make>Xerox</make>
+  <model>DocuPrint N17</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://xerox.networkprinters.com/products/N17/index.htm</url>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript-Xerox</driver>
+  <drivers>
+    <driver>
+      <id>Postscript-Xerox</id>
+      <ppd>PPD/Xerox/xrxn17.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>Also supports PCL5e.&lt;br&gt;
+Will print well with generic PS drivers. 
+Full printer functionality is not supported through the generic filters.
+&lt;br&gt;The bells and whistles should all be usable via PJL commands from PDQ.&lt;p&gt;
+
+      Consumables/Refills: Toner Cartridge, Fuser&lt;p&gt;</en>
+  </comments>
+</printer>

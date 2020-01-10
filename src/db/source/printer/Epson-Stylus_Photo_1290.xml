@@ -1,0 +1,31 @@
+<printer id="printer/Epson-Stylus_Photo_1290">
+  <make>Epson</make>
+  <model>Stylus Photo 1290</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2880</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+      Probably the same printer as the Stylus Photo 1280.&lt;p&gt;
+      48 nozzles per color; 6 color CMYKcm process.&lt;br&gt;
+      USB and Parallel.&lt;br&gt;
+      13 inch wide paper path.&lt;br&gt;
+      4 picoliter dots.
+    </en>
+  </comments>
+</printer>

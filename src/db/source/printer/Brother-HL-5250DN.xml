@@ -1,0 +1,57 @@
+<printer id="printer/Brother-HL-5250DN">
+  <make>Brother</make>
+  <model>HL-5250DN</model>
+  <mechanism>
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Brother;MDL:HL-5250DN series;CMD:PJL,PCL,PCLXL,POSTSCRIPT;</ieee1284>
+      <commandset>PJL,PCL,PCLXL,POSTSCRIPT</commandset>
+      <manufacturer>Brother</manufacturer>
+      <model>HL-5250DN series</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>Postscript-Brother</driver>
+  <drivers>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Brother</id>
+      <ppd>PPD/Brother/BR5250_2_GPL.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      Foomatic entry made by PPDtoXML T/G 0.06&lt;p&gt;
+
+      Works best in PostScript mode. Do not use PCL-XL drivers ("pxlmono",
+      "lj5gray").
+      
+      &lt;p&gt;
+
+      Maximum paper width: 8.7 inches / 22.0 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 28 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

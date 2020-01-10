@@ -1,0 +1,35 @@
+<printer id="printer/Lexmark-4039_10plus">
+  <make>Lexmark</make>
+  <model>4039 10plus</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/printers/4039plus.html</url>
+  <lang>
+    <postscript level="2" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PCL 5 Emulation, PostScript Le</commandset>
+      <manufacturer>Lexmark International</manufacturer>
+      <model>IBM LaserPrinter 4039 plus</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Also does PCL 5e.&lt;p&gt;
+
+      Consumables/Refills: cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

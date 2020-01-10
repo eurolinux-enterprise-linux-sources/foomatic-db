@@ -1,0 +1,25 @@
+<printer id="printer/NEC-SuperScript_660i">
+  <make>NEC</make>
+  <model>SuperScript 660i</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cssweb.nectech.com/SScript/ss660i/index.htm</url>
+  <lang>
+    <pcl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>I set up the NEC SuperScript 660i using the RedHat print tool with HP Laserjet 4/5/6 selected.  Works perfectly.</en>
+  </comments>
+</printer>

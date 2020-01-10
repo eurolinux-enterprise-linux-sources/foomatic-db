@@ -1,0 +1,26 @@
+<driver id="driver/ibmpro">
+  <name>ibmpro</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=ibmpro%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/Epson-LX-300plus</id>
+    </printer>
+    <printer>
+      <id>printer/Generic-IBM-Compatible_Dot_Matrix_Printer</id>
+    </printer>
+    <printer>
+      <id>printer/IBM-ProPrinterII</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-Microline_192plus</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-KX-P2150</id>
+    </printer>
+  </printers>
+</driver>

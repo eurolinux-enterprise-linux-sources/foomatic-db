@@ -1,0 +1,20 @@
+<printer id="printer/Apple-Color_StyleWriter_4500">
+  <make>Apple</make>
+  <model>Color StyleWriter 4500</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+       
+       Probably equivalent to the HP DeskJet 690.
+
+    </en>
+  </comments>
+</printer>

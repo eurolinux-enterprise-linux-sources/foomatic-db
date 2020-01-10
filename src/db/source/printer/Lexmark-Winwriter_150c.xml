@@ -1,0 +1,40 @@
+<printer id="printer/Lexmark-Winwriter_150c">
+  <make>Lexmark</make>
+  <model>Winwriter 150c</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com</url>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <contrib_url>http://users.skynet.be/pjvh/ww150c/</contrib_url>
+  <comments>
+    <en>
+
+    Pieter-Jan Vandormael (pjv at skynet dot be) has started
+    development of a &lt;a
+    href=&quot;http://users.skynet.be/pjvh/ww150c/&quot;&gt;driver&lt;/a&gt; for
+    this printer. One can at least print in black and white
+    now.&lt;p&gt;
+
+    Please test the driver (also on the other Winwriters) and direct
+    all bug reports, suggestions, and contributions to
+    Pieter-Jan.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 1 black and 1 color (CMY) cartridge&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

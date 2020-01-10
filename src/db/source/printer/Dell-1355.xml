@@ -1,0 +1,39 @@
+<printer id="printer/Dell-1355">
+  <make>Dell</make>
+  <model>1355</model>
+  <mechanism>
+    <laser/>
+    <color/>
+    <resolution>
+      <dpi>
+	<x>1200</x>
+	<y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+	<unit>mm</unit>
+	<top>4.23164</top>
+	<bottom>4.23164</bottom>
+	<left>3.175</left>
+	<right>3.175</right>
+      </general>
+    </margins>
+  </mechanism>
+  <lang>
+    <proprietary/>
+  </lang>
+  <functionality>C</functionality>
+  <driver>foo2hbpl2</driver>
+  <comments>
+    <en>
+
+      The Dell 1355 is color multifunction printer with a 2013 street
+      price of $250.&lt;p&gt;
+
+      These printers are supported by the foo2hbpl2 open software printer
+      driver.
+
+    </en> 
+  </comments>
+</printer>

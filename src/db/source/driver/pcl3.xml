@@ -1,0 +1,345 @@
+<driver id="driver/pcl3">
+  <name>pcl3</name>
+  <url>http://home.vrweb.de/martin.lottermoser/pcl3/index.html</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=pcl3%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <comments>
+    <en>
+    Martin Lottermoser's general-purpose PCL 3+ Ghostscript driver,
+    successor of the &quot;&lt;a
+    href=&quot;show_driver.cgi?driver=hpdj&quot;&gt;hpdj&lt;/a&gt;&quot;
+    driver.&lt;p&gt;
+
+    It is known to work reasonably well with a wide assortment of PCL
+    3 inkjet printers. This driver has many options (enter the command
+    &quot;man gs-pcl3&quot; in a terminal window
+    to get more information), so you can do a lot of fine-tuning, but
+    do not expect perfect results with the default settings. Due to
+    being able to set so many different options separately you can
+    even make rather exotic non-HP printers printing. To find out
+    their options you print into a file under Windows and then apply
+    the &quot;pcl3opts&quot; command (comes with
+    the driver) on the file. It returns the Ghostscript command line
+    which most probably prints in the mode of the printer for which
+    your file was generated under Windows.&lt;p&gt;
+
+    &lt;a
+    href=&quot;http://www.openprinting.org/download/printing/ghostscript-8.x/patches/ghostscript-8.15-pcl3-driver-api8.patch&quot;&gt;This
+    patch&lt;/a&gt; adapts the driver to GPL/AFPL Ghostscript 8.x. In
+    ESP Ghostscript 8.x this driver is already included.&lt;p&gt;
+
+    Unfortunately, GNU Ghostscript 5.50 (and also &lt;a
+    href=&quot;ftp://ftp2.easysw.com/pub/ghostscript/&quot;&gt;ESP
+    Ghostscript 5.50.1&lt;/a&gt;) has a bug which often causes
+    segmentation faults when high amounts of memory are needed (high
+    resolutions, Floyd-Steinberg dithering). A workaround is to use
+    Ghostscript's &quot;-dMaxBitmap=value&quot; option with
+    &quot;value&quot; being the size of memory which Ghostscript
+    should be allowed to allocate for rendering one page. Try values
+    of 40000000 and higher. In the foomatic config files there is the
+    option &quot;Memory Limit&quot; to control this. Note that
+    Ghostscript can take up memory up to the given amount. So be sure
+    that you have enough swap space and note that your machine will
+    slow down considerably during the rendering process. This problem
+    does not appear with GNU or Alladin Ghostscript 6.x and
+    newer.&lt;p&gt;
+
+    For many printers, the &lt;a
+    href=&quot;show_driver.cgi?driver=gutenprint&quot;&gt;gutenprint&lt;/a&gt;
+    driver and the drivers from &lt;a
+    href=&quot;http://hpijs.sourceforge.net/&quot;&gt;HP&lt;/a&gt; may
+    produce better color output.&lt;p&gt;
+
+   </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Apollo-P-1200</id>
+    </printer>
+    <printer>
+      <id>printer/Apollo-P-1220_Barbie</id>
+    </printer>
+    <printer>
+      <id>printer/Apollo-P-1250</id>
+    </printer>
+    <printer>
+      <id>printer/Generic-PCL_3_Printer</id>
+    </printer>
+    <printer>
+      <id>printer/HP-2000C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-2500C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DesignJet_ColorPro_CAD</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_1100C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_1120C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_1220C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_200</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_310</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_320</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_340C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_350C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_400</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_500</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_500C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_510</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_520</id>
+      <margins>
+        <general>
+          <unit>pt</unit>
+          <relative />
+          <top>9</top>
+          <left>18</left>
+          <right>18</right>
+          <bottom>48</bottom>
+        </general>
+        <exception PageSize="A4">
+          <relative />
+          <left>10</left>
+          <right>10</right>
+        </exception>
+      </margins>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_540</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_540C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_550C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_560C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_600</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_610C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_610CL</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_612C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_660C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_670C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_680C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_682C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_690C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_694C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_697C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_832C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_840C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_842C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_845C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_850C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_855C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_870C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_880C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_882C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_890C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_895C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_932C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_940C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_950C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_952C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_960C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_970C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_980C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_990C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_Plus</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_Portable</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_300</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_330</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_350</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_600</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_625</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_635</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_G55</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_G95</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_LX</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_Pro_1175C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_T45</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PhotoSmart_P1000</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PhotoSmart_P1100</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PhotoSmart_P1115</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PhotoSmart_P1215</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PhotoSmart_P1218</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PhotoSmart_P1315</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PSC_500</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-1020_Business</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-3000</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-SuperScript_100C</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-SuperScript_150C</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-SuperScript_650C</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-SuperScript_750C</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-SI-630A</id>
+    </printer>
+    <printer>
+      <id>printer/Sharp-AJ-1800</id>
+    </printer>
+    <printer>
+      <id>printer/Sharp-AJ-1805</id>
+    </printer>
+    <printer>
+      <id>printer/Sharp-AJ-2000</id>
+    </printer>
+    <printer>
+      <id>printer/Sharp-AJ-2005</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-DocuPrint_C11</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-DocuPrint_M750</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-DocuPrint_M760</id>
+    </printer>
+  </printers>
+</driver>

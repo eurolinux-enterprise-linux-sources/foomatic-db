@@ -1,0 +1,25 @@
+<printer id="printer/Canon-BJC-800">
+  <make>Canon</make>
+  <model>BJC-800</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>bjc800</driver>
+  <comments>
+    <en>This printer works well.</en>
+  </comments>
+</printer>

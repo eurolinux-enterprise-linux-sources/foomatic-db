@@ -1,0 +1,44 @@
+<printer id="printer/HP-2500C">
+  <make>HP</make>
+  <model>2500C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/eschome.html</url>
+  <lang>
+    <pcl level="3e" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+	    
+    For basic printing functionality use the &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS driver &lt;/a&gt;. For advanced functionality such as printer status and maintenance features, use the &lt;a href=&quot;http://hplip.sf.net/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+	   
+    CMYK printing, Large format: 13x19inch/A3 paper.&lt;p&gt;
+
+    2500Cse model is US retail channel model, 2500Cxi model is US
+    business channel model, 2500C+ includes PCL 5 support.&lt;p&gt;
+
+    With HP's HPLIP this printer can be used as a
+    printer of the old DeskJet 900 series (DeskJet 970C and alike),
+    but the photo mode is not supported. &lt;p&gt;
+
+    In the PCL-5c (Color LaserJet) emulation this printer is extremely
+    slow.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 4 cartridges: one each for CMYK.  Also 4 replaceable printheads.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

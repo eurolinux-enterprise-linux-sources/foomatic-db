@@ -1,0 +1,26 @@
+<printer id="printer/Xerox-DocuPrint_4508">
+  <make>Xerox</make>
+  <model>DocuPrint 4508</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="5e" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>Had trouble printing various
+sample files from gs distribution
+but adding 4 Mb RAM solved it.</en>
+  </comments>
+</printer>

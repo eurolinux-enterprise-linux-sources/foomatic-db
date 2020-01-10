@@ -1,0 +1,25 @@
+<printer id="printer/Tektronix-Phaser_PX">
+  <make>Tektronix</make>
+  <model>Phaser PX</model>
+  <mechanism>
+    <color />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="I" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Wax Depositon Postscript Printer
+12 megs of ram, 68k processor
+very, very slow.&lt;p&gt;
+
+      Consumables/Refills: Wax Rolls, Special Paper&lt;p&gt;</en>
+  </comments>
+</printer>

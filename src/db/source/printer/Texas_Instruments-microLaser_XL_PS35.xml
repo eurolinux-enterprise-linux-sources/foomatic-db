@@ -1,0 +1,17 @@
+<printer id="printer/Texas_Instruments-microLaser_XL_PS35">
+  <make>Texas Instruments</make>
+  <model>microLaser XL PS35</model>
+  <url>ftp://ftp.tallygenicom.com/pub/genicom/docs/ti/dsTI-mLXL.pdf</url>
+  <functionality>B</functionality>
+  <driver>Postscript</driver>
+  <drivers>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      Foomatic entry made by PPDtoXML T/G 0.20 on 2009-03-17
+      </en>
+  </comments>
+</printer>

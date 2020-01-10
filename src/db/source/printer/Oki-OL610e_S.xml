@@ -1,0 +1,24 @@
+<printer id="printer/Oki-OL610e_S">
+  <make>Oki</make>
+  <model>OL610e/S</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>laserjet</driver>
+  <comments>
+    <en>Only does 300dpi via PCL.</en>
+  </comments>
+</printer>

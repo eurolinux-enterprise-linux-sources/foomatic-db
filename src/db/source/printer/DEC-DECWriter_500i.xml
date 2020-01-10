@@ -1,0 +1,24 @@
+<printer id="printer/DEC-DECWriter_500i">
+  <make>DEC</make>
+  <model>DECWriter 500i</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>djet500</driver>
+  <comments>
+    <en>A DeskJet 500 clone built by Olivetti.</en>
+  </comments>
+</printer>

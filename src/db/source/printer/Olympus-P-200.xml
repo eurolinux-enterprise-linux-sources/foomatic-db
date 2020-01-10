@@ -1,0 +1,33 @@
+<printer id="printer/Olympus-P-200">
+  <make>Olympus</make>
+  <model>P-200</model>
+  <mechanism>
+    <sublimation />
+    <color />
+    <resolution>
+      <dpi>
+        <x>320</x>
+        <y>320</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Dye-sublimation printer, 320dpi, 24bit color depth, max. paper
+    size 3.5x5in/8x13cm. Does not print on normal paper, so it is not
+    suitable for documents, it is only for photos.&lt;p&gt;
+
+    USB and Parallel connection, memory card reader, TV output. Camera
+    direct printing (Olympus only).&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Packs with special paper and three-color ribbon&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

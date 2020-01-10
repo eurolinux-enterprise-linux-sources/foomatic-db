@@ -1,0 +1,15 @@
+<printer id="printer/Panasonic-KX-P1124">
+  <make>Panasonic</make>
+  <model>KX-P1124</model>
+  <mechanism>
+    <dotmatrix />
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epson</driver>
+</printer>

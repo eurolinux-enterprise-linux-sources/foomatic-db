@@ -1,0 +1,35 @@
+<printer id="printer/Epson-Stylus_Color_460">
+  <make>Epson</make>
+  <model>Stylus Color 460</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>ESCPL2,BDC</commandset>
+      <description>EPSON Stylus COLOR 460</description>
+      <manufacturer>EPSON</manufacturer>
+      <model>Stylus COLOR 460</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>Should be perfect with stp driver.&lt;p&gt;
+
+      Consumables/Refills: cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

@@ -1,0 +1,21 @@
+<printer id="printer/Panasonic-KX-P1123">
+  <make>Panasonic</make>
+  <model>KX-P1123</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>120</x>
+        <y>180</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epson</driver>
+</printer>

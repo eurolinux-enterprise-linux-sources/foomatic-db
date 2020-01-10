@@ -1,0 +1,30 @@
+<printer id="printer/Fujitsu-PrintPartner_10V">
+  <make>Fujitsu</make>
+  <model>PrintPartner 10V</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.fujitsu.ca/printers/pp10v-98.htm</url>
+  <lang>
+    <pcl level="5e" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>No drivers for the printer itself so just use the HP Laserjet. Works fine. No fuss.
+&lt;br&gt;Raju Kuallumkal reports that the manual feed works fine, too.
+&lt;br&gt;Postscript option available.
+&lt;br&gt;2400 vertical dpi smoothing of some sort?&lt;p&gt;
+
+      Consumables/Refills: Toner cartridge. 5000 sheets. A little more then a HP Laserjet.&lt;p&gt;</en>
+  </comments>
+</printer>

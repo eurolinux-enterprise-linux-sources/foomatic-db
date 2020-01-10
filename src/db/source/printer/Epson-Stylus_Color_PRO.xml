@@ -1,0 +1,26 @@
+<printer id="printer/Epson-Stylus_Color_PRO">
+  <make>Epson</make>
+  <model>Stylus Color PRO</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://support.epson.com/hardware/printer/inkjet/pro___/index.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>Work best with driver `stp'.</en>
+  </comments>
+</printer>

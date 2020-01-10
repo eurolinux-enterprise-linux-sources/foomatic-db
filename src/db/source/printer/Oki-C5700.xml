@@ -1,0 +1,42 @@
+<printer id="printer/Oki-C5700">
+  <make>Oki</make>
+  <model>C5700</model>
+  <mechanism>
+    <color />
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Oki;MDL:C5700;</ieee1284>
+      <manufacturer>Oki</manufacturer>
+      <model>C5700</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Oki</driver>
+  <drivers>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Oki</id>
+      <ppd>PPD/Oki/OK5700_a.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      This database entry was automatically generated
+      from the PPD file for this printer.&lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 26 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

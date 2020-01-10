@@ -1,0 +1,61 @@
+<printer id="printer/HP-OfficeJet_725">
+  <make>HP</make>
+  <model>OfficeJet 725</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Hewlett-Packard;MDL:OfficeJet Series 700;CMD:MLC,PCL,PML;CLASS:PRINTER;</ieee1284>
+      <commandset>MLC,PCL,PML</commandset>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>OfficeJet Series 700</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+600 dpi in colour is not supported by the hardware.&lt;p&gt;
+
+    To get all functionality of this printer working under Linux,
+    especially also the non-printing features, like scanning, printer
+    status, maintenance, and photo download from memory cards, use the
+    &lt;a href=&quot;show_driver.cgi?driver=hplip&quot;&gt;HPLIP
+    driver package from HP&lt;/a&gt;.&lt;p&gt;
+
+    Stand-alone copying works only for black-and-white copies. Color
+    copying can only be done by software, under free operating systems
+    preferrably with &quot;&lt;tt&gt;xsane&lt;/tt&gt;&quot;. Note that
+    this is very slow due to the necessity of downloading the whole
+    image to the PC and converting it to PostScript and back to a
+    bitmap.&lt;p&gt;
+
+    Faxing from and to the PC is not supported.&lt;p&gt;
+
+    You can clean the printer's nozzles via the front panel
+    menues, but you cannot align the heads this way.&lt;p&gt;
+
+    Older user comment:&lt;p&gt;
+
+    Installs and prints postscript and ascii in b/w or colour under
+    printtool and printerdrake, drivers: most PCL ones,
+    HPLIP from HP is the best choice.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: cartridge, (+refill kit?)&lt;p&gt;
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,35 @@
+<printer id="printer/Canon-BJC-4100">
+  <make>Canon</make>
+  <model>BJC-4100</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.canon.com</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>BJ,LQ,BJL,BJRaster</commandset>
+      <manufacturer>Canon</manufacturer>
+      <model>BJC-4100</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>bjc600</driver>
+  <comments>
+    <en>Use gs option -sProcessColorModel=DeviceGray for bw.&lt;p&gt;
+
+      Consumables/Refills: cartridge w/head or just two ink tanks&lt;p&gt;</en>
+  </comments>
+</printer>

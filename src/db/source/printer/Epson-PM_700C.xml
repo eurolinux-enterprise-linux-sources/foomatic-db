@@ -1,0 +1,32 @@
+<printer id="printer/Epson-PM_700C">
+  <make>Epson</make>
+  <model>PM 700C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Japanese version of the Epson Stylus Photo.&lt;p&gt;
+
+    Gimp-Print now supports photo modes, alignment, etc; this printer
+    should work perfectly.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

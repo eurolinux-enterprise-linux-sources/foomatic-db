@@ -1,0 +1,32 @@
+<printer id="printer/Epson-Stylus_C20SX">
+  <make>Epson</make>
+  <model>Stylus C20SX</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.epson.co.uk/sohoprod/printers/inkjet/styc20/index.htm</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+      Cheap 4-ink home printer with a rather low resolution (720 dpi), but
+      in contrary to the Stylus Color 480/580 with a power and a cancel
+      button. There is a &quot;SX&quot; model with parallel port and an &quot;UX&quot; model
+      with USB port.&lt;p&gt;
+      Supported by Gimp-Print 4.1.99 or newer.
+    </en>
+  </comments>
+</printer>

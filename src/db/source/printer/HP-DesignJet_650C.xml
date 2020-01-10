@@ -1,0 +1,38 @@
+<printer id="printer/HP-DesignJet_650C">
+  <make>HP</make>
+  <model>DesignJet 650C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/designjet/</url>
+  <lang>
+    <proprietary />
+    <pjl />
+  </lang>
+  <functionality>B</functionality>
+  <driver>dnj650c</driver>
+  <comments>
+    <en>
+
+    Large-format inkjet printer.&lt;p&gt;
+
+    600 dpi in grayscale, only 300 dpi in color.&lt;p&gt;
+
+    Works &quot;almost&quot; - RGB data are sent to the plotter.  The
+    CMYK mode of the &quot;B&quot;-Models and the 75x Series is not
+    supported. Images are somewhat &quot;greenish&quot;; gray is
+    composed of CMY. Nice for really LARGE printouts ... (ISO
+    A0).&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 4 Cartridges&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

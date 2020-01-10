@@ -1,0 +1,50 @@
+<printer id="printer/HP-LaserJet_2200">
+  <make>HP</make>
+  <model>LaserJet 2200</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://hpshopping.speedera.net/www.shopping.hp.com/shopping/pdf/lj2200.pdf</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <usb>
+      <commandset>PJL,MLC,PCL,PCLXL,POSTSCRIPT</commandset>
+      <description>Hewlett-Packard LaserJet 2200</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 2200</model>
+    </usb>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+    Postscript level 2 and duplex out of the box, parallel and USB
+    connection, &quot;n&quot; models with ethernet, &quot;t&quot;
+    models with extra paper tray. 19 ppm.&lt;p&gt;
+
+    For basic printing functionality use the Postscript PPD. 
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,53 @@
+<printer id="printer/HP-Color_LaserJet_CM1015">
+  <make>HP</make>
+  <model>Color LaserJet CM1015</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/</url>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PJL,PML,BIDI-ECP,MLC,PCL,POSTS</commandset>
+      <description>Hewlett-Packard Color LaserJet CM1015 series</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP Color LaserJet CM1015 Series</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+    For basic printing functionality use the Postscript PPD. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    125 sheets A4/Letter/Legal, additional paper trays (250/500 sheets)
+    and network adapters available. Manual duplex available only.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 1 toner cartridge for each color, imaging drum&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

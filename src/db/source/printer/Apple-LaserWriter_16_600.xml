@@ -1,0 +1,21 @@
+<printer id="printer/Apple-LaserWriter_16_600">
+  <make>Apple</make>
+  <model>LaserWriter 16/600</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="2" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+</printer>

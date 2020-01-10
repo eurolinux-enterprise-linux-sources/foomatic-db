@@ -1,0 +1,27 @@
+<printer id="printer/Xerox-Phaser_6360">
+  <make>Xerox</make>
+  <model>Phaser 6360</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="5" />
+  </lang>
+  <functionality>B</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+      Throughput = 42
+
+      Foomatic entry made by PPDtoXML T/G 0.05
+      </en>
+  </comments>
+</printer>

@@ -1,0 +1,24 @@
+<printer id="printer/NEC-SuperScript_660plus">
+  <make>NEC</make>
+  <model>SuperScript 660plus</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cssweb.nectech.com/SScript/ss660plus/index.htm</url>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>PCL 5e emulation appears to be implemented in the Windows driver.</en>
+  </comments>
+</printer>

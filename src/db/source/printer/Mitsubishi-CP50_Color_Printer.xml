@@ -1,0 +1,25 @@
+<printer id="printer/Mitsubishi-CP50_Color_Printer">
+  <make>Mitsubishi</make>
+  <model>CP50 Color Printer</model>
+  <mechanism>
+    <dotmatrix />
+    <color />
+    <resolution>
+      <dpi>
+        <x>154</x>
+        <y>187</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>cp50</driver>
+  <comments>
+    <en>Special gs driver; should work fine.</en>
+  </comments>
+</printer>

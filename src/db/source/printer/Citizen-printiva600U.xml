@@ -1,0 +1,34 @@
+<printer id="printer/Citizen-printiva600U">
+  <make>Citizen</make>
+  <model>printiva600U</model>
+  <mechanism>
+    <transfer />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ppmtomd</driver>
+  <comments>
+    <en>
+    Same as the Citizen Printiva 600C, but with the possibility to print
+    metallic colours.&lt;p&gt;
+
+    J.C. Bradfield (jcb@dcs.ed.ac.uk) has written a fully functional
+    driver which converts PPM files. He started hacking ghostscript, but
+    abandoned it.&lt;p&gt;
+
+      Consumables/Refills: Ribbon cartridges, also in special spot and metallic colours&lt;p&gt;
+    </en>
+  </comments>
+</printer>

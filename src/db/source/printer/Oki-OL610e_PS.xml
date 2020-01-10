@@ -1,0 +1,28 @@
+<printer id="printer/Oki-OL610e_PS">
+  <make>Oki</make>
+  <model>OL610e/PS</model>
+  <mechanism>
+    <led />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cs.okidata.com/cs.nsf/LookUp+Get/OL610e-PS?OpenDocument</url>
+  <lang>
+    <postscript level="2" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Native PS2 interpreter.
+&lt;br&gt;You may want more memory than the default.&lt;p&gt;
+
+      Consumables/Refills: Toner and Drum unit&lt;p&gt;</en>
+  </comments>
+</printer>

@@ -1,0 +1,21 @@
+<printer id="printer/Fujitsu-FMLBP2xx_Page_Printer">
+  <make>Fujitsu</make>
+  <model>FMLBP2xx Page Printer</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>400</x>
+        <y>400</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>fmlbp</driver>
+  <comments>
+    <en>Imported from old Red Hat japanese printer database</en>
+  </comments>
+</printer>

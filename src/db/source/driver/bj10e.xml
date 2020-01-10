@@ -1,0 +1,20 @@
+<driver id="driver/bj10e">
+  <name>bj10e</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=bj10e%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/Canon-BJ-10e</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJ-20</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-BJ-5</id>
+    </printer>
+  </printers>
+</driver>

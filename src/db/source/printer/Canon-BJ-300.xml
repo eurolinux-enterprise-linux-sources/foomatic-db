@@ -1,0 +1,18 @@
+<printer id="printer/Canon-BJ-300">
+  <make>Canon</make>
+  <model>BJ-300</model>
+  <mechanism>
+    <inkjet />
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>lq850</driver>
+  <comments>
+    <en>Drives Canon at 360dpi in Epson emulation mode.</en>
+  </comments>
+</printer>

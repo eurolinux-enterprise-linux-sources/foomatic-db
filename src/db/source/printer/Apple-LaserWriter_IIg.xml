@@ -1,0 +1,28 @@
+<printer id="printer/Apple-LaserWriter_IIg">
+  <make>Apple</make>
+  <model>LaserWriter IIg</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.info.apple.com/info.apple.com/applespec/applespec.taf?cat=printer&amp;RID=20</url>
+  <lang>
+    <postscript level="2" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>In the Printer set switch (0-9) to 5
+In the linux box use the generic postscript driver, use /dev/ttySx&lt;p&gt;
+
+      Consumables/Refills: EP-S Toner Cartridge, same as HP Laserjet series&lt;p&gt;</en>
+  </comments>
+</printer>

@@ -1,0 +1,26 @@
+<printer id="printer/Dell-M5200">
+  <make>Dell</make>
+  <model>M5200</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>www.dell.com</url>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en> 1200 image quality, 600 x 600 dpi; 300MHz processor; 64MB of memory expandable to 272MB</en>
+  </comments>
+</printer>

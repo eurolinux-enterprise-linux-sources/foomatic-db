@@ -1,0 +1,36 @@
+<printer id="printer/Apollo-P-1200">
+  <make>Apollo</make>
+  <model>P-1200</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.myapollo.com/products/features.htm</url>
+  <lang>
+    <pcl level="3e" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>pcl3</driver>
+  <comments>
+    <en>
+    Apollo is a subsidiary of HP, selling HP designs in a new casing.
+    &lt;p&gt;
+
+    This printer probably works best with one of the various deskjet
+    drivers; try all the &quot;cdj...&quot; ones,
+    &quot;gimp-print&quot;/&quot;stp&quot;,
+    &quot;pcl3&quot;/&quot;hpdj&quot;, etc.&lt;p&gt;
+
+      Consumables/Refills: Two HP cartridges&lt;p&gt;
+    </en>
+  </comments>
+</printer>

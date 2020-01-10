@@ -1,0 +1,32 @@
+<printer id="printer/Epson-Stylus_Color_860">
+  <make>Epson</make>
+  <model>Stylus Color 860</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1440</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://support.epson.com/hardware/printer/inkjet/sc860_/index.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>The best driver is the stp driver from the gimp-print project.  Various older 
+stylus drivers also work, but the quality is not as good.
+&lt;p&gt;
+Epson offers this &lt;a href=&quot;http://www.epson.com/rebates/860_coupon.html&quot;&gt;$50 
+rebate&lt;/a&gt; until the end of March, 2001.&lt;p&gt;
+
+      Consumables/Refills: Black Cartridge, Color Cartridge ($ ??)&lt;p&gt;</en>
+  </comments>
+</printer>

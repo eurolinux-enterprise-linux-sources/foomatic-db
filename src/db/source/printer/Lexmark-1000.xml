@@ -1,0 +1,20 @@
+<printer id="printer/Lexmark-1000">
+  <make>Lexmark</make>
+  <model>1000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/printers/inkjet/1000/</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>D</functionality>
+  <driver>lm1100</driver>
+</printer>

@@ -1,0 +1,11 @@
+<printer id="printer/Oki-OL820">
+  <make>Oki</make>
+  <model>OL820</model>
+  <mechanism>
+    <led />
+  </mechanism>
+  <lang>
+    <pcl level="?" />
+  </lang>
+  <functionality>D</functionality>
+</printer>

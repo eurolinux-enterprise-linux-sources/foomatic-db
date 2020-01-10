@@ -1,0 +1,43 @@
+<printer id="printer/Xerox-DocuPrint_N4512">
+  <make>Xerox</make>
+  <model>DocuPrint N4512</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.officeprinting.xerox.com/cgi-bin/product.pl?product=X4512</url>
+  <lang>
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>
+      12 pages/min, 15 sec until the first page comes out, 2 x 250
+      sheet, max. page size is Legal, built-in duplex unit. PostScript
+      module, network card (included in &quot;N&quot; model),
+      additional paper trays, envelope feeder available as options. 2
+      MB standard, expandable to 50 MB with 4MB or 16MB 60/70ns EDO or
+      FastPage SIMMs.&lt;br&gt;
+
+      Understands PCL 5e and PJL, so one can use it with standard
+      Ghostscript drivers and PJL utilities (as &lt;a
+      href=&quot;http://pup.sourceforge.net&quot;&gt;PUP&lt;/a&gt;),
+      but one can also use the proprietary printing software
+      &quot;CentreWare&quot; (for LPD or LPRng systems, see section
+      for downloadable software, platform &quot;UNIX&quot; on the
+      printer's web page).&lt;p&gt;
+
+      Consumables/Refills: Toner Cartridge (15000 pages), Drum Cartridge (30000 pages)&lt;p&gt;
+    </en>
+  </comments>
+</printer>

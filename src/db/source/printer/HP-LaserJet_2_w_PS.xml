@@ -1,0 +1,37 @@
+<printer id="printer/HP-LaserJet_2_w_PS">
+  <make>HP</make>
+  <model>LaserJet 2 w/PS</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="1" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+    
+    Slow, but perfectly functional with 2.5 megs of memory.&lt;br&gt;
+
+    Not really a IIM, but a II with ps cartridge.
+
+    </en>
+  </comments>
+</printer>

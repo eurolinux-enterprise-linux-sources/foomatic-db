@@ -1,0 +1,57 @@
+<printer id="printer/HP-LaserJet_2430">
+  <make>HP</make>
+  <model>LaserJet 2430</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PJL,MLC,PCLXL,PCL,PJL,POSTSCRI</commandset>
+      <description>Hewlett-Packard LaserJet 2430</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>hp LaserJet 2430</model>
+    </general>
+    <snmp>
+      <description>hp LaserJet 2430</description>
+    </snmp>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+    For basic printing functionality use the Postscript PPD. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    PostScript level 3, PCL 5e, and PCL 6 out of the box, parallel and
+    USB connection, &quot;n&quot; models with ethernet connection, 250-sheet
+    tray built-in, extra 250- or 500-sheet tray available (included in
+    &quot;t&quot; models), duplex unit in &quot;d&quot; models.&lt;p&gt;
+
+    The &quot;L&quot; model is software-compatible to the other models, it is
+    only somewhat slower (20 ppm instead of 25 ppm).&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

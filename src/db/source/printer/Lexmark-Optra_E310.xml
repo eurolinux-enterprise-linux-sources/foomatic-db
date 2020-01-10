@@ -1,0 +1,44 @@
+<printer id="printer/Lexmark-Optra_E310">
+  <make>Lexmark</make>
+  <model>Optra E310</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/US/Products/printers/1,2792,MTE4fDE=,00.html</url>
+  <lang>
+    <postscript level="2" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PCL 6 Emulation, PostScript Le</commandset>
+      <description>Lexmark Optra E310</description>
+      <manufacturer>Lexmark International</manufacturer>
+      <model>Lexmark Optra E310</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>A postscript printer, so works fine.
+&lt;br&gt;Std 2M is okay, but you should add more.
+&lt;br&gt;Holds up to 66Mb, takes standard 72pin SIMM.
+
+&lt;br&gt;Also speaks PCL5e, PCL 6.
+&lt;br&gt;PS must be enabled as factory
+&lt;br&gt;settings set PCL emulation.
+
+&lt;br&gt;The Lexmark URL is for the Optra E312; the E310 doesn't officially exist any longer (but still works great!).&lt;p&gt;
+
+      Consumables/Refills: 5000 sheets per cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

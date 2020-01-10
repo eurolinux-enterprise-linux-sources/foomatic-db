@@ -1,0 +1,39 @@
+<printer id="printer/NEC-SuperScript_870">
+  <make>NEC</make>
+  <model>SuperScript 870</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.nectech.com/printers/product_info/product.cfm?IDProdIdx=5</url>
+  <lang>
+    <pcl level="4.5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PrintGear,PCL,PJL</commandset>
+      <description>SuperScript 870</description>
+      <manufacturer>NEC</manufacturer>
+      <model>SuperScript 870</model>
+    </parallel>
+  </autodetect>
+  <functionality>D</functionality>
+  <driver>ljet2p</driver>
+  <comments>
+    <en>Prints at 300x300 with PCL.
+&lt;br&gt;There is a PostScript option, alas it is a Windows driver Postscript emulation, so won't help.
+&lt;br&gt;Also speaks &quot;PrintGear&quot;.
+&lt;br&gt;Network option.&lt;p&gt;
+
+      Consumables/Refills: toner module; 3000 or 6000 pages, separate photoconductor module&lt;p&gt;</en>
+  </comments>
+</printer>

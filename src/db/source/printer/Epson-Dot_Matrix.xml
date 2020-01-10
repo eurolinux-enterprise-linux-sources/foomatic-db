@@ -1,0 +1,24 @@
+<printer id="printer/Epson-Dot_Matrix">
+  <make>Epson</make>
+  <model>Dot Matrix</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>240</x>
+        <y>216</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epsonc</driver>
+  <comments>
+    <en>This is a placeholder for the hundreds of assorted dot-matrix printers that work with the Epson drivers.</en>
+  </comments>
+</printer>

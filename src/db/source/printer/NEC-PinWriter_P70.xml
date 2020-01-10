@@ -1,0 +1,26 @@
+<printer id="printer/NEC-PinWriter_P70">
+  <make>NEC</make>
+  <model>PinWriter P70</model>
+  <mechanism>
+    <dotmatrix />
+    <color />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>necp6</driver>
+  <comments>
+    <en>Color is an optional feature for this printer.
+Basically you could by a replacement part to enable color printing.</en>
+  </comments>
+</printer>

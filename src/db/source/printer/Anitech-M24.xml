@@ -1,0 +1,24 @@
+<printer id="printer/Anitech-M24">
+  <make>Anitech</make>
+  <model>M24</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>180</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epson</driver>
+  <comments>
+    <en>A4 24-pin dot-matrix printer, Epson compatible</en>
+  </comments>
+</printer>

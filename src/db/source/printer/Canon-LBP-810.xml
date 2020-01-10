@@ -1,0 +1,39 @@
+<printer id="printer/Canon-LBP-810">
+  <make>Canon</make>
+  <model>LBP-810</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>capt</driver>
+  <comments>
+    <en>
+
+      This is one of the so-called GDI- or winprinters, a printer with
+      a proprietary data protocol, which is not publicly documented by
+      the manufacturer.&lt;br&gt;
+
+      Fortunately, Nicolas Boichat has reverse-engineered the protocol
+      using &lt;a
+      href=&quot;http://www.pragana.net/gdiprinters.html&quot;&gt;the techniques
+      described by Rildo Pragana&lt;/a&gt;, which lead to &lt;a
+      href=&quot;show_driver.cgi?driver=capt&amp;fromprinter=Canon-LBP-810&quot;&gt;this
+      driver&lt;/a&gt;.&lt;br&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner Cartridge&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,43 @@
+<printer id="printer/Minolta-PagePro_8L">
+  <make>Minolta</make>
+  <model>PagePro 8L</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.minolta.de/beo/office/produkte/drucker/ppro8l/ppro8l_subframe.htm</url>
+  <lang>
+    <pcl level="4.5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PrintGear;PCL;PLJ</commandset>
+      <manufacturer>Minolta</manufacturer>
+      <model>PagePro 8L</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>ljet2p</driver>
+  <comments>
+    <en>
+
+    PCL 4.5 printing works with 600 dpi only when activated via the
+    &quot;&lt;tt&gt;ENTER LANGUAGE=PCL600&lt;/tt&gt;&quot; PJL command
+    (Thanks to Daniel Schlachta, daniel at schlachta dot net, for
+    figuring that out). As driver &quot;ljet2p&quot; has to be used
+    for this.&lt;p&gt;
+
+      Consumables/Refills: cartridge and/or toner&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,29 @@
+<printer id="printer/Epson-MC_7000">
+  <make>Epson</make>
+  <model>MC 7000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1440</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Japanese version of the Epson Stylus Pro 7500.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

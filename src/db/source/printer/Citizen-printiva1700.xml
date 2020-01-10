@@ -1,0 +1,36 @@
+<printer id="printer/Citizen-printiva1700">
+  <make>Citizen</make>
+  <model>printiva1700</model>
+  <mechanism>
+    <transfer />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>ppmtomd</driver>
+  <comments>
+    <en>
+
+    This is a multi-function device with scanner, scanning is not
+    supported but printing works perfectly.&lt;p&gt;
+
+    J.C. Bradfield (jcb@dcs.ed.ac.uk) has written a fully functional
+    driver which converts PPM files. He started hacking ghostscript, but
+    abandoned it.&lt;p&gt;
+
+      Consumables/Refills: Ribbon cartridges, also in special spot and metallic colours&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

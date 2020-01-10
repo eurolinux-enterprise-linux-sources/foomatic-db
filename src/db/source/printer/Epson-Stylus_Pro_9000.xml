@@ -1,0 +1,31 @@
+<printer id="printer/Epson-Stylus_Pro_9000">
+  <make>Epson</make>
+  <model>Stylus Pro 9000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1440</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://prographics.epson.com/products/stypro9000/index.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+      Needs testing, I (Till) did a short test in the Epson office in Paris,
+      but didn't get correct results.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

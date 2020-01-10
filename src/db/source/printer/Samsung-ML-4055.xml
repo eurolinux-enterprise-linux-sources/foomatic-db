@@ -1,0 +1,46 @@
+<printer id="printer/Samsung-ML-4055">
+  <make>Samsung</make>
+  <model>ML-4055</model>
+  <mechanism>
+    <laser />
+    <!--not "color"-->
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Samsung;CMD:PCL6,POSTSCRIPT,PDF,FWV;MDL:ML-4055 Series;</ieee1284>
+      <manufacturer>Samsung</manufacturer>
+      <model>ML-4055 Series</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Samsung</driver>
+  <drivers>
+    <driver>
+      <id>Postscript-Samsung</id>
+      <ppd>PPD/Samsung/PS/Samsung_ML-4055_Series.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      This database entry was automatically generated
+      from the PPD file for this printer.&lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 40 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

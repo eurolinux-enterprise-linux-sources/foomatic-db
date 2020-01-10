@@ -1,0 +1,27 @@
+<printer id="printer/Epson-LP-9400">
+  <make>Epson</make>
+  <model>LP-9400</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.i-love-epson.co.jp/support/manual/mono/lp9400.htm</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>eplaser-jp</driver>
+  <comments>
+    <en>
+    Epson provides a free (LGPL) driver for this printer. With this
+    the printer should work to its full extent.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: toner cartridge, drum cartridge&lt;p&gt;
+    </en>
+  </comments>
+</printer>

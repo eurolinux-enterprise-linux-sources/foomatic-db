@@ -1,0 +1,21 @@
+<printer id="printer/IBM-3853_JetPrinter">
+  <make>IBM</make>
+  <model>3853 JetPrinter</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>82</x>
+        <y>82</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>jetp3852</driver>
+</printer>

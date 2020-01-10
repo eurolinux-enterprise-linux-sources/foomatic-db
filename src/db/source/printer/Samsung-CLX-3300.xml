@@ -1,0 +1,49 @@
+<printer id="printer/Samsung-CLX-3300">
+  <make>Samsung</make>
+  <model>CLX-3300</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Samsung;CMD:SPLC,PCL6,FWV,PIC,EXT;MDL:CLX-3300 Series;</ieee1284>
+      <manufacturer>Samsung</manufacturer>
+      <model>CLX-3300 Series</model>
+    </general>
+    <snmp>
+      <ieee1284>MFG:Samsung;CMD:SPLC,PCL6,FAX,FWV,PIC,EXT;MDL:CLX-3300 Series;</ieee1284>
+      <manufacturer>Samsung</manufacturer>
+      <model>CLX-3300 Series</model>
+    </snmp>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Samsung</driver>
+  <drivers>
+    <driver>
+      <id>Postscript-Samsung</id>
+      <ppd>PPD/Samsung/PS/Samsung_CLX-3300_Series.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      This database entry was automatically generated
+      from the PPD file for this printer.&lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

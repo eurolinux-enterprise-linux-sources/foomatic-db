@@ -1,0 +1,32 @@
+<printer id="printer/IBM-ProPrinterII">
+  <make>IBM</make>
+  <model>ProPrinterII</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>120</x>
+        <y>120</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ibmpro</driver>
+  <comments>
+    <en>Easy to get working on serial - just dump straight ASCII.
+
+If you have the parallel module installed, you need to use
+magicfilter which has a ProPrinter / ProPrinterII specific
+filter which fixes some minor oddities.
+
+Fair warning; the serial interface drops characters frequently.
+Don't use it on the network if you can avoid it. ;)&lt;p&gt;
+
+      Consumables/Refills: Ribbon Cartridge, Optional Serial/Network/Parallel/Additional in&lt;p&gt;</en>
+  </comments>
+</printer>

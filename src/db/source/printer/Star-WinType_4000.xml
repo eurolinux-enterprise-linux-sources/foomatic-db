@@ -1,0 +1,22 @@
+<printer id="printer/Star-WinType_4000">
+  <make>Star</make>
+  <model>WinType 4000</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>WinPrinter - Uses GDI interface, supports PCL and DOS in software mode only&lt;p&gt;
+
+      Consumables/Refills: Cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

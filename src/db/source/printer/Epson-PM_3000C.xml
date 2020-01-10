@@ -1,0 +1,31 @@
+<printer id="printer/Epson-PM_3000C">
+  <make>Epson</make>
+  <model>PM 3000C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1440</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Japanese version of the Epson Stylus Photo 1200.&lt;p&gt;
+
+    48 nozzles per color, CMYKcm 6-color printing.
+
+    </en>
+  </comments>
+</printer>

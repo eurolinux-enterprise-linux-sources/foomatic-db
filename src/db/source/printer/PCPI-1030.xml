@@ -1,0 +1,27 @@
+<printer id="printer/PCPI-1030">
+  <make>PCPI</make>
+  <model>1030</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>laserjet</driver>
+  <comments>
+    <en>Works fine, although a little slow.
+&lt;br&gt;A Postscript option is available.&lt;p&gt;
+
+      Consumables/Refills: toner cart; hard to find?&lt;p&gt;</en>
+  </comments>
+</printer>

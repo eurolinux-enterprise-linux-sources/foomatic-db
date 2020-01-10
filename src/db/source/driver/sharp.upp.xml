@@ -1,0 +1,46 @@
+<driver id="driver/sharp.upp">
+  <name>sharp.upp</name>
+  <url>http://www.openprinting.org/download/printing/sharp.upp</url>
+  <thirdpartysupplied />
+  <execution>
+    <uniprint />
+    <prototype>gs @sharp.upp -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE %A%Z -sOutputFile=- -</prototype>
+    <ppdentry>
+      *DefaultResolution: 600dpi
+    </ppdentry>
+  </execution>
+  <comments>
+    <en>
+
+      Prints only with 600 dpi in colour. The colours are way off when
+      printing photos.&lt;p&gt;
+
+      To install the driver, simply copy sharp.upp into one of the
+      directories listed in the &quot;search path&quot; which you find
+      in the output of the command &quot;gs --help&quot;.&lt;p&gt;
+
+      UPP files of this driver: sharp.upp&lt;p&gt;
+
+    </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Sharp-AJ-1800</id>
+    </printer>
+    <printer>
+      <id>printer/Sharp-AJ-1805</id>
+    </printer>
+    <printer>
+      <id>printer/Sharp-AJ-2000</id>
+    </printer>
+    <printer>
+      <id>printer/Sharp-AJ-2005</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-DocuPrint_M750</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-DocuPrint_M760</id>
+    </printer>
+  </printers>
+</driver>

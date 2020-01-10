@@ -1,0 +1,26 @@
+<printer id="printer/Oki-OL400">
+  <make>Oki</make>
+  <model>OL400</model>
+  <mechanism>
+    <led />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4.5" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>laserjet</driver>
+  <comments>
+    <en>
+    Compatible to the HP LaserJet II
+    </en>
+  </comments>
+</printer>

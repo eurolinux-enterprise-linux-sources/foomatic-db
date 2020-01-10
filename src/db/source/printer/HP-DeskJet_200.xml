@@ -1,0 +1,32 @@
+<printer id="printer/HP-DeskJet_200">
+  <make>HP</make>
+  <model>DeskJet 200</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl />
+  </lang>
+  <functionality>A</functionality>
+  <driver>pcl3</driver>
+  <comments>
+    <en>
+    
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+    
+    Compatible to the HP DeskJet.&lt;p&gt;
+
+      Consumables/Refills: cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

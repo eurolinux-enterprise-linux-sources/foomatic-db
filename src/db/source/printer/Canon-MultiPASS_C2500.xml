@@ -1,0 +1,21 @@
+<printer id="printer/Canon-MultiPASS_C2500">
+  <make>Canon</make>
+  <model>MultiPASS C2500</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>bjc600</driver>
+  <comments>
+    <en>printer/fax/copier
+&lt;br&gt;works in 360x360
+&lt;br&gt;You have to push the Printer button.</en>
+  </comments>
+</printer>

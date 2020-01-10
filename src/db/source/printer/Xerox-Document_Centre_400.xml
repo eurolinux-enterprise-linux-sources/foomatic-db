@@ -1,0 +1,13 @@
+<printer id="printer/Xerox-Document_Centre_400">
+  <make>Xerox</make>
+  <model>Document Centre 400</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <url>http://www.xerox.com</url>
+  <lang>
+    <pcl level="5" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+</printer>

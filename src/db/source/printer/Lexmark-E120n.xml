@@ -1,0 +1,63 @@
+<printer id="printer/Lexmark-E120n">
+  <make>Lexmark</make>
+  <model>E120n</model>
+  <mechanism>
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+  </lang>
+  <autodetect>
+    <usb>
+      <commandset>PCL 6 Emulation, PostScript Le</commandset>
+      <description>Lexmark E120n</description>
+      <manufacturer>Lexmark International</manufacturer>
+      <model>Lexmark E120n</model>
+    </usb>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <drivers>
+    <driver>
+      <id>hpijs-pcl5e</id>
+    </driver>
+    <driver>
+      <id>lj4dith</id>
+    </driver>
+    <driver>
+      <id>ljet4</id>
+    </driver>
+    <driver>
+      <id>ljet4d</id>
+    </driver>
+    <driver>
+      <id>lj5gray</id>
+    </driver>
+    <driver>
+      <id>pxlmono</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      Principally , this is a PostScript printer (in contrary to the
+      non-network E120), but the printer only works in PostScript mode
+      if the proprietary PPD file from the manufacturer is used, and not
+      with a generic PostScript PPD file, like from Foomatic. It seems that
+      the generic PPD file needs the additional line "*Protocols: TBCP",
+      but there is no confirmation for this yet, so please test. See
+      also &lt;a href="https://bugs.launchpad.net/bugs/802285"&gt;this
+      Ubuntu bug report&lt;/a&gt;.&lt;p&gt;
+
+      Throughput = 20&lt;p&gt;
+      
+      Foomatic entry made by PPDtoXML T/G 0.19 on 2008-09-03&lt;p&gt;
+      </en>
+  </comments>
+</printer>

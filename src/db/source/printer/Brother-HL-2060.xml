@@ -1,0 +1,48 @@
+<printer id="printer/Brother-HL-2060">
+  <make>Brother</make>
+  <model>HL-2060</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.brother.com/us-printer/info/hl2060/br_2060.html</url>
+  <lang>
+    <postscript level="2" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <usb>
+      <commandset>PJL,HBP</commandset>
+      <manufacturer>Brother</manufacturer>
+      <model>HL-2040 series</model>
+    </usb>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>8MB memory std; note that this isn't enough for 1200dpi.
+&lt;br&gt;Fujitsu SPARClite based.
+&lt;br&gt;Network option available, USB, Parellel, Serial std.
+&lt;br&gt;Also speaks PCL 6, HPGL, Epson.
+&lt;br&gt;Duplex option available.&lt;p&gt;
+
+    Brother publishes proprietary Linux drivers for CUPS and LPD for
+    most of their laser printers and multi-function devices, including
+    SANE drivers for the scanners. They can be downloaded free of
+    charge on their &lt;a
+    href=&quot;http://solutions.brother.com/linux/en_us/&quot;&gt;Linux driver
+    page&lt;/a&gt;.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: toner cart/9000pages&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

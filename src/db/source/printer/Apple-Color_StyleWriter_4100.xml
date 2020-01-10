@@ -1,0 +1,20 @@
+<printer id="printer/Apple-Color_StyleWriter_4100">
+  <make>Apple</make>
+  <model>Color StyleWriter 4100</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+       
+       Probably equivalent to the HP DeskJet 600.
+
+    </en>
+  </comments>
+</printer>

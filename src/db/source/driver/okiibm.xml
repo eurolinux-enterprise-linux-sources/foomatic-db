@@ -1,0 +1,20 @@
+<driver id="driver/okiibm">
+  <name>okiibm</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=okiibm%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/Oki-Microline_IBM_compatible_9_pin</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-ML_320</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-ML_321</id>
+    </printer>
+  </printers>
+</driver>

@@ -1,0 +1,15 @@
+<printer id="printer/Epson-LX-1050">
+  <make>Epson</make>
+  <model>LX-1050</model>
+  <mechanism>
+    <dotmatrix />
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epson</driver>
+</printer>

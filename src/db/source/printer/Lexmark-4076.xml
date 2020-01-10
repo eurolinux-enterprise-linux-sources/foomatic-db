@@ -1,0 +1,26 @@
+<printer id="printer/Lexmark-4076">
+  <make>Lexmark</make>
+  <model>4076</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>Works with drivers for the HP DeskJet 500&lt;p&gt;
+
+      Consumables/Refills: &lt;p&gt;</en>
+  </comments>
+</printer>

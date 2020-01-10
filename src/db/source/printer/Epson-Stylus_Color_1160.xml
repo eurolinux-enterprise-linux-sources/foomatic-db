@@ -1,0 +1,17 @@
+<printer id="printer/Epson-Stylus_Color_1160">
+  <make>Epson</make>
+  <model>Stylus Color 1160</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <escp />
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>I have no information on this printer other than that the stp driver author 
+reports that it should work perfectly.</en>
+  </comments>
+</printer>

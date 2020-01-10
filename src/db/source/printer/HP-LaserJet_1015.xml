@@ -1,0 +1,54 @@
+<printer id="printer/HP-LaserJet_1015">
+  <make>HP</make>
+  <model>LaserJet 1015</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.shopping.hp.com/cgi-bin/hpdirect/shopping/scripts/product_detail/product_detail_view.jsp?BV_SessionID=@@@@2054406155.1109190045@@@@&amp;BV_EngineID=ccdladddmehjidmcfngcfkmdflldfgf.0&amp;landing=null&amp;category=laserjets_bw&amp;subcat1=entry_level&amp;product_cod</url>
+  <lang>
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>FastRaster</commandset>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>hp LaserJet 1015</model>
+    </parallel>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+    Cheap, compact desktop laser printer, foldable tray for 150
+    sheets, A4/Letter/Legal, up to 14 pages/min. Somewhat faster than
+    the LaserJet 1010, &quot;Fastres 1200&quot; resolution enhancement.&lt;p&gt;
+
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    In contrary to the LaserJet 1010/1012 this printer understands the
+    full PCL 5e and is therefore absolutely compatible to many older
+    HP laser printers as the LaserJet 4 or LaserJet 1100. So it can
+    not only be used with standard drivers as HPIJS, Gimp-Print, or
+    &quot;ljet4&quot; but also print plain text.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner and drum in one cartridge (18000 pages)&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

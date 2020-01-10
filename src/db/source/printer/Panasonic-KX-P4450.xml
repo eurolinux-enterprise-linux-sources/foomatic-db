@@ -1,0 +1,25 @@
+<printer id="printer/Panasonic-KX-P4450">
+  <make>Panasonic</make>
+  <model>KX-P4450</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.panasonic.com/PCSC/PCPC/printers/p4440i.html</url>
+  <lang>
+    <pcl level="5" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ljetplus</driver>
+  <comments>
+    <en>1M RAM std, 5M max.</en>
+  </comments>
+</printer>

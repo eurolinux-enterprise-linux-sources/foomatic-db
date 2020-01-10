@@ -1,0 +1,24 @@
+<printer id="printer/KONICA_MINOLTA-bizhub_C250P">
+  <make>KONICA MINOLTA</make>
+  <model>bizhub C250P</model>
+  <mechanism>
+    <laser />
+    <color />
+  </mechanism>
+  <url>http://kmbs.konicaminolta.us/</url>
+  <lang>
+    <postscript />
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript-KONICA_MINOLTA</driver>
+  <drivers>
+    <driver>
+      <id>Postscript-KONICA_MINOLTA</id>
+      <ppd>PPD/KONICA_MINOLTA/KOC250UX.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+    </en>
+  </comments>
+</printer>

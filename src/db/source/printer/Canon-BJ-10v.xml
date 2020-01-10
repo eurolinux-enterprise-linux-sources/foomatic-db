@@ -1,0 +1,21 @@
+<printer id="printer/Canon-BJ-10v">
+  <make>Canon</make>
+  <model>BJ-10v</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>bj10vh</driver>
+  <comments>
+    <en>Imported from old Red Hat japanese printer database</en>
+  </comments>
+</printer>

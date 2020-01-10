@@ -1,0 +1,28 @@
+<printer id="printer/Epson-Stylus_Color_680">
+  <make>Epson</make>
+  <model>Stylus Color 680</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2880</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    This is the European model number for what we Yanks buy as the
+    &lt;a href=&quot;show_printer.cgi?recnum=Epson-Stylus_Color_777&quot;&gt;Stylus
+    Color 777&lt;/a&gt;.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

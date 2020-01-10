@@ -1,0 +1,25 @@
+<printer id="printer/Star-LaserPrinter_8">
+  <make>Star</make>
+  <model>LaserPrinter 8</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>laserjet</driver>
+  <comments>
+    <en>Appears to have assorted older emulations, including laserjet.
+&lt;br&gt;I don't know if it has enough memory to print a full page bitmap as the laserjet driver will tend to do.</en>
+  </comments>
+</printer>

@@ -1,0 +1,39 @@
+<printer id="printer/Lexmark-Optra_S_1250">
+  <make>Lexmark</make>
+  <model>Optra S 1250</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/printers/OptraS/1250.html</url>
+  <lang>
+    <postscript level="2" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PCL 6 Emulation, PostScript Le</commandset>
+      <description>Lexmark Optra S 1250</description>
+      <manufacturer>Lexmark International</manufacturer>
+      <model>Lexmark Optra S 1250</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Also speaks PCL level 6.&lt;br&gt;
+Model 1250n includes network port.&lt;br&gt;
+Model 1255 is the successor and has
+some enhanced software features e.g. N-up printing&lt;p&gt;
+
+      Consumables/Refills: toner cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

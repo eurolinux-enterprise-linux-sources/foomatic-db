@@ -1,0 +1,23 @@
+<printer id="printer/Epson-MC_2000">
+  <make>Epson</make>
+  <model>MC 2000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <escp />
+  </lang>
+  <functionality>D</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Japanese version of the Epson Stylus Photo 2000P.&lt;p&gt;
+
+    Not well tuned yet in the &quot;gimp-print&quot; driver. It can be
+    expected to work well in the future.
+
+    </en>
+  </comments>
+</printer>

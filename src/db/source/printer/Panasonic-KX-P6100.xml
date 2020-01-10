@@ -1,0 +1,27 @@
+<printer id="printer/Panasonic-KX-P6100">
+  <make>Panasonic</make>
+  <model>KX-P6100</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.panasonic.com/PCSC/PCPC/printers/p6100i.html</url>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>&quot;Supports PCL for DOS apps in Windows DOS box&quot;
+&lt;br&gt;...so I assume this is a paperweight.&lt;p&gt;
+
+      Consumables/Refills: toner cart ~2000 pages, drum ~15000 pages&lt;p&gt;</en>
+  </comments>
+</printer>

@@ -1,0 +1,26 @@
+<printer id="printer/Seiko-SpeedJET_200">
+  <make>Seiko</make>
+  <model>SpeedJET 200</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>laserjet</driver>
+  <comments>
+    <en>Another Olivetti JP350 clone.&lt;p&gt;
+
+      Consumables/Refills: Cartridge GBP5, GBP25 with printhead&lt;p&gt;</en>
+  </comments>
+</printer>

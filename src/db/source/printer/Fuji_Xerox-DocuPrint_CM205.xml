@@ -1,0 +1,36 @@
+<printer id="printer/Fuji_Xerox-DocuPrint_CM205">
+  <make>Fuji Xerox</make>
+  <model>DocuPrint CM205</model>
+  <mechanism>
+    <laser/>
+    <color/>
+    <resolution>
+      <dpi>
+	<x>1200</x>
+	<y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+	<unit>mm</unit>
+	<top>4.23164</top>
+	<bottom>4.23164</bottom>
+	<left>3.175</left>
+	<right>3.175</right>
+      </general>
+    </margins>
+  </mechanism>
+  <lang>
+    <proprietary/>
+  </lang>
+  <functionality>C</functionality>
+  <driver>foo2hbpl2</driver>
+  <comments>
+    <en>
+
+    These printers are supported by the foo2hbpl2 open software printer
+    driver.
+
+    </en>
+  </comments>
+</printer>

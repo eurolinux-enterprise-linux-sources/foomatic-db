@@ -1,0 +1,21 @@
+<printer id="printer/Canon-LIPS-IIplus">
+  <make>Canon</make>
+  <model>LIPS-II+</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>240</x>
+        <y>240</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>lips2p</driver>
+  <comments>
+    <en>Imported from old Red Hat japanese printer database</en>
+  </comments>
+</printer>

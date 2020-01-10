@@ -1,0 +1,37 @@
+<printer id="printer/Kyocera-P-2000">
+  <make>Kyocera</make>
+  <model>P-2000</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.kyoceramita.com/</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="4" />
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Kyocera;MDL:P-2000;</ieee1284>
+      <description>Kyocera P-2000</description>
+      <manufacturer>Kyocera</manufacturer>
+      <model>P-2000</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+      Use the
+      &lt;a href=&quot;/download/PPD/Kyocera/&quot;&gt;Kyocera PPD file&lt;/a&gt;
+      for PostScript,
+      &lt;a href=&quot;ppd-doc.html&quot;&gt;Instructions&lt;/a&gt; &lt;br&gt;
+      PCL4 as well (use ljetplus or laserjet for PCL4)
+    </en>
+  </comments>
+</printer>

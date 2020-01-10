@@ -1,0 +1,29 @@
+<printer id="printer/NEC-SuperScript_150C">
+  <make>NEC</make>
+  <model>SuperScript 150C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cssweb.nectech.com/SScript/ss150c/index.htm</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>pcl3</driver>
+  <comments>
+    <en>Should(tm) work perfectly; if so change this entry.
+&lt;br&gt;CMY color printing or black-only.&lt;p&gt;
+
+      Consumables/Refills: one cartridge, color or black&lt;p&gt;</en>
+  </comments>
+</printer>

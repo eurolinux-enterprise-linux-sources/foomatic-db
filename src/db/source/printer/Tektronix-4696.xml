@@ -1,0 +1,22 @@
+<printer id="printer/Tektronix-4696">
+  <make>Tektronix</make>
+  <model>4696</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>180</x>
+        <y>180</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>tek4696</driver>
+</printer>

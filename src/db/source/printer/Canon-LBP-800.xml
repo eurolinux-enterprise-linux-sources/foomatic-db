@@ -1,0 +1,42 @@
+<printer id="printer/Canon-LBP-800">
+  <make>Canon</make>
+  <model>LBP-800</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>lbp800</driver>
+  <comments>
+    <en>
+
+    A real &quot;winprinter&quot; as the LBP-660, LBP-600, and
+    LBP-460.&lt;p&gt;
+
+    Works with the free driver &quot;lbp800&quot; which is based on
+    reverse-engineering the undocumented proprietary protocol. The
+    driver works only for a parallel port connection, not for
+    USB.&lt;p&gt;
+
+    Note that the proprietary parallel port data transfer protocol is
+    non-standard and not very reliable. So use a cable as short as
+    possible to use this printer. The parallel port must be set to
+    bi-directional in the BIOS (should be already set on modern
+    PCs).&lt;p&gt;
+
+    If there is a PCL emulation, it is done by the Windows
+    driver.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: EP22 cartridge / 2500 pages per cartridge.(A4letter @ 5%)&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

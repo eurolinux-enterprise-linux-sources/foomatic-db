@@ -1,0 +1,52 @@
+<printer id="printer/HP-LaserJet_5Si">
+  <make>HP</make>
+  <model>LaserJet 5Si</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="2" />
+    <pcl level="5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PJL,MLC,PCL,POSTSCRIPT</commandset>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 5Si</model>
+    </general>
+    <parallel>
+      <manufacturer>HP</manufacturer>
+      <model>LaserJet 5Si</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+    For basic printing functionality use the Postscript PPD. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    LaserJet 5 with Duplex capability. Duplex is done by PJL commands so
+    it can be used with all Ghostscript drivers.
+
+    </en>
+  </comments>
+</printer>

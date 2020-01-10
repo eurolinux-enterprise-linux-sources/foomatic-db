@@ -1,0 +1,27 @@
+<printer id="printer/Fujitsu-PrintPartner_20W">
+  <make>Fujitsu</make>
+  <model>PrintPartner 20W</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.fujitsu.ca/printers/pp20w-99.htm</url>
+  <lang>
+    <pcl level="6" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>pxlmono</driver>
+  <comments>
+    <en>Ethernet, IrDA, Duplex, Postscript options.&lt;p&gt;
+
+      Consumables/Refills: toner 5k pg, drum 40k pages&lt;p&gt;</en>
+  </comments>
+</printer>

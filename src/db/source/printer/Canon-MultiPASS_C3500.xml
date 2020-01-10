@@ -1,0 +1,60 @@
+<printer id="printer/Canon-MultiPASS_C3500">
+  <make>Canon</make>
+  <model>MultiPASS C3500</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.ccsi.canon.com/multi/c3500/</url>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>MultiPass 2.1</commandset>
+      <description>Canon MultiPASS C3500</description>
+      <manufacturer>Canon</manufacturer>
+      <model>MultiPASS C3500</model>
+    </parallel>
+  </autodetect>
+  <functionality>D</functionality>
+  <driver>bjc600</driver>
+  <comments>
+    <en>Using Ghostscript 5.1, can get
+reasonable 360x360 output using the
+'bjc600' driver.  No support is
+available for scanning or faxing
+via SANE or any fax program I've
+yet seen for Linux
+
+Note that you do have to configure
+the printer to run in 'DOS
+emulation' mode in order to get it
+to print properly through
+Ghostscript.
+
+From speaking with several different
+Canon representatives, Canon is
+taking the position that it &quot;never
+claimed to support any operating
+system other than Windows 95/98/NT
+in [their] marketing literature.&quot;
+and refuses to issue any information
+to developers in order to have
+suitable drivers developed for this
+printer (even knowing that they'd
+be having the development done at
+zero cost to themselves).&lt;p&gt;
+
+      Consumables/Refills: Cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

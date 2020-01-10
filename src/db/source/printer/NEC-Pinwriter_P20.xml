@@ -1,0 +1,21 @@
+<printer id="printer/NEC-Pinwriter_P20">
+  <make>NEC</make>
+  <model>Pinwriter P20</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>necp6</driver>
+</printer>

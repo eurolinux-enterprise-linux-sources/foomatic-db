@@ -1,0 +1,43 @@
+<printer id="printer/HP-DesignJet_110">
+  <make>HP</make>
+  <model>DesignJet 110</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+        <unit>mm</unit>
+        <relative />
+        <top>5</top>
+        <left>5</left>
+        <right>5</right>
+        <bottom>12</bottom>
+      </general>
+    </margins>
+  </mechanism>
+  <url>http://www.hp.com/</url>
+  <lang>
+    <proprietary />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>cdnj500</driver>
+  <comments>
+    <en>
+    
+    Large-format printer.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: &lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

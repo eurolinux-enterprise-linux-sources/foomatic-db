@@ -1,0 +1,27 @@
+<printer id="printer/Epson-Stylus_Photo_780">
+  <make>Epson</make>
+  <model>Stylus Photo 780</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2880</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://support.epson.com/hardware/printer/inkjet/pho780/index.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>6-color CMYKcm printing.&lt;br&gt;
+    USB or Parallel.</en>
+  </comments>
+</printer>

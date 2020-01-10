@@ -1,0 +1,31 @@
+<printer id="printer/NEC-P2X">
+  <make>NEC</make>
+  <model>P2X</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cssweb.nectech.com/Pwriter/p32/spec1.htm</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>necp2xX.upp</driver>
+  <comments>
+    <en>
+
+      Uniprint parameter file necp2x.upp/necp2x6.upp&lt;p&gt;
+
+      Consumables/Refills: ribbon&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

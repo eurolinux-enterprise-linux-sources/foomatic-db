@@ -1,0 +1,20 @@
+<printer id="printer/Oki-ML_380">
+  <make>Oki</make>
+  <model>ML 380</model>
+  <mechanism>
+    <dotmatrix />
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epson</driver>
+  <comments>
+    <en>I'm sorry for the uncomplete information, but I'm a newbie&lt;p&gt;
+
+      Consumables/Refills: ribbon&lt;p&gt;</en>
+  </comments>
+</printer>

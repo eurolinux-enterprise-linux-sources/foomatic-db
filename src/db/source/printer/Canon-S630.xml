@@ -1,0 +1,34 @@
+<printer id="printer/Canon-S630">
+  <make>Canon</make>
+  <model>S630</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://consumer.usa.canon.com/printers/s630/index.html</url>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>bj8XXYYZ.upp</driver>
+  <comments>
+    <en>
+    This printer is similar to the Canon BJC-8200 (but only 4-ink)
+    and is reported to work with the same drivers (bj8*06n.upp in
+    Ghostscript 6.50 and newer) in the 600 dpi mode. If you want to use
+    Gimp-Print install this printer as the Canon BJC-8200 and choose 600
+    dpi resolution.&lt;p&gt;
+
+      Consumables/Refills: 4 independent ink tanks&lt;p&gt;
+    </en>
+  </comments>
+</printer>

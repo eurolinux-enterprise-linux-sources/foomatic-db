@@ -1,0 +1,114 @@
+<driver id="driver/ljet3">
+  <name>ljet3</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=ljet3%A%Z -sOutputFile=-%C -f -</prototype>
+  </execution>
+  <comments>
+    <en>
+    Ghostscript's PCL 5 driver.&lt;p&gt;
+
+    Use the &lt;a
+    href=&quot;show_driver.cgi?driver=ljet3d&quot;&gt;&quot;ljet3d&quot;&lt;/a&gt;
+    Ghostscript driver for Duplex (double-sided printing)
+    support.&lt;p&gt;
+
+    A Ghostscript bug in the driver breaks paper input tray
+    selection. This &lt;a
+    href=&quot;http://www.openprinting.org/download/printing/ghostscript-pcl-patches/inputslot.patch&quot;&gt;patch&lt;/a&gt;
+    for GPL Ghostscript 8.63 fixes the problem and allows to set the
+    input tray with the &quot;-dMediaPosition=X&quot; commmand line
+    option for Ghostscript. &quot;X&quot; is an integer number which
+    depends on the printer model and tray. For HP &quot;0&quot; is
+    usually the printer default, &quot;7&quot; automatic selection,
+    &quot;2&quot; manual feed, &quot;1&quot; the upper, and
+    &quot;4&quot; the lower tray. Note that for PCL 6/XL these numbers
+    are different. The patch is required for Ghostscript 8.63 and
+    older so that tray selection with the PPDs of this site works. The
+    bug is fixed in Ghostscript 8.64 or newer.&lt;p&gt;
+
+    </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Brother-HL-10V</id>
+    </printer>
+    <printer>
+      <id>printer/Brother-MFC-8300</id>
+    </printer>
+    <printer>
+      <id>printer/Canon-LBP-430</id>
+      <comments>
+        <en>works for up to 300dpi.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Canon-LBP-4sx</id>
+    </printer>
+    <printer>
+      <id>printer/DEC-1800</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-ActionLaser_1100</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-5200</id>
+      <comments>
+        <en>You can't (not even with XPP) choose where to get your paper (upper or lower tray).</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Epson-EPL-5200plus</id>
+    </printer>
+    <printer>
+      <id>printer/Fujitsu-PrintPartner_8000</id>
+    </printer>
+    <printer>
+      <id>printer/Generic-PCL_5_Printer</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_3P_w_PS</id>
+      <comments>
+        <en>Prints faster with ljet3. Recent applications print successfully with this driver.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/IBM-4029_030_LaserPrinter_10</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1500</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1550</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-1550plus</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-3400</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-3400plus</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-3500</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-400</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-5500</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-FS-850</id>
+    </printer>
+    <printer>
+      <id>printer/Tally-MT908</id>
+    </printer>
+  </printers>
+</driver>

@@ -1,0 +1,71 @@
+<printer id="printer/Oce-VarioPrint_2105PS">
+  <make>Oce</make>
+  <model>VarioPrint 2105</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.oce.com/en/Products/Printers-copiers-plotters/Black+and+white/Central+reproduction/VP2105/default.htm</url>
+  <lang>
+    <postscript level="3" />
+    <pcl level="5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Oce;MDL:Oce VP2105 PS3;</ieee1284>
+      <manufacturer>Oce</manufacturer>
+      <model>Oce VP2105 PS3</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Oce</driver>
+  <drivers>
+    <driver>
+      <id>ljet3</id>
+    </driver>
+    <driver>
+      <id>ljet3d</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Oce</id>
+      <ppd>PPD/Oce/Oce-VarioPrint_2105PS/1/OCVP2105.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      &lt;b&gt;Modular scan, print and copy production system&lt;/b&gt;&lt;br/&gt;
+Gateway to scalable document production
+&lt;UL&gt;
+&lt;LI&gt;Digital copier printer with 101 A4 prints per min &lt;/LI&gt;
+&lt;LI&gt;Concurrent processing &lt;/LI&gt;
+&lt;LI&gt;Copy and print queue management &lt;/LI&gt;
+&lt;LI&gt;Scan-to-mailbox &lt;/LI&gt;
+&lt;/UL&gt;
+    
+      &lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 100 pages/min&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner
+      &lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

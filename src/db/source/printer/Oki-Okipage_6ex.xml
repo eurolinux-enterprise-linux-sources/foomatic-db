@@ -1,0 +1,37 @@
+<printer id="printer/Oki-Okipage_6ex">
+  <make>Oki</make>
+  <model>Okipage 6ex</model>
+  <mechanism>
+    <led />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cs.okidata.com/cs.nsf/LookUp+Get/OKIPAGE6ex?OpenDocument</url>
+  <lang>
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>ENHANCED PCL5,PJL,EPSONFX,IBMP</commandset>
+      <description>OKIDATA OKIPAGE 6ex (HP4P)</description>
+      <manufacturer>OKI DATA CORP</manufacturer>
+      <model>OKIDATA OKIPAGE 6ex</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>600x600 dpi does not work out-of-the-box, if you have a lot of graphics and the memory not upgraded.
+Use 300x300 dpi instead.&lt;p&gt;
+
+      Consumables/Refills: toner and drum unit&lt;p&gt;</en>
+  </comments>
+</printer>

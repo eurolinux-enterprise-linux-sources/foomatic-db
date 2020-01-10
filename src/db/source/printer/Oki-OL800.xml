@@ -1,0 +1,28 @@
+<printer id="printer/Oki-OL800">
+  <make>Oki</make>
+  <model>OL800</model>
+  <mechanism>
+    <led />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>laserjet</driver>
+  <comments>
+    <en>Printer emulates HP Laserjet II,
+I used the laserjet GS driver 
+and it works great.&lt;p&gt;
+
+      Consumables/Refills: seperate toner and image drum.  Toner ~$30, drum $150-$200&lt;p&gt;</en>
+  </comments>
+</printer>

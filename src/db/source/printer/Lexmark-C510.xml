@@ -1,0 +1,41 @@
+<printer id="printer/Lexmark-C510">
+  <make>Lexmark</make>
+  <model>C510</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript-Lexmark</driver>
+  <drivers>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Lexmark</id>
+      <ppd>PPD/Lexmark/Lexmark_C510.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      Throughput = 30
+
+      Foomatic entry made by PPDtoXML T/G 0.05&lt;p&gt;
+
+      Consumables/Refills: Four toner cartridges (CMYK) of normal or high yield, photodeveloper (fuser) cartridge, waste toner bottle&lt;p&gt;
+      </en>
+  </comments>
+</printer>

@@ -1,0 +1,12 @@
+<printer id="printer/Apple-StyleWriter_II">
+  <make>Apple</make>
+  <model>StyleWriter II</model>
+  <mechanism>
+    <inkjet />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>lpstyl</driver>
+</printer>

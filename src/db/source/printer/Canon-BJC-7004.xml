@@ -1,0 +1,30 @@
+<printer id="printer/Canon-BJC-7004">
+  <make>Canon</make>
+  <model>BJC-7004</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.ccsi.canon.com/bjc/bjc7004/index.html</url>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>bjc800</driver>
+  <comments>
+    <en>Works at 600x600.&lt;p&gt;
+
+Try also to the
+&quot;&lt;a href=&quot;http://www.openprinting.org/show_driver.cgi?driver=stp&quot;&gt;stp&lt;/a&gt;&quot;
+driver choosing the Canon BJC 7000 or 7100 as printer model.</en>
+  </comments>
+</printer>

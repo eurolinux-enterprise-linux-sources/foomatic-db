@@ -1,0 +1,25 @@
+<printer id="printer/DEC-LN07">
+  <make>DEC</make>
+  <model>LN07</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript />
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Works good as a Postscript printer,
+and can speak PCL 4 as well.  Slow
+as a dog though&lt;p&gt;
+
+      Consumables/Refills: toner (approx. $35)&lt;p&gt;</en>
+  </comments>
+</printer>

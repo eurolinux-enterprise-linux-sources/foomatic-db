@@ -1,0 +1,26 @@
+<printer id="printer/Epson-Stylus_Photo">
+  <make>Epson</make>
+  <model>Stylus Photo</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://support.epson.com/hardware/printer/inkjet/pho___/index.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>stp now supports photo modes, alignment, etc; this printer should work perfectly.</en>
+  </comments>
+</printer>

@@ -1,0 +1,31 @@
+<printer id="printer/Epson-EPL-N1600PS">
+  <make>Epson</make>
+  <model>EPL-N1600PS</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.epson.co.uk/product/printers/lasers/epl5800/</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+      PostScript version of the EPL-N1600&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: toner cartridge, drum cartridge&lt;p&gt;
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,30 @@
+<printer id="printer/Canon-BJC-8500">
+  <make>Canon</make>
+  <model>BJC-8500</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>Large printer (A3, 11x17inch). For professional artworkers, feeder for 100
+sheet and cassette for 250 sheet, optional cassette for more 250 sheet,
+Parallel, serial RS-422 (for older Macs), optional USB kit.&lt;p&gt;
+
+Canon reported that it probably will work with the driver for the BJC-6200
+(7100?). Try it with the &quot;stp&quot; driver.&lt;p&gt;
+
+Please report how it works so that the rating can be changed.&lt;p&gt;
+
+      Consumables/Refills: 4 or 6 independent ink tanks&lt;p&gt;</en>
+  </comments>
+</printer>

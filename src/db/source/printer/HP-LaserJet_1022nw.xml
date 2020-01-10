@@ -1,0 +1,63 @@
+<printer id="printer/HP-LaserJet_1022nw">
+  <make>HP</make>
+  <model>LaserJet 1022nw</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+        <unit>mm</unit>
+        <relative />
+        <top>4</top>
+        <left>4</left>
+        <right>4</right>
+        <bottom>4</bottom>
+      </general>
+    </margins>
+  </mechanism>
+  <url>http://www.hp.com</url>
+  <lang>
+    <pcl level="5e" />
+    <proprietary />
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Hewlett-Packard;MDL:HP LaserJet 1022nw;CMD:ACL;CLS:PRINTER;DES:HP LaserJet 1022nw;</ieee1284>
+      <commandset>ACL</commandset>
+      <description>HP LaserJet 1022nw</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 1022nw</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>foo2zjs-z1</driver>
+  <comments>
+    <en>
+
+    Low-end mono laser. 1200 ProRes, 18ppm, available as USB-only,
+    with integrated network interface (&quot;n&quot; version) or with WLAN
+    interface (&quot;nw&quot;). PCL 5e and ZjStream.&lt;p&gt;
+    
+    For basic printing functionality use the &quot;&lt;a
+    href=&quot;show_driver.cgi?driver=foo2zjs&quot;&gt;foo2zjs&lt;/a&gt;&quot;
+    driver. For advanced functionality such as printer status and
+    maintenance features, use the &lt;a
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPLIP&lt;/a&gt;
+    framework as CUPS backend and &quot;foo2zjs&quot; as printer
+    driver.&lt;p&gt;
+
+    Note that &quot;foo2zjs&quot; makes the printer printing much
+    faster and more reliable than HPIJS, and it has a 1200x600-dpi
+    mode wereas HPIJS (and other drivers for PCL 5e) have a maximum
+    resolution of 600x600 dpi.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Cartridge containing toner and imaging drum&lt;p&gt;
+    
+    </en>
+  </comments>
+</printer>

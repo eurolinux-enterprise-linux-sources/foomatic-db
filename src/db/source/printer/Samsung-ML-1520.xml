@@ -1,0 +1,76 @@
+<printer id="printer/Samsung-ML-1520">
+  <make>Samsung</make>
+  <model>ML-1520</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>splix</driver>
+  <comments>
+    <en>
+
+    User comment:&lt;p&gt;
+
+    Sample of APS-Filter printcap file (ESP Ghostscript must be installed, as it provides the &quot;gdi&quot;/&quot;samsunggdi&quot; driver):&lt;p&gt;
+
+&lt;pre&gt;&lt;tt&gt; 
+# APS1_BEGIN:printer1 
+# - don't delete start label for apsfilter printer1 
+# - no other printer defines between BEGIN and END LABEL 
+lp|samsunggdi;r=600x600;q=medium;c=gray;p=a4;m=auto:\ 
+    :lp=/dev/usb/lp0:\ 
+    :if=/etc/apsfilter/basedir/bin/apsfilter:\ 
+    :sd=/var/spool/lpd/lp:\ 
+    :lf=/var/spool/lpd/lp/log:\ 
+    :af=/var/spool/lpd/lp/acct:\ 
+    :mx#0:\ 
+    :sh: 
+# APS1_END - don't delete this 
+&lt;/tt&gt;&lt;/pre&gt;
+ 
+Sample of SETUP.cfg file from apsfilter:&lt;p&gt;
+
+&lt;pre&gt;&lt;tt&gt; 
+PRINTER='samsunggdi' 
+RESOLUTION='600x600' 
+COLOR='gray' 
+PAPER='a4' 
+METHOD='auto' 
+QUALITY='medium' 
+INTERFACE='parallel' 
+DEVICE='/dev/usb/lp0' 
+BAUDRATE='' 
+HANDSHAKE='' 
+WORDLENGTH='' 
+PARITY='' 
+STARTBITS='' 
+STOPBITS='' 
+SMB_SERVER='' 
+SMB_IP='' 
+SMB_PRINTER='' 
+SMB_WORKGROUP='' 
+SMB_USER='' 
+SMB_PASSWD='' 
+NCP_SERVER='' 
+NCP_PRINTER='' 
+NCP_USER='' 
+NCP_PASSWD='' 
+rm='' 
+rp='' 
+&lt;/tt&gt;&lt;/pre&gt;
+ 
+Main hack is to manualy seting PRINTER='samsunggdi' default not exist 
+in menu from SETUP script of apsfiler.And rerun setup script to create 
+printcap file.&lt;p&gt;
+</en>
+  </comments>
+</printer>

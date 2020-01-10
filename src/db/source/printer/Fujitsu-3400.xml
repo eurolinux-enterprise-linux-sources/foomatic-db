@@ -1,0 +1,22 @@
+<printer id="printer/Fujitsu-3400">
+  <make>Fujitsu</make>
+  <model>3400</model>
+  <mechanism>
+    <dotmatrix />
+    <color />
+    <resolution>
+      <dpi>
+        <x>240</x>
+        <y>72</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epsonc</driver>
+</printer>

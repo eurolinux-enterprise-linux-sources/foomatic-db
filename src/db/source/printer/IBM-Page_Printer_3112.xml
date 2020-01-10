@@ -1,0 +1,44 @@
+<printer id="printer/IBM-Page_Printer_3112">
+  <make>IBM</make>
+  <model>Page Printer 3112</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="2" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PCL 5 Emulation, PostScript Le</commandset>
+      <description>IBM 3112 Page Printer</description>
+      <manufacturer>Lexmark International</manufacturer>
+      <model>IBM 3112 Page Printer</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Built by Lexmark, similar to 
+Optra R/R+. PPD driver lexoptra.ppd 
+available at Lexmark's web site in 
+the file PS_PPD.TAR, includes 
+support for about all printer 
+specialties. Printcap filters only
+available for generic 600 dpi PS 
+printer, as far as I know.
+Supports also HP PCL 5, emulates 
+Laserjet 4.&lt;p&gt;
+
+      Consumables/Refills: toner &amp; drum in one, 7000 and 14000 pages, 14000 costs 200DM&lt;p&gt;</en>
+  </comments>
+</printer>

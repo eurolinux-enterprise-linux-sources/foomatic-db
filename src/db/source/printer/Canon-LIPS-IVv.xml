@@ -1,0 +1,30 @@
+<printer id="printer/Canon-LIPS-IVv">
+  <make>Canon</make>
+  <model>LIPS-IVv</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>lips4v</driver>
+  <comments>
+    <en>
+
+    Laser printer using LIPS 4, a vector-based page description
+    language developed by Canon. To let Ghostscript do
+    vector-rendering, use the &quot;lips4v&quot; driver. The driver is
+    included in &lt;a
+    href=&quot;http://www.cups.org/ghostscript.php&quot;&gt;ESP
+    Ghostscript&lt;/a&gt;.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

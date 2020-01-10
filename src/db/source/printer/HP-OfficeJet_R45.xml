@@ -1,0 +1,50 @@
+<printer id="printer/HP-OfficeJet_R45">
+  <make>HP</make>
+  <model>OfficeJet R45</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/eschome.html</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>MLC,PCL,PML,SCL</commandset>
+      <description>Hewlett-Packard OfficeJet R40</description>
+      <manufacturer>HEWLETT-PACKARD</manufacturer>
+      <model>OFFICEJET R40</model>
+    </parallel>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+    Multifunction device: printer/scanner/copier.&lt;p&gt;
+
+
+    Prints also reasonably well with various &quot;cdj...&quot;,
+    &quot;gimp-print&quot;/&quot;stp&quot;, or
+    &quot;pcl3&quot;/&quot;hpdj&quot; drivers.&lt;p&gt;
+
+    For basic printing functionality use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPIJS driver &lt;/a&gt;. 
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;
+
+    Copying works fine from the front panel.
+    </en>
+  </comments>
+</printer>

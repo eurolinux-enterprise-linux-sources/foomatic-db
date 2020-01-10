@@ -1,0 +1,21 @@
+<printer id="printer/Epson-Stylus_800">
+  <make>Epson</make>
+  <model>Stylus 800</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>stcolor</driver>
+</printer>

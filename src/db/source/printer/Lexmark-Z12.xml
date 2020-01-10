@@ -1,0 +1,30 @@
+<printer id="printer/Lexmark-Z12">
+  <make>Lexmark</make>
+  <model>Z12</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>D</functionality>
+  <driver>lxm3200-tweaked</driver>
+  <comments>
+    <en>
+    Boer Attila (boera at unitbv dot ro) found out that this printer prints
+    when one tweakes the &quot;lxm3200&quot; driver somewhat. His changes are in the
+    &quot;lxm3200-tweaked&quot; driver now, but they are tested only for printing with
+    the black cartridge.&lt;p&gt;
+
+      Consumables/Refills: BW cartridge: 17G0050  Color cartridge: 17G0060 $20-$30 per cart&lt;p&gt;
+    </en>
+  </comments>
+</printer>

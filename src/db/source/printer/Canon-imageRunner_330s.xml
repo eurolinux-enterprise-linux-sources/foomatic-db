@@ -1,0 +1,17 @@
+<printer id="printer/Canon-imageRunner_330s">
+  <make>Canon</make>
+  <model>imageRunner 330s</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <lang>
+    <pcl level="5" />
+  </lang>
+  <functionality>B</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>
+    Laser copier/network printer.
+    </en>
+  </comments>
+</printer>

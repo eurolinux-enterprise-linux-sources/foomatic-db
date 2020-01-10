@@ -1,0 +1,26 @@
+<printer id="printer/Lexmark-1020">
+  <make>Lexmark</make>
+  <model>1020</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/printers/1020.html</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>D</functionality>
+  <driver>lm1100</driver>
+  <comments>
+    <en>This, the model 4078-002, can emulate a HP DeskJet 500C.
+&lt;br&gt;So you must configure your system to make it believe it's printing to a DeskJet 500C.&lt;p&gt;
+
+      Consumables/Refills: BW Cart or Color Cart&lt;p&gt;</en>
+  </comments>
+</printer>

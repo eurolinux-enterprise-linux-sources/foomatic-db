@@ -1,0 +1,71 @@
+<printer id="printer/Brother-HL-5030">
+  <make>Brother</make>
+  <model>HL-5030</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+        <unit>mm</unit>
+        <relative />
+        <top>4.2</top>
+        <left>6.01</left>
+        <right>6.01</right>
+        <bottom>4.2</bottom>
+      </general>
+      <exception PageSize="Executive">
+        <relative />
+        <left>6.35</left>
+        <right>6.35</right>
+      </exception>
+      <exception PageSize="Legal">
+        <relative />
+        <left>6.35</left>
+        <right>6.35</right>
+      </exception>
+      <exception PageSize="Letter">
+        <relative />
+        <left>6.35</left>
+        <right>6.35</right>
+      </exception>
+    </margins>
+  </mechanism>
+  <url>http://solutions.brother.com/linux/</url>
+  <lang>
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hl1250</driver>
+  <comments>
+    <en>
+
+    PCL 5e and PCL 6, simolar to &lt;a
+    href=&quot;show_printer.cgi?recnum=Brother-HL-5040&quot;&gt;Brother
+    HL-5040&lt;/a&gt;.&lt;p&gt;
+
+    For driver recommendations see the page of the &lt;a
+    href=&quot;show_printer.cgi?recnum=Brother-HL-5040&quot;&gt;Brother
+    HL-5040&lt;/a&gt;.&lt;p&gt;
+
+    Brother provides a &lt;a
+    href=&quot;http://solutions.brother.com/linux/&quot;&gt;driver&lt;/a&gt;,
+    too, but binary-only and only for LPD/LPRng. According to the
+    printout quality it is based on the &quot;ljet4&quot; Ghostscript
+    driver. &quot;pxlmono&quot;, &quot;gimp-print&quot; (600 dpi), and &quot;hpijs-pcl5e&quot; (600 dpi)
+    give a better grayscale quality and all special features of the
+    printer are accessible by PJL commands.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Separate Toner and Drum&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

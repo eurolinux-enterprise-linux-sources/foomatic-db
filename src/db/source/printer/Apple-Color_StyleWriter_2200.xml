@@ -1,0 +1,16 @@
+<printer id="printer/Apple-Color_StyleWriter_2200">
+  <make>Apple</make>
+  <model>Color StyleWriter 2200</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>lpstyl</driver>
+  <comments>
+    <en>Listed as working in lpstyl documentation.</en>
+  </comments>
+</printer>

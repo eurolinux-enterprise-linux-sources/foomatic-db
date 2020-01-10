@@ -1,0 +1,31 @@
+<printer id="printer/Apple-LaserWriter_Select_360">
+  <make>Apple</make>
+  <model>LaserWriter Select 360</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="2" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Previous User: No luck with any apple drivers, however
+I selected HPLaserJet IId/IIp/III with
+TIFF Compression in Printtool.  Work great.
+
+My experience:
+Just configure for Postscript!&lt;p&gt;
+
+      Consumables/Refills: toner&lt;p&gt;</en>
+  </comments>
+</printer>

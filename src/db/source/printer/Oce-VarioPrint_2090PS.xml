@@ -1,0 +1,71 @@
+<printer id="printer/Oce-VarioPrint_2090PS">
+  <make>Oce</make>
+  <model>VarioPrint 2090</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.oce.com/en/Products/Printers-copiers-plotters/Black+and+white/General+office/VP2090/default.htm</url>
+  <lang>
+    <postscript level="3" />
+    <pcl level="5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Oce;MDL:Oce VarioPrint 2090 PS3;</ieee1284>
+      <manufacturer>Oce</manufacturer>
+      <model>Oce VarioPrint 2090 PS3</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Oce</driver>
+  <drivers>
+    <driver>
+      <id>ljet3</id>
+    </driver>
+    <driver>
+      <id>ljet3d</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Oce</id>
+      <ppd>PPD/Oce/Oce-VarioPrint_2090PS/1/OCVP2090.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      &lt;b&gt;Versatile light production system&lt;/b&gt;&lt;br/&gt;
+The Oce VarioPrint 2090 is a light production system that can handle diverse complex printing requirements. It provides convenient, cost-effective production to optimise your asset investment.
+&lt;UL&gt;
+&lt;LI&gt;Simultaneous scanning, printing and finishing &lt;/LI&gt;
+&lt;LI&gt;85 A4 prints per minute &lt;/LI&gt;
+&lt;LI&gt;Full productivity independent of job characteristics &lt;/LI&gt;
+&lt;LI&gt;Digital mailbox function for controlled printing &lt;/LI&gt;
+&lt;/UL&gt;
+    
+      &lt;p&gt;
+
+      Maximum paper width: 11.7 inches / 29.7 cm
+      (Wide format printer)&lt;p&gt;
+
+      Printing engine speed: 85 pages/min&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner
+      &lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

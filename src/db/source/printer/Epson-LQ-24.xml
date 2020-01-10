@@ -1,0 +1,22 @@
+<printer id="printer/Epson-LQ-24">
+  <make>Epson</make>
+  <model>LQ-24</model>
+  <mechanism>
+    <dotmatrix />
+    <color />
+    <resolution>
+      <dpi>
+        <x>240</x>
+        <y>216</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epsonc</driver>
+</printer>

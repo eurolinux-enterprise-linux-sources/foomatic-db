@@ -1,0 +1,24 @@
+<option type="bool" id="opt/108">
+  <arg_shortname>
+    <en>IgnoreSize</en>
+  </arg_shortname>
+  <arg_longname>
+    <en>Page Size</en>
+  </arg_longname>
+  <arg_execution>
+    <arg_group>Miscellaneous</arg_group>
+    <arg_order>110</arg_order>
+    <arg_spot>C</arg_spot>
+    <arg_substitution />
+    <arg_proto> -p</arg_proto>
+  </arg_execution>
+  <constraints>
+    <constraint sense="true">
+      <driver>cjet</driver>
+      <arg_defval>1</arg_defval>
+    </constraint>
+  </constraints>
+  <arg_shortname_false>
+  <en>RequireSize</en>
+  </arg_shortname_false>
+</option>

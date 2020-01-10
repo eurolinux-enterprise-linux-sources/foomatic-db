@@ -1,0 +1,22 @@
+<printer id="printer/Xerox-4045_XES">
+  <make>Xerox</make>
+  <model>4045 XES</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.xerox.com</url>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>xes</driver>
+</printer>

@@ -1,0 +1,27 @@
+<printer id="printer/Lexmark-Optra_M410">
+  <make>Lexmark</make>
+  <model>Optra M410</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/printers/laser/Optra/M410.html</url>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>12ppm, 4MB printer.
+&lt;br&gt;The &lt;a href=&quot;show_printer.cgi?recnum=Lexmark-Optra_M412&quot;&gt;M412&lt;/a&gt; is rather faster and otherwise similar for not much more money.</en>
+  </comments>
+</printer>

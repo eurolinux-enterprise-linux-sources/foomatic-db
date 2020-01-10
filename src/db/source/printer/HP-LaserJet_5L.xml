@@ -1,0 +1,67 @@
+<printer id="printer/HP-LaserJet_5L">
+  <make>HP</make>
+  <model>LaserJet 5L</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+        <unit>pt</unit>
+        <relative />
+        <top>12</top>
+        <left>18</left>
+        <right>18</right>
+        <bottom>12</bottom>
+      </general>
+    </margins>
+  </mechanism>
+  <lang>
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>HP ENHANCED PCL5,PJL</commandset>
+      <description>Hewlett-Packard LaserJet 5L Printer</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 5L</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>ljet4</driver>
+  <comments>
+    <en>
+
+    For basic printing functionality use the &quot;ljet4&quot; or the &lt;a
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS driver
+    &lt;/a&gt;. For advanced functionality such as printer status and
+    maintenance features, use the &lt;a
+    href=&quot;http://hplipopensource.com/&quot;&gt; HPLIP
+    driver&lt;/a&gt; (which includes HPIJS but works also together
+    with &quot;ljet4&quot;).&lt;p&gt;
+
+    Remember that the 5L is more like the LaserJet 4 family than the
+    LaserJet 5 family (as with most &quot;L&quot; printers from
+    HP). For example it does not work with the
+    &quot;lj5gray&quot; drivers but only with the
+    &quot;ljet4&quot; or &quot;lj4dith&quot; drivers (and
+    Gimp-Print or HPIJS).&lt;p&gt;
+
+    Getting more RAM is highly recommended; with only the standard
+    1Meg you may be unable to print some jobs. It is recommended to
+    stay at 300 dpi without extra memory, and on that resolution
+    &quot;ljet4&quot; is the better driver than HPIJS.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner ($50-60)&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

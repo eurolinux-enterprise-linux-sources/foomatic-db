@@ -1,0 +1,48 @@
+<printer id="printer/HP-LaserJet_3030">
+  <make>HP</make>
+  <model>LaserJet 3030</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://hp.com</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PJL,MLC,PCL,POSTSCRIPT,PCLXL</commandset>
+      <description>Hewlett-Packard LaserJet 3030</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 3030</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+    
+    For basic printing functionality use the Postscript PPD. 
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;
+    
+    </en>
+  </comments>
+</printer>

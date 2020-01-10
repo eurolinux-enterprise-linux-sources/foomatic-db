@@ -1,0 +1,18 @@
+<printer id="printer/Epson-LQ-850">
+  <make>Epson</make>
+  <model>LQ-850</model>
+  <mechanism>
+    <dotmatrix />
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>lq850</driver>
+  <comments>
+    <en>Gs driver works at 360dpi.</en>
+  </comments>
+</printer>

@@ -1,0 +1,27 @@
+<printer id="printer/Epson-EPL-7100">
+  <make>Epson</make>
+  <model>EPL-7100</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>laserjet</driver>
+  <comments>
+    <en>John Marbro reports that his 7100 work quite fine with the laserjet driver.
+&lt;p&gt;
+He's put together a PDQ driver declaration, or it ought to work fine when
+configured using any vendor's setup tools.</en>
+  </comments>
+</printer>

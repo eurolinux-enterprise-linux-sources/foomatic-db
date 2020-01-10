@@ -1,0 +1,48 @@
+<driver id="driver/cdj500">
+  <name>cdj500</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -r300x300 -sDEVICE=cdj500%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/Citizen-ProJet_IIc</id>
+    </printer>
+    <printer>
+      <id>printer/DEC-DECwriter_520ic</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_350C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_400</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_420C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_500C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_540</id>
+    </printer>
+    <printer>
+      <id>printer/Olivetti-JP350S</id>
+    </printer>
+    <printer>
+      <id>printer/Olivetti-JP470</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-DocuPrint_C11</id>
+      <comments>
+        <en>&quot;cdjcolor&quot; mentioned in the Notes
+is actually the (Aladdin) cdj500
+driver with a flag compiled in to
+force to 24 bit colour in the
+internal CMY map.</en>
+      </comments>
+    </printer>
+  </printers>
+</driver>

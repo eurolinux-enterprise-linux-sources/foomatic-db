@@ -1,0 +1,16 @@
+<printer id="printer/Xerox-WorkCentre_7335">
+  <make>Xerox</make>
+  <model>WorkCentre 7335</model>
+  <lang>
+    <postscript level="3" />
+  </lang>
+  <functionality>B</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+      Throughput = 26
+      
+      Foomatic entry made by PPDtoXML T/G 0.18 on 2008-05-25
+      </en>
+  </comments>
+</printer>

@@ -1,0 +1,28 @@
+<printer id="printer/Panasonic-KX-P2023">
+  <make>Panasonic</make>
+  <model>KX-P2023</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.panasonic.com/host/support/2023.htm</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epson</driver>
+  <comments>
+    <en>It will only print the left 2/3 of a page if you have
+the text printing mode set to 16cpi. Best results
+if you leave the poweron modes to default and make
+sure it is using the epson codeset.</en>
+  </comments>
+</printer>

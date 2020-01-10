@@ -1,0 +1,32 @@
+<printer id="printer/Star-LC24-200">
+  <make>Star</make>
+  <model>LC24-200</model>
+  <mechanism>
+    <dotmatrix />
+    <color />
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>epsonc</driver>
+  <comments>
+    <en>Partial report from Leonid Mamtchenko.
+&lt;br&gt;BW printing with Ghostscript works OK, although it's a bit blurry.
+&lt;br&gt;He hasn't tried color printing yet.
+&lt;br&gt;I don't know which gs device he's using.&lt;br&gt;
+&lt;p&gt; 
+Report from Dominik Mierzejewski  :&lt;br&gt;
+I've configured it using RedHat's Printtool and it seems
+to work perfectly, although I haven't tried my colour
+ribbon yet. Both Ghostscript and ascii printing is ok.
+The driver is listed as 'Epson Dot Matrix, 24 pin', which is
+probably 'epson' for GS.&lt;p&gt;
+
+      Consumables/Refills: ribbon&lt;p&gt;
+  </en>
+  </comments>
+</printer>

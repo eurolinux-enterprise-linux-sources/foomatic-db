@@ -1,0 +1,23 @@
+<printer id="printer/KONICA_MINOLTA-bizhub_750">
+  <make>KONICA MINOLTA</make>
+  <model>bizhub 750</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <url>http://kmbs.konicaminolta.us/</url>
+  <lang>
+    <postscript />
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript-KONICA_MINOLTA</driver>
+  <drivers>
+    <driver>
+      <id>Postscript-KONICA_MINOLTA</id>
+      <ppd>PPD/KONICA_MINOLTA/KO750UX.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+    </en>
+  </comments>
+</printer>

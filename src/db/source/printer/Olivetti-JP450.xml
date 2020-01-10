@@ -1,0 +1,22 @@
+<printer id="printer/Olivetti-JP450">
+  <make>Olivetti</make>
+  <model>JP450</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>djet500</driver>
+</printer>

@@ -1,0 +1,20 @@
+<printer id="printer/Apple-Color_StyleWriter_6500">
+  <make>Apple</make>
+  <model>Color StyleWriter 6500</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+       
+       Probably equivalent to the HP DeskJet 800.
+
+    </en>
+  </comments>
+</printer>

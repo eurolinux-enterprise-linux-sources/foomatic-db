@@ -1,0 +1,50 @@
+<printer id="printer/HP-OfficeJet_T65">
+  <make>HP</make>
+  <model>OfficeJet T65</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/eschome.html</url>
+  <lang>
+    <pcl level="3e" />
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Hewlett-Packard;MDL:OfficeJet T Series;CMD:MLC,PCL,PML;CLASS:PRINTER;DESCRIPTION:Hewlett-Packard OfficeJet T Series;</ieee1284>
+      <commandset>MLC,PCL,PML</commandset>
+      <description>Hewlett-Packard OfficeJet T Series</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>OfficeJet T Series</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+    Multifunction device (copier/scanner/fax/etc).&lt;p&gt;
+
+
+    You can also try the &quot;cdj...&quot; drivers,
+    &quot;gimp-print&quot;/&quot;stp&quot;, and &quot;pcl3&quot;, and
+    report your experience.&lt;p&gt;
+
+    For basic printing functionality use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPIJS driver &lt;/a&gt;. 
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;
+
+    Stand-alone copying should just work, it does not need the
+    PC.&lt;p&gt;
+
+   </en>
+  </comments>
+</printer>

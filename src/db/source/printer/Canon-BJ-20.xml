@@ -1,0 +1,24 @@
+<printer id="printer/Canon-BJ-20">
+  <make>Canon</make>
+  <model>BJ-20</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>bj10e</driver>
+  <comments>
+    <en>works with ghostscript as of v 5.10.</en>
+  </comments>
+</printer>

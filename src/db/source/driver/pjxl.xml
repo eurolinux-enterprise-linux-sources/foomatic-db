@@ -1,0 +1,14 @@
+<driver id="driver/pjxl">
+  <name>pjxl</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -r180x180 -sDEVICE=pjxl%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/HP-PaintJet_XL</id>
+    </printer>
+  </printers>
+</driver>

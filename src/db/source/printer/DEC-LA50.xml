@@ -1,0 +1,21 @@
+<printer id="printer/DEC-LA50">
+  <make>DEC</make>
+  <model>LA50</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>144</x>
+        <y>72</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>la50</driver>
+</printer>

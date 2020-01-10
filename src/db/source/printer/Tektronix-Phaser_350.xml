@@ -1,0 +1,25 @@
+<printer id="printer/Tektronix-Phaser_350">
+  <make>Tektronix</make>
+  <model>Phaser 350</model>
+  <mechanism>
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.officeprinting.xerox.com/products/Z350/sprt.html</url>
+  <lang>
+    <postscript level="2" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>This printer works well with CUPS. It is a Postscript printer.</en>
+  </comments>
+</printer>

@@ -1,0 +1,21 @@
+<printer id="printer/Apple-Dot_Matrix">
+  <make>Apple</make>
+  <model>Dot Matrix</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>120</x>
+        <y>72</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>appledmp</driver>
+</printer>

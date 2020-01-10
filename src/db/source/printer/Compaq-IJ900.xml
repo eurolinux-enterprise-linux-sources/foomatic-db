@@ -1,0 +1,32 @@
+<printer id="printer/Compaq-IJ900">
+  <make>Compaq</make>
+  <model>IJ900</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://athome.compaq.com/showroom/app/ps.asp?PN=&amp;CompPart=337713-001&amp;BaseID=&amp;PriceLevelID=18930&amp;AppID=18930&amp;url=http%3A%2F%2Fath</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>D</functionality>
+  <driver>lex5700</driver>
+  <comments>
+    <en>
+    This printer is reported to be a rebadged Lexmark 5700, working
+    with the appropriate drivers.&lt;p&gt;
+
+    The Compaq cartridges have a little plastic tab to make them
+    incompatible with Lexmark cartridges.  Otherwise they are the
+    same.  I think you can break off the tab and use the other brand?&lt;p&gt;
+
+      Consumables/Refills: color and black or photo cart.&lt;p&gt;
+    </en>
+  </comments>
+</printer>

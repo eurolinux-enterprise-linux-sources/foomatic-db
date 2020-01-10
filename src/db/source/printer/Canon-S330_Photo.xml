@@ -1,0 +1,21 @@
+<printer id="printer/Canon-S330_Photo">
+  <make>Canon</make>
+  <model>S330 Photo</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <functionality>B</functionality>
+  <driver>bj8XXYYZ.upp</driver>
+  <drivers>
+    <driver>
+      <id>bj8XXYYZ.upp</id>
+    </driver>
+  </drivers>
+</printer>

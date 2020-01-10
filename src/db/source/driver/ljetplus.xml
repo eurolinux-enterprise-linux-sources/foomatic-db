@@ -1,0 +1,100 @@
+<driver id="driver/ljetplus">
+  <name>ljetplus</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=ljetplus%A%Z -sOutputFile=-%C -f -</prototype>
+  </execution>
+  <comments>
+    <en>
+    PCL 4 driver.&lt;p&gt;
+
+    A Ghostscript bug in the driver breaks paper input tray
+    selection. This &lt;a
+    href=&quot;http://www.openprinting.org/download/printing/ghostscript-pcl-patches/inputslot.patch&quot;&gt;patch&lt;/a&gt;
+    for GPL Ghostscript 8.63 fixes the problem and allows to set the
+    input tray with the &quot;-dMediaPosition=X&quot; commmand line
+    option for Ghostscript. &quot;X&quot; is an integer number which
+    depends on the printer model and tray. For HP &quot;0&quot; is
+    usually the printer default, &quot;7&quot; automatic selection,
+    &quot;2&quot; manual feed, &quot;1&quot; the upper, and
+    &quot;4&quot; the lower tray. Note that for PCL 6/XL these numbers
+    are different. The patch is required for Ghostscript 8.63 and
+    older so that tray selection with the PPDs of this site works. The
+    bug is fixed in Ghostscript 8.64 or newer.&lt;p&gt;
+
+    </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Brother-HL-8</id>
+    </printer>
+    <printer>
+      <id>printer/Generic-PCL_4_Printer</id>
+    </printer>
+    <printer>
+      <id>printer/HP-LaserJet_Plus</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-1000</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-1010</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-1200</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-1200S</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-1800</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-2000</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-2010</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-2200</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-2200S</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-3000</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-3010</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-3300</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-5000</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-800</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-800T</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-F-820</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-P-2000</id>
+    </printer>
+    <printer>
+      <id>printer/Kyocera-P-2002</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-Winwriter_400</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-KX-P4450</id>
+    </printer>
+  </printers>
+</driver>

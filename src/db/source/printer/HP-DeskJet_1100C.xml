@@ -1,0 +1,52 @@
+<printer id="printer/HP-DeskJet_1100C">
+  <make>HP</make>
+  <model>DeskJet 1100C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/prodhome/dj1100.html</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+    Wide carriage (A3, 13x19 inches) printer similar to the DeskJet
+    850C&lt;p&gt;
+
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    David Suffield, developer of HPIJS at HP, said about
+    the HPIJS 1.1 driver:&lt;p&gt;
+
+    &lt;i&gt;HPLIP (set up as for the DeskJet 600 series)
+    works for the Deskjet 850 series, much better than Gimp-Print, but
+    color was not as good as with &quot;cdj850&quot;. Some people may
+    prefer &quot;cdj850&quot; for color, others may prefer
+    HPLIP for the speed.&lt;/i&gt;&lt;p&gt;
+
+    The &quot;cdj850&quot; driver is included with Ghostscript as of
+    Ghostscript version 6.0.&lt;p&gt;
+
+    Printhead alignment is not supported.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,22 @@
+<printer id="printer/QMS-2425_Turbo_EX">
+  <make>QMS</make>
+  <model>2425 Turbo EX</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.qms.com/products/monochrome/2425/2425turboex.html</url>
+  <lang>
+    <postscript level="2" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+</printer>

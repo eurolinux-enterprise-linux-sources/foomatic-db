@@ -1,0 +1,26 @@
+<printer id="printer/Lexmark-7000">
+  <make>Lexmark</make>
+  <model>7000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/printers/7000.html</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>D</functionality>
+  <driver>lex7000</driver>
+  <comments>
+    <en>600 dpi printing seems to work with 
+Henryk's new driver&lt;p&gt;
+
+      Consumables/Refills: dual cartridges&lt;p&gt;</en>
+  </comments>
+</printer>

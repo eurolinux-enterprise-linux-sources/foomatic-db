@@ -1,0 +1,38 @@
+<printer id="printer/Brother-HL-630">
+  <make>Brother</make>
+  <model>HL-630</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.brother.com/us-printer/info/br_630.html</url>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ljet2p</driver>
+  <comments>
+    <en>Reported as working perfectly by gjames.
+&lt;br&gt;0.5MB memory std; may need more to print beyond 150dpi.
+&lt;br&gt;The model 631 appears to be the same, but with 1.0M RAM.&lt;p&gt;
+
+    Brother publishes proprietary Linux drivers for CUPS and LPD for
+    most of their laser printers and multi-function devices, including
+    SANE drivers for the scanners. They can be downloaded free of
+    charge on their &lt;a
+    href=&quot;http://solutions.brother.com/linux/en_us/&quot;&gt;Linux driver
+    page&lt;/a&gt;.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: cartridge and drum&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

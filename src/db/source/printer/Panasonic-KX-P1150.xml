@@ -1,0 +1,27 @@
+<printer id="printer/Panasonic-KX-P1150">
+  <make>Panasonic</make>
+  <model>KX-P1150</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>240</x>
+        <y>216</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.panasonic.com/office/printer/kxp1150.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>eps9high</driver>
+  <comments>
+    <en>9 pin printer; try various eps9* drivers.&lt;p&gt;
+
+      Consumables/Refills: ribbon&lt;p&gt;</en>
+  </comments>
+</printer>

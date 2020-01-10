@@ -1,0 +1,42 @@
+<printer id="printer/HP-Color_LaserJet_5000">
+  <make>HP</make>
+  <model>Color LaserJet 5000</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="?" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+    ...the model with no PostScript cartridge.&lt;p&gt;
+
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    Someone should try also the &quot;pxlcolor&quot; or
+    &quot;cljet5&quot; drivers.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 4 separate Toner containers&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

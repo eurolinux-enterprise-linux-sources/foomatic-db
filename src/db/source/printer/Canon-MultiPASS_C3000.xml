@@ -1,0 +1,24 @@
+<printer id="printer/Canon-MultiPASS_C3000">
+  <make>Canon</make>
+  <model>MultiPASS C3000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>D</functionality>
+  <driver>bjc600</driver>
+  <comments>
+    <en>Actually, I used the bjc610 uniprint driver
+setting from RedHat's printtool.
+&lt;br&gt;This multifunction machine ignored me until
+I gave it this magic invocation from 
+the front panel:
+&quot;Function&quot; &quot;0&quot; five-greater-than-signs &quot;Start&quot; &quot;Start&quot;
+(Which corresponds to DOS Printing ON)&lt;p&gt;
+
+      Consumables/Refills: cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

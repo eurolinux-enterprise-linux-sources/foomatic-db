@@ -1,0 +1,47 @@
+<printer id="printer/HP-LaserJet_3200se">
+  <make>HP</make>
+  <model>LaserJet 3200se</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="5/6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>pxlmono</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+    Multifunction printer-scanner-fax-copier. Printing and
+    scanning work, faxing from the PC not.&lt;p&gt;
+
+    For basic printing functionality use the Postscript PPD. 
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;
+
+    Stand-alone copying should just work, it does not need the
+    PC.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: refill cartridge ~60 USD&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

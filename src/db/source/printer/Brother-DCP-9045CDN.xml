@@ -1,0 +1,48 @@
+<printer id="printer/Brother-DCP-9045CDN">
+  <make>Brother</make>
+  <model>DCP-9045CDN</model>
+  <mechanism>
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Brother;MDL:Brother DCP-9045CDN;</ieee1284>
+      <manufacturer>Brother</manufacturer>
+      <model>Brother DCP-9045CDN</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Brother</driver>
+  <drivers>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Brother</id>
+      <ppd>PPD/Brother/BR9045_2_GPL.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      This database entry was automatically generated
+      from the PPD file for this printer.&lt;p&gt;
+
+      Maximum paper width: 8.7 inches / 22.0 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 20 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,50 @@
+<printer id="printer/HP-LaserJet_P3004">
+  <make>HP</make>
+  <model>LaserJet P3004</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PJL,MLC,BIDI-ECP,PCL,POSTSCRIP</commandset>
+      <description>Hewlett-Packard LaserJet P3004 Series</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet P3004 Series</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+    For basic printing functionality use the Postscript PPD. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+  PCL 5e and 6 with Postscript 2 emulation, out of the box, parallel and
+USB connection,  250-sheet tray built-in, extra 250-sheet tray available.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

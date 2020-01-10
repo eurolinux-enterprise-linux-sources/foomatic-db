@@ -1,0 +1,27 @@
+<printer id="printer/Lexmark-Valuewriter_300">
+  <make>Lexmark</make>
+  <model>Valuewriter 300</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ljet2p</driver>
+  <comments>
+    <en>Reported to work well as a laserjet II on Usenet.&lt;p&gt;
+
+      Consumables/Refills: cartridge&lt;p&gt;
+ </en>
+  </comments>
+</printer>

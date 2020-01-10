@@ -1,0 +1,16 @@
+<printer id="printer/Xerox-WorkCentre_XD120f">
+  <make>Xerox</make>
+  <model>WorkCentre XD120f</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>Another WinPrinter&lt;p&gt;
+
+      Consumables/Refills: toner&lt;p&gt;</en>
+  </comments>
+</printer>

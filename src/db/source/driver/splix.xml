@@ -1,0 +1,373 @@
+<driver id="driver/splix">
+  <name>splix</name>
+  <url>http://splix.ap2c.org/</url>
+  <supplier>SpliX project</supplier>
+  <thirdpartysupplied />
+  <license>GPL</license>
+  <licensetext>
+    <en>
+   
+   Principally, this driver is free software under the GPL, but take
+   note on the following restriction:
+
+   For some of the printers which this driver supports (Currently
+   Samsung CLP-200, CLP-300, CLP-600, CLX-216x, CLX-2170, CLX-3160,
+   Xerox Phaser 6110), it uses a JBIG software module for data
+   compression.
+
+   It is possible that certain products which can be built using the
+   JBIG software module might form inventions protected by patent
+   rights in some countries (e.g., by patents about arithmetic coding
+   algorithms owned by IBM and AT&amp;T in the USA). Provision of this
+   software by the original author and OpenPrinting does NOT include
+   any licences for any patents. In those countries where a patent
+   licence is required for certain applications of this software
+   module, you will have to obtain such a licence yourself.
+
+   The driver can be built without the JBIG module, but then it will
+   not support the above-mentioned printer models any more.
+
+   Only versions 1.1.x and newer are affected. The older versions
+   1.0.x do not use the JBIG software for all supported
+   printers.
+
+   Additional note: The patent will expire on April 4, 2012. From then
+   on, there are no patents on the JBIG compression algorithm anu
+   more.
+
+  </en>
+  </licensetext>
+  <patents />
+  <supportcontacts>
+    <supportcontact url="http://sourceforge.net/forum/?group_id=175815" level="voluntary">SpliX forum at SourceForge</supportcontact>
+  </supportcontacts>
+  <shortdescription>
+    <en>
+   Driver for Samsung SPL2 (ML-1710, ...) and SPLc (CLP-500, ...) laser
+   printers
+  </en>
+  </shortdescription>
+  <packages>
+    <package scope="general" fingerprint="https://www.openprinting.org/download/printdriver/keys/openprinting">*splix*</package>
+  </packages>
+  <functionality>
+    <maxresx>1200</maxresx>
+    <maxresy>1200</maxresy>
+    <color />
+    <text>100</text>
+    <lineart>100</lineart>
+    <graphics>100</graphics>
+    <photo>80</photo>
+  </functionality>
+  <execution>
+    <cups />
+  </execution>
+  <comments>
+    <en>
+
+    SpliX is a set of CUPS printer drivers for SPL (Samsung Printer
+    Language) printers. If you have such a printer, you need to
+    download and use SpliX. Moreover you will find documentation
+    about this proprietary language.&lt;p&gt;
+
+    Note that only SPL2 (monochrome) and SPLc (color) printers are
+    currently supported! However we are looking for people who have an
+    SPL 1 printer to implement this SPL version as soon as
+    possible.&lt;p&gt;
+
+    Not all SPL2 and SPLc printers are tested with this driver. Please
+    report your experience here.&lt;p&gt;
+
+    As the PPD files are contained in the driver package we will not
+    provide PPD files here on OpenPrinting.&lt;p&gt;
+
+    &lt;b&gt;Important:&lt;/b&gt; For color printers SpliX needs color
+    profiles from the printer's manufacturer, otherwise it will refuse
+    to print. Please see the instructions in the INSTALL file of the
+    driver's source package. Alternatively, you can use the &quot;&lt;a
+    href=&quot;/driver/foo2qpdl&quot;&gt;foo2qpdl&lt;/a&gt;&quot; driver for the
+    color printers. That driver also prints without installed color
+    profiles.&lt;p&gt;
+
+    This driver is a pure printer driver. The scanning functionality
+    of multi-function devices is not supported.&lt;p&gt;
+
+    Note that the original author of the driver, Aurelien Croc, doe
+    not have time any more to do further development and maintenance
+    on the driver.  Currently user-supplied patches and fixes are
+    applied by Till Kamppeter to the Subversion repository of the
+    driver and there were no releases and web site updates in the last
+    two years. If you are packaging the driver for a Linux
+    distribution, it is highly recommended to use a Subversion
+    snapshot and not the 2.0.0 release.&lt;p&gt;
+
+  </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Dell-1100</id>
+    </printer>
+    <printer>
+      <id>printer/Dell-1110</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLP-200</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLP-300</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLP-310</id>
+      <comments>
+        <en>
+
+	  Works with the SpliX PPD file for the CLP-300. Color output
+	  better than with foo2qpdl. Use the SpliX package here from
+	  OpenPrinting and not the one coming with your distribution,
+	  as this printer uses potentially patented algorithms which
+	  are not shipped in the distribution's packages.
+
+	</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLP-315</id>
+      <comments>
+        <en>
+
+	  Works with the SpliX PPD file for the CLP-300. Color output
+	  better than with foo2qpdl. Use the SpliX package here from
+	  OpenPrinting and not the one coming with your distribution,
+	  as this printer uses potentially patented algorithms which
+	  are not shipped in the distribution's packages.
+
+	</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLP-500</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLP-510</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLP-550</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLP-600</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLX-2160</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLX-2170</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-CLX-3160</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1510</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1520</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1610</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1630</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1640</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1710</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1740</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-1750</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2010</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2150</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2250</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2251</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2510</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2550</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2570</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-2571</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-3050</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-ML-3560</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-SCX-4200</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Samsung-SCX-4500</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3115</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3116</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3117</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3120</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3121</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3122</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3130</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3150</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3160</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3420</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_3425</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_5500</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_6100</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-Phaser_6110</id>
+    </printer>
+    <printer>
+      <id>printer/Xerox-WorkCentre_3119</id>
+      <functionality>
+        <monochrome />
+      </functionality>
+    </printer>
+  </printers>
+</driver>

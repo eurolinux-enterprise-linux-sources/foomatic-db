@@ -1,0 +1,29 @@
+<printer id="printer/Alps-MD-1300">
+  <make>Alps</make>
+  <model>MD-1300</model>
+  <mechanism>
+    <transfer />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.alpsusa.com/Product/MDP/index.htm</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>ppmtomd</driver>
+  <comments>
+    <en>
+
+    J.C. Bradfield (jcb@dcs.ed.ac.uk) has written a fully functional
+    driver which converts PPM files. He started hacking ghostscript, but
+    abandoned it.
+
+    </en>
+  </comments>
+</printer>

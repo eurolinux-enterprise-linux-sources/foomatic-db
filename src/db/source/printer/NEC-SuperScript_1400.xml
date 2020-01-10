@@ -1,0 +1,25 @@
+<printer id="printer/NEC-SuperScript_1400">
+  <make>NEC</make>
+  <model>SuperScript 1400</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="5e" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>
+    </en>
+  </comments>
+</printer>

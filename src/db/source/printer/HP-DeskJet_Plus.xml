@@ -1,0 +1,37 @@
+<printer id="printer/HP-DeskJet_Plus">
+  <make>HP</make>
+  <model>DeskJet Plus</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>pcl3</driver>
+  <comments>
+    <en>
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    This printer is functionally equivalent to the normal HP DeskJet,
+    except for the optional font cartridges (I think) (which
+    don't add anything, but also don't hurt anything). Mine
+    works.
+
+    </en>
+  </comments>
+</printer>

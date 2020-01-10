@@ -1,0 +1,42 @@
+<driver id="driver/slap">
+  <name>slap</name>
+  <url>http://members.tripod.com/~uutil/slap/</url>
+  <thirdpartysupplied />
+  <execution>
+    <filter />
+  </execution>
+  <comments>
+    <en>For this driver foomatic configuration files cannot be generated because the
+driver only supports text printing, no bitmap graphics, and so it is not
+possible to print PostScript files.</en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Seiko-SLP</id>
+    </printer>
+    <printer>
+      <id>printer/Seiko-SLP-100</id>
+    </printer>
+    <printer>
+      <id>printer/Seiko-SLP-200</id>
+    </printer>
+    <printer>
+      <id>printer/Seiko-SLP-240</id>
+    </printer>
+    <printer>
+      <id>printer/Seiko-SLP_120</id>
+    </printer>
+    <printer>
+      <id>printer/Seiko-SLP_220</id>
+    </printer>
+    <printer>
+      <id>printer/Seiko-SLP_EZ30</id>
+    </printer>
+    <printer>
+      <id>printer/Seiko-SLP_Plus</id>
+    </printer>
+    <printer>
+      <id>printer/Seiko-SLP_Pro</id>
+    </printer>
+  </printers>
+</driver>

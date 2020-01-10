@@ -1,0 +1,25 @@
+<printer id="printer/Minolta-PagePro_1200W">
+  <make>Minolta</make>
+  <model>PagePro 1200W</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>min12xxw</driver>
+  <comments>
+    <en>
+
+     Low cost laser. Does not understand PCL or PostScript.
+
+    </en>
+  </comments>
+</printer>

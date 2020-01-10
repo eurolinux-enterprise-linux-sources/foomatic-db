@@ -1,0 +1,35 @@
+<printer id="printer/Samsung-ML-5050G">
+  <make>Samsung</make>
+  <model>ML-5050G</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.samsungelectronics.com</url>
+  <lang>
+    <pcl level="5" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>This printer though designed to 
+be a Windows 95 printer can be tweeked to function usgin HP4 or HP5 PCL drivers under Linux
+
+(Addendum: Samsung is using a &quot;high
+speed printing&quot; protocol. Tweeking
+this takes more than just tunelp.)
+[ Ed: One fellow swears that it works, and two fellows can't get it going for the life of them.  Samsung appears to have sold exactly three of these; there are no reports on Usenet etc.  Caveat emptor! ]
+(Ad: the original fellow did not actualy use the pinter, He's a former Samsung employee who thought the printer was an OEM HP3 Laser.)
+ ***This printer has Windows-Only PCL 
+&quot;emulation&quot; in the Windows driver. No hardware PCL support at all.&lt;p&gt;
+
+      Consumables/Refills: ML+5000/XAR (from tigerdirect.com)&lt;p&gt;  </en>
+  </comments>
+</printer>

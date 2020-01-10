@@ -1,0 +1,46 @@
+<printer id="printer/HP-DeskJet_1000C">
+  <make>HP</make>
+  <model>DeskJet 1000C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.pandi.hp.com:80/pandi-db/prod_info.show?model=C2670A&amp;name=DeskJet1000Cse</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:HEWLETT-PACKARD;MDL:DESKJET 1000C;CMD:SCP,VLINK;CLASS:PRINTER;DESCRIPTION:Hewlett-Packard DeskJet 1000C;</ieee1284>
+      <commandset>SCP,VLINK</commandset>
+      <description>Hewlett-Packard DeskJet 1000C</description>
+      <manufacturer>HEWLETT-PACKARD</manufacturer>
+      <model>DESKJET 1000C</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>pnm2ppa</driver>
+  <comments>
+    <en>
+    
+    Works in black/white and color.&lt;p&gt;
+
+    11x17 format printer.&lt;p&gt;
+
+    Variants: Cse, Cxi.&lt;p&gt;
+
+    Various options for pnm2ppa are available.&lt;p&gt;
+
+    Make sure that you have at least version 1.0.4
+    of pnm2ppa so that 11x17 paper is supported.&lt;p&gt;
+
+      Consumables/Refills: cartridge&lt;p&gt;
+    </en>
+  </comments>
+</printer>

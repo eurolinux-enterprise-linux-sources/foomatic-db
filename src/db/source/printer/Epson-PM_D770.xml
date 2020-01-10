@@ -1,0 +1,33 @@
+<printer id="printer/Epson-PM_D770">
+  <make>Epson</make>
+  <model>PM D770</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>5760</x>
+        <y>1440</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Japanese equivalent of R200/R300.&lt;p&gt;
+
+    6-color CMYKcm printing.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 6 separately exchangeable ink cartridges&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

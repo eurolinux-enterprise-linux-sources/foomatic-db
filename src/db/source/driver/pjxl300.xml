@@ -1,0 +1,20 @@
+<driver id="driver/pjxl300">
+  <name>pjxl300</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -r300x300 -sDEVICE=pjxl300%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/HP-DeskJet_1200C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PaintJet_XL300</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PhotoSmart_P100</id>
+    </printer>
+  </printers>
+</driver>

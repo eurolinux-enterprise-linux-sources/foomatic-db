@@ -1,0 +1,22 @@
+<printer id="printer/QMS-magicolor_2plus">
+  <make>QMS</make>
+  <model>magicolor 2+</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>2400</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+</printer>

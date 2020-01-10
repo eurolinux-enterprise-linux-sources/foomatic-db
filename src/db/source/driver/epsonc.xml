@@ -1,0 +1,56 @@
+<driver id="driver/epsonc">
+  <name>epsonc</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=epsonc%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/Brother-MFC-9100c</id>
+      <comments>
+        <en>Won't do color. Some resolutions don't keep proper aspect.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Brother-MFC_7150C</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-Dot_Matrix</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-LQ-24</id>
+    </printer>
+    <printer>
+      <id>printer/Epson-LQ-2550</id>
+    </printer>
+    <printer>
+      <id>printer/Fujitsu-1200</id>
+    </printer>
+    <printer>
+      <id>printer/Fujitsu-2400</id>
+    </printer>
+    <printer>
+      <id>printer/Fujitsu-3400</id>
+    </printer>
+    <printer>
+      <id>printer/Generic-ESC_P_Dot_Matrix_Printer</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-PinWriter_P6</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-PinWriter_P6_plus</id>
+    </printer>
+    <printer>
+      <id>printer/Panasonic-KX-P2135</id>
+    </printer>
+    <printer>
+      <id>printer/Star-LC24-200</id>
+      <comments>
+        <en>Probably this is the correct driver for colour printing.</en>
+      </comments>
+    </printer>
+  </printers>
+</driver>

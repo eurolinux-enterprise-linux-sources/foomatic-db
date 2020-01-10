@@ -1,0 +1,38 @@
+<printer id="printer/Oki-Okipage_4wplus">
+  <make>Oki</make>
+  <model>Okipage 4w+</model>
+  <mechanism>
+    <led />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>HIPERWINDOWS,OPEL</commandset>
+      <description>OKI</description>
+      <manufacturer>OKI</manufacturer>
+      <model>OKI</model>
+    </parallel>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>oki4w</driver>
+  <comments>
+    <en>
+
+    The oki4w driver package drives this printer properly.&lt;p&gt;
+
+      Consumables/Refills: replacement only 5210/6201 $49.00Cdn&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

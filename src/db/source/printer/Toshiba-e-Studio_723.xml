@@ -1,0 +1,22 @@
+<printer id="printer/Toshiba-e-Studio_723">
+  <make>Toshiba</make>
+  <model>e-Studio 723</model>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+  </lang>
+  <functionality>B</functionality>
+  <driver>pxlmono</driver>
+  <drivers>
+    <driver>
+      <id>pxlmono</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      Throughput = 72
+      
+      Foomatic entry made by PPDtoXML T/G 0.19 on 2008-08-07
+      </en>
+  </comments>
+</printer>

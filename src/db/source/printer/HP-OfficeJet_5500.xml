@@ -1,0 +1,41 @@
+<printer id="printer/HP-OfficeJet_5500">
+  <make>HP</make>
+  <model>OfficeJet 5500</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://h10010.www1.hp.com/wwpc/us/en/en/WF05a/18972-238444-236260-12019-236260-311254.html</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+    Multi-function device: Printer, scanner, copier, fax. Standard model
+    and &quot;xi&quot; model have different fax page memory sizes and zoom factor
+    ranges for copying.&lt;p&gt;
+
+
+    For basic printing functionality use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPIJS driver &lt;/a&gt;. 
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 2 cartridges (1 black, 1 color)&lt;p&gt;
+    </en>
+  </comments>
+</printer>

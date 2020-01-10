@@ -1,0 +1,15 @@
+<printer id="printer/Brother-MP-21C">
+  <make>Brother</make>
+  <model>MP-21C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>A PCMCIA-interface inkjet; not known to work.</en>
+  </comments>
+</printer>

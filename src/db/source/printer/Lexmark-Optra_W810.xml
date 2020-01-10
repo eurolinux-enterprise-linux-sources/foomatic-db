@@ -1,0 +1,28 @@
+<printer id="printer/Lexmark-Optra_W810">
+  <make>Lexmark</make>
+  <model>Optra W810</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/printers/laser/Optra/W810.html</url>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <contrib_url>http://www.lexmark.com/software/unix.html</contrib_url>
+  <comments>
+    <en>This is a mid-range 35ppm A3 printer with finishing capabilities. Most likely this printer will be configured with an integrated network card. 
+&lt;br&gt;
+All Lexmark MarkNet network cards support LPR/LPD network printing in addition to printing to port 9100.&lt;p&gt;
+
+      Consumables/Refills: Toner, Photoconductor;Toner=~US$131/20k pgs,Photo.=~US$443/90k p&lt;p&gt;</en>
+  </comments>
+</printer>

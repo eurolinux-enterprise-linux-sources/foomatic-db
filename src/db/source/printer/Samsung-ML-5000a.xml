@@ -1,0 +1,25 @@
+<printer id="printer/Samsung-ML-5000a">
+  <make>Samsung</make>
+  <model>ML-5000a</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.samsung.de</url>
+  <lang>
+    <pcl level="5e" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>This printer is a true PCL printer(level 5e). with ljet4 drivers prints excellent</en>
+  </comments>
+</printer>

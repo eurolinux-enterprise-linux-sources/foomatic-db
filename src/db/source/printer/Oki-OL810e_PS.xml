@@ -1,0 +1,26 @@
+<printer id="printer/Oki-OL810e_PS">
+  <make>Oki</make>
+  <model>OL810e/PS</model>
+  <mechanism>
+    <led />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cs.okidata.com/cs.nsf/LookUp+Get/OL810e-PS?OpenDocument</url>
+  <lang>
+    <postscript level="2" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Also speaks PCL 5e.
+&lt;br&gt;PCL-only model 810e should work with ljet4 gs driver.</en>
+  </comments>
+</printer>

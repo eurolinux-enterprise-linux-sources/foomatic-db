@@ -1,0 +1,23 @@
+<printer id="printer/Lexmark-Optra_Se_3455">
+  <make>Lexmark</make>
+  <model>Optra Se 3455</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.Lexmark.com</url>
+  <lang>
+    <postscript level="3" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+</printer>

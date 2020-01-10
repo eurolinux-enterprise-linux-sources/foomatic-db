@@ -1,0 +1,21 @@
+<printer id="printer/Epson-LP-xx00">
+  <make>Epson</make>
+  <model>LP-xx00</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>escpage</driver>
+  <comments>
+    <en>Imported from old Red Hat japanese printer database</en>
+  </comments>
+</printer>

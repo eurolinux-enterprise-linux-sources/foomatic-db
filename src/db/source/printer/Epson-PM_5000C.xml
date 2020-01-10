@@ -1,0 +1,31 @@
+<printer id="printer/Epson-PM_5000C">
+  <make>Epson</make>
+  <model>PM 5000C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1440</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Japanese version of the Epson Stylus Pro 5000.&lt;p&gt;
+
+    Working in gimp-print 4.1.8.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

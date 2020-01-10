@@ -1,0 +1,36 @@
+<printer id="printer/Canon-BJC-4300">
+  <make>Canon</make>
+  <model>BJC-4300</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>BJ,LQ,BJL,BJRaster,BSCC</commandset>
+      <description>Canon BJC-4300</description>
+      <manufacturer>Canon</manufacturer>
+      <model>BJC-4300</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>Cartridge loading and alignment can be done from front panel; consult your manual.
+&lt;br&gt;May require a recent (5+) of ghostscript.&lt;p&gt;
+
+      Consumables/Refills: cartridge with head, or removable ink tanks&lt;p&gt;</en>
+  </comments>
+</printer>

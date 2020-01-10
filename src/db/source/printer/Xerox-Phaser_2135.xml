@@ -1,0 +1,64 @@
+<printer id="printer/Xerox-Phaser_2135">
+  <make>Xerox</make>
+  <model>Phaser 2135</model>
+  <lang>
+    <postscript level="3" />
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Xerox;CMD:PCL,POSTSCRIPT,PJL;MDL:Xerox Phaser 2135;CLS:PRINTER;DES:Xerox Phaser 2135 Network Color Printer</ieee1284>
+      <commandset>PCL,POSTSCRIPT,PJL</commandset>
+      <description>Xerox Phaser 2135 Network Color Printer</description>
+      <manufacturer>Xerox</manufacturer>
+      <model>Xerox Phaser 2135</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>Postscript-Xerox</driver>
+  <drivers>
+    <driver>
+      <id>gutenprint</id>
+    </driver>
+    <driver>
+      <id>hpijs-pcl5e</id>
+    </driver>
+    <driver>
+      <id>lj4dith</id>
+    </driver>
+    <driver>
+      <id>ljet4</id>
+    </driver>
+    <driver>
+      <id>ljet4d</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Xerox</id>
+      <ppd>PPD/Xerox/xrx2135.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      Throughput = 12
+      
+      Foomatic entry made by PPDtoXML T/G 0.18 on 2008-05-21
+      
+      &lt;p&gt;
+
+      Maximum paper width: 12.9 inches / 32.8 cm
+      (Wide format printer)&lt;p&gt;
+
+      Printing engine speed: 12 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

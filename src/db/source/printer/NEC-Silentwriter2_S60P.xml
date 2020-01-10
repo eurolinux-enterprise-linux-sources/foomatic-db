@@ -1,0 +1,31 @@
+<printer id="printer/NEC-Silentwriter2_S60P">
+  <make>NEC</make>
+  <model>Silentwriter2 S60P</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="1" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>There is almost nothing that will
+stop this printer.  I got mine several years ago
+from an office upgrade; it was already ancient at
+that time.  But, as a Postscript printer, it 
+works great with Linux.  But of course it is 
+very slow.  It also emulates the HP LaserJet II.&lt;p&gt;
+
+      Consumables/Refills: Toner&lt;p&gt;</en>
+  </comments>
+</printer>

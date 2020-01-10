@@ -1,0 +1,21 @@
+<printer id="printer/Xerox-2700_XES">
+  <make>Xerox</make>
+  <model>2700 XES</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>xes</driver>
+</printer>

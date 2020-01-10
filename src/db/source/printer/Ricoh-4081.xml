@@ -1,0 +1,15 @@
+<printer id="printer/Ricoh-4081">
+  <make>Ricoh</make>
+  <model>4081</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>r4081</driver>
+</printer>

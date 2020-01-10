@@ -1,0 +1,29 @@
+<printer id="printer/Canon-BJC-255SP">
+  <make>Canon</make>
+  <model>BJC-255SP</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>bjc250gs</driver>
+  <comments>
+    <en>
+    Seems to be more or less the same as the Canon BJC-250.&lt;p&gt;
+
+      Consumables/Refills: black cartridge and color cartridge&lt;p&gt;
+    </en>
+  </comments>
+</printer>

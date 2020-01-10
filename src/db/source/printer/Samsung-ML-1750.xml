@@ -1,0 +1,46 @@
+<printer id="printer/Samsung-ML-1750">
+  <make>Samsung</make>
+  <model>ML-1750</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>splix</driver>
+  <comments>
+    <en>
+
+    Cheap and compact PCL-6/XL laser printer with fully integrated
+    horizontal paper tray.&lt;p&gt;
+
+    Currently Samsung supports this printer with proprietary drivers
+    which come with the printer on its driver CD or can be downloaded
+    on the web sites of Samsung. Unfortunately, these drivers do not
+    work necessarily with all Linux distributions. You will therefore
+    probably get it more easily working by using standard PCL drivers
+    as &quot;pxlmono&quot;, &quot;ljet4&quot;, or &quot;hpijs-pcl5e&quot;. Also the free software drivers
+    for Samasung's proprietary languages, &quot;splix&quot; and &quot;gdi&quot;
+    work.&lt;p&gt;
+
+    &lt;a href=&quot;https://launchpad.net/bugs/70425&quot;&gt;&quot;pxlmono&quot;
+    (PCL-6/XL) leads sometimes to problems&lt;/a&gt;, therefore we
+    recommend &quot;splix&quot; (Sansung's own language) or one of &quot;hpijs-pcl5e&quot; or
+    &quot;ljet4&quot; (PCL 5e drivers) for this printer.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner and drum in one unit&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

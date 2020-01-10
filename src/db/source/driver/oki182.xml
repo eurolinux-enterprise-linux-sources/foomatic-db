@@ -1,0 +1,17 @@
+<driver id="driver/oki182">
+  <name>oki182</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=oki182%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/Oki-Microline_182</id>
+    </printer>
+    <printer>
+      <id>printer/Oki-Microline_192plus</id>
+    </printer>
+  </printers>
+</driver>

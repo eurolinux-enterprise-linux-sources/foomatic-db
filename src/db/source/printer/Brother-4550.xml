@@ -1,0 +1,34 @@
+<printer id="printer/Brother-4550">
+  <make>Brother</make>
+  <model>4550</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.brother.com/usa/fax/info/mfc4550/mfc4550_ove.html</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>I don't know the answers to most of
+the questions here . . . I just thought this printer should be 
+in the list, if only to say &quot;unsupported&quot;&lt;p&gt;
+
+    Brother publishes proprietary Linux drivers for CUPS and LPD for
+    most of their laser printers and multi-function devices, including
+    SANE drivers for the scanners. They can be downloaded free of
+    charge on their &lt;a
+    href=&quot;http://solutions.brother.com/linux/en_us/&quot;&gt;Linux driver
+    page&lt;/a&gt;.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: toner&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

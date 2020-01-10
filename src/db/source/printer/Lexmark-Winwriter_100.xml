@@ -1,0 +1,14 @@
+<printer id="printer/Lexmark-Winwriter_100">
+  <make>Lexmark</make>
+  <model>Winwriter 100</model>
+  <mechanism>
+    <inkjet />
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>F</functionality>
+</printer>

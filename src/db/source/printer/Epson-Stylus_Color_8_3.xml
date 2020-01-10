@@ -1,0 +1,30 @@
+<printer id="printer/Epson-Stylus_Color_8_3">
+  <make>Epson</make>
+  <model>Stylus Color 8 3</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2880</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://support.epson.com/hardware/printer/inkjet/sc8q__/index.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Works perfectly with Gimp-Print 4.2.x.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

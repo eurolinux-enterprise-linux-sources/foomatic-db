@@ -1,0 +1,47 @@
+<printer id="printer/HP-LaserJet_M1005_MFP">
+  <make>HP</make>
+  <model>LaserJet M1005 MFP</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+        <unit>mm</unit>
+        <relative />
+        <top>4</top>
+        <left>4</left>
+        <right>4</right>
+        <bottom>4</bottom>
+      </general>
+    </margins>
+  </mechanism>
+  <url>http://h20015.www2.hp.com/en/document.jhtml?lc=en&amp;docName=bpl12705</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <autodetect>
+    <parallel>
+      <ieee1284>MFG:Hewlett-Packard;MDL:HP LaserJet M1005;CMD:ACL;CLS:PRINTER;DES:HP LaserJet M1005;FWVER:20060721;</ieee1284>
+      <commandset>ACL</commandset>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet M1005</model>
+    </parallel>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>foo2xqx</driver>
+  <comments>
+    <en>
+
+    This printer is supported by the foo2xqx free software printer driver.
+    &lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Cartridge containing toner and imaging drum&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

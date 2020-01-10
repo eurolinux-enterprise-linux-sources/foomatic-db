@@ -1,0 +1,64 @@
+<printer id="printer/Samsung-ML-1510">
+  <make>Samsung</make>
+  <model>ML-1510</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>GDI</commandset>
+      <manufacturer>Samsung</manufacturer>
+      <model>ML-1510_700</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>splix</driver>
+  <comments>
+    <en>
+
+    Very cheap and compact laser printer with fully integrated
+    horizontal paper tray.&lt;p&gt;
+
+    Currently Samsung supports this printer with proprietary drivers which
+    come with the printer on its driver CD or can be downloaded on the web
+    sites of Samsung. Unfortunately, these drivers do not work necessarily
+    with all Linux distributions.&lt;p&gt;
+
+    As nearly all of Samsung's low-cost lasers use the same
+    proprietary printer language (during the time it eas called
+    SmartGDI, PrinThru, and SPL) on can also use a free Ghostscript
+    driver which Samsung published some time ago for the
+    ML-4500.&lt;p&gt;
+
+    They provided a Ghostscript RPM and an installer that adjusts Red
+    Hat's printtool or printconf-gui. There was also a PPD for
+    distros using CUPS (as Mandrake 7.2 or newer) and a possibility to
+    integrate the driver in SuSE's APS filters. For users of
+    other distributions/printing systems (especially the current
+    CUPS/Foomatic environments) appropriate Foomatic information is
+    provided here in the &quot;gdi&quot; driver entry.&lt;p&gt;
+
+    Stupidly, Samsung has named the driver &quot;gdi&quot;. This name
+    is confusing, because the driver supports only Samsungs GDI
+    printers. SuSE has called it &quot;samsunggdi&quot;, in ESP Ghostscript both
+    names can be used.&lt;p&gt;
+
+    The driver was removed from Samsung's website but a copy with
+    some improvements is available &lt;a
+    href=&quot;/download/printing/samsung-gdi/&quot;&gt;here&lt;/a&gt;. Also
+    ESP Ghostscript contains this driver.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner and drum in one unit&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

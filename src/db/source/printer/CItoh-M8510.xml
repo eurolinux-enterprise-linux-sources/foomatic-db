@@ -1,0 +1,24 @@
+<printer id="printer/CItoh-M8510">
+  <make>CItoh</make>
+  <model>M8510</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>100</x>
+        <y>100</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>m8510</driver>
+  <comments>
+    <en>Special-purpose gs driver; should work fine.</en>
+  </comments>
+</printer>

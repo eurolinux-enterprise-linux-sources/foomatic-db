@@ -1,0 +1,21 @@
+<printer id="printer/Panasonic-KX-P4410">
+  <make>Panasonic</make>
+  <model>KX-P4410</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ljet2p</driver>
+</printer>

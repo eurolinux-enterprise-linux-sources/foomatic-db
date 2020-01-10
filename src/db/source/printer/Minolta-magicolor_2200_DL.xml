@@ -1,0 +1,60 @@
+<printer id="printer/Minolta-magicolor_2200_DL">
+  <make>Minolta</make>
+  <model>magicolor 2200 DL</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+        <unit>mm</unit>
+        <relative />
+        <top>4</top>
+        <left>4</left>
+        <right>4</right>
+        <bottom>4</bottom>
+      </general>
+    </margins>
+  </mechanism>
+  <url>http://www.minolta-qms.com/products/color/mc2200DL/index.asp</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>B</functionality>
+  <driver>foo2zjs</driver>
+  <comments>
+    <en>
+
+	The magicolor 2200 DL is a network color laser printer which
+	uses the Zenographics ZjStream printer language.
+
+	This printer is supported by the foo2zjs free software printer
+	driver.&lt;p&gt;
+
+      Consumables/Refills: Toner Black (6000 prints) - $77
+		Toner Yellow (6000 prints) - $143
+		Toner Magenta (6000 prints) - $143
+		Toner Cyan (6000 prints) - $143
+		OPC Drum Catridge (30000 prints) - $99
+		Transfer Belt (100K prints) - $349
+		Fuser Oil Roller (21K prints) - $49
+		Fuser Unit/Transfer Roller Kit (100K prints) - $499
+		Waste Toner Bottle (30000 prints) - $29 Part numbers: 1710471-001, 
+	    1710471-002, 
+	    1710471-003, 
+	    1710471-004, 
+	    1710476-001, 
+	    1710478-001, 
+	    1710475-001, 
+	    1710483-001, 
+	    1710477-001, 
+	    &lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

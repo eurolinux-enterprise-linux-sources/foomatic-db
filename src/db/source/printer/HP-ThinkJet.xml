@@ -1,0 +1,41 @@
+<printer id="printer/HP-ThinkJet">
+  <make>HP</make>
+  <model>ThinkJet</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>150</x>
+        <y>150</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <comments>
+    <en>
+
+    This printer was made in 1984. It's basicly a dot matrix
+    printer with an inkjet print head. It takes tractor feed paper. I
+    set it up as text only in printtool.&lt;p&gt;
+
+    In CUPS set up a raw (=unfiltered) queue with:&lt;p&gt;
+
+    &lt;tt&gt;lpadmin -p thinkjet -E -v
+    parallel:/dev/lp0&lt;/tt&gt;&lt;p&gt;
+
+    Note that you get a raw queue when you do not provide a PPD
+    file.&lt;p&gt;
+
+    It is rated as &quot;Partially&quot; working because there must be
+    a possibility to print graphics with it.&lt;p&gt;
+
+      Consumables/Refills: Cartridge is about $25&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

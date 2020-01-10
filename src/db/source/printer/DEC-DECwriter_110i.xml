@@ -1,0 +1,31 @@
+<printer id="printer/DEC-DECwriter_110i">
+  <make>DEC</make>
+  <model>DECwriter 110i</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>djet500</driver>
+  <comments>
+    <en>
+
+    Set up like a black-and-white Deskjet. Might need to increase
+    bottom margin slightly.&lt;p&gt;
+
+      Consumables/Refills: Replaceable cartridge and head.  Replacing cartridge is about US&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

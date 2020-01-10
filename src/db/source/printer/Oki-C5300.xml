@@ -1,0 +1,57 @@
+<printer id="printer/Oki-C5300">
+  <make>Oki</make>
+  <model>C5300</model>
+  <mechanism>
+    <led />
+    <color />
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="5c" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Oki;MDL:C5300;</ieee1284>
+      <manufacturer>Oki</manufacturer>
+      <model>C5300</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Oki</driver>
+  <drivers>
+    <driver>
+      <id>cljet5</id>
+    </driver>
+    <driver>
+      <id>hpijs-pcl5c</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Oki</id>
+      <ppd>PPD/Oki/ok5300u1.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      Throughput = 12
+      
+      Foomatic entry made by PPDtoXML T/G 0.19 on 2008-06-29
+      
+      &lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 12 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

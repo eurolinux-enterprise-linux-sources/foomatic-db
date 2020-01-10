@@ -1,0 +1,32 @@
+<printer id="printer/DEC-LN03">
+  <make>DEC</make>
+  <model>LN03</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ln03</driver>
+  <comments>
+    <en>Serial Port Printer 
+Requires
+        :lp=/dev/cua0:
+        :br#9600:
+in printcap
+
+178,000 pages and still perfect.&lt;p&gt;
+
+      Consumables/Refills: Powdered Toner&lt;p&gt;</en>
+  </comments>
+</printer>

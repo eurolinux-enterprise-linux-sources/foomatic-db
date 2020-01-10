@@ -1,0 +1,30 @@
+<printer id="printer/Epson-EPL-N2750">
+  <make>Epson</make>
+  <model>EPL-N2750</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.epson.co.uk/product/printers/lasers/epln2750/index.htm</url>
+  <lang>
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>eplaser</driver>
+  <comments>
+    <en>
+      A3/11x17 large format laser&lt;p&gt;
+
+      Consumables/Refills: toner cartridge, drum cartridge&lt;p&gt;
+    </en>
+  </comments>
+</printer>

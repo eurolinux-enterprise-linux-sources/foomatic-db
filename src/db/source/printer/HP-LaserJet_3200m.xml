@@ -1,0 +1,54 @@
+<printer id="printer/HP-LaserJet_3200m">
+  <make>HP</make>
+  <model>LaserJet 3200m</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.pandi.hp.com/pandi/pdf/lj3200.pdf</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Hewlett-Packard;CMD:PJL,MLC,PCL,PCLXL,POSTSCRIPT;MDL:HP LaserJet 3200M;CLS:PRINTER;DES:Hewlett-Packard LaserJet 3200M;</ieee1284>
+      <commandset>PJL,MLC,PCL,PCLXL,POSTSCRIPT</commandset>
+      <description>Hewlett-Packard LaserJet 3200M</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 3200M</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+    Multi-function printer-scanner-fax-copier. Printing and
+    scanning work, faxing from the PC not.&lt;p&gt;
+
+    For basic printing functionality use the Postscript PPD.
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;
+
+    Stand-alone copying should just work, it does not need the PC.&lt;p&gt;
+
+    Postscript level 2, parallel and USB connection.&lt;p&gt;
+    </en>
+  </comments>
+</printer>

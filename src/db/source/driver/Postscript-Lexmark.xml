@@ -1,0 +1,86 @@
+<driver id="driver/Postscript-Lexmark">
+  <name>Postscript-Lexmark</name>
+  <url>http://www.lexmark.com/</url>
+  <supplier>Lexmark</supplier>
+  <manufacturersupplied>Lexmark</manufacturersupplied>
+  <license>BSD (modified)</license>
+  <licensetext>
+    <en>
+
+******************************************************************************
+
+ 	Produced by Lexmark International, Inc.
+
+	Copyright 2008 Lexmark International, Inc. All rights reserved.
+
+******************************************************************************
+	License
+******************************************************************************
+
+Redistribution of this file, with or without modification, is permitted 
+provided that the following conditions are met:
+
+ 	Redistributions of this file must reproduce the above copyright notice, 
+	this list of conditions and the following disclaimer in the file and 
+	documentation and/or other materials provided with the distribution.
+
+	Neither the name of Lexmark International, Inc. nor the names of its 
+	contributors may be used to endorse or promote products derived 
+	from this file without specific prior written permission.
+
+THIS FILE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE 
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL 
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER 
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+    </en>
+  </licensetext>
+  <shortdescription>
+    <en>
+      Manufacturer-supplied PPD files for Lexmark's PostScript printers
+    </en>
+  </shortdescription>
+  <packages>
+    <package scope="general" fingerprint="https://www.openprinting.org/download/printdriver/keys/openprinting">openprinting-ppds-postscript-lexmark</package>
+  </packages>
+  <functionality>
+    <color />
+    <text>100</text>
+    <lineart>100</lineart>
+    <graphics>100</graphics>
+    <photo>100</photo>
+  </functionality>
+  <execution>
+    <postscript />
+  </execution>
+  <comments>
+    <en>
+
+      Under this entry Lexmark's PPD files for their PostScript printers
+      are hosted. PostScript printers are supported natively in Linux
+      and Unix environments, so you only need the PPD file for your
+      printer, no driver executables, to get access to all printing
+      functionality. The PPD contains all information about properties
+      and user-settable options which are specific to the printer and
+      makes printing dialogs show these options and allow the user to
+      control all the printer's functionality.&lt;p&gt;
+
+      The PPDs only support the printing functionality of the
+      printers. To use extra functionality, like scanning and faxing
+      you will need additional drivers.&lt;p&gt;
+
+      Note that these printers work, like all other PostScript
+      printers, with &lt;a
+      href=&quot;show_driver.cgi?driver=Postscript&quot;&gt;generic PostScript
+      PPD files&lt;/a&gt;, but then you will not get access to all the
+      printer specific functionality.&lt;p&gt;
+
+    </en>
+  </comments>
+</driver>

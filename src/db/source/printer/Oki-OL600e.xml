@@ -1,0 +1,22 @@
+<printer id="printer/Oki-OL600e">
+  <make>Oki</make>
+  <model>OL600e</model>
+  <mechanism>
+    <led />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cs.okidata.com/cs.nsf/LookUp+Get/OL600e?OpenDocument</url>
+  <lang>
+    <pcl level="4.5" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ljet2p</driver>
+</printer>

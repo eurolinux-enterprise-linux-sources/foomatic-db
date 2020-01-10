@@ -1,0 +1,31 @@
+<printer id="printer/Samsung-ML-7000N">
+  <make>Samsung</make>
+  <model>ML-7000N</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.samsungtelecom.com</url>
+  <lang>
+    <pcl level="6" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>pxlmono</driver>
+  <comments>
+    <en>
+
+    This is a true blood PCL6 Printer and will function completly with
+    PCL 5 drivers, though the &quot;print on both side of paper&quot;
+    control need to be issued from the printer control panel and will
+    not work through the software in Linux&lt;p&gt;
+
+      Consumables/Refills: ML+7000D8/XAR&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

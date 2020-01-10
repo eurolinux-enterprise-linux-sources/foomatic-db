@@ -1,0 +1,46 @@
+<printer id="printer/Xerox-WorkCentre_6015">
+  <make>Xerox</make>
+  <model>WorkCentre 6015</model>
+  <mechanism>
+    <laser/>
+    <color/>
+    <resolution>
+      <dpi>
+	<x>1200</x>
+	<y>600</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+	<unit>mm</unit>
+	<top>4.23164</top>
+	<bottom>4.23164</bottom>
+	<left>3.175</left>
+	<right>3.175</right>
+      </general>
+    </margins>
+  </mechanism>
+  <url>http://www.office.xerox.com/multifunction-printer/color-multifunction/workcentre-6015/enfo.html</url>
+  <lang>
+    <proprietary/>
+  </lang>
+  <autodetect>
+    <snmp>
+      <description>Xerox WorkCentre 6015</description>
+    </snmp>
+  </autodetect>
+  <functionality>C</functionality>
+  <driver>foo2hbpl2</driver>
+  <comments>
+    <en>
+
+      The Xerox WorkCentre 6015/B (USB) and Xerox WorkCentre 6015/N (Net)
+      are color multifunction printer with a 2013 street price of
+      $250.&lt;p&gt;
+
+      These printers are supported by the foo2hbpl2 open software printer
+      driver.
+
+    </en>
+  </comments>
+</printer>

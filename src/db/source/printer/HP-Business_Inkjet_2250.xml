@@ -1,0 +1,55 @@
+<printer id="printer/HP-Business_Inkjet_2250">
+  <make>HP</make>
+  <model>Business Inkjet 2250</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://h10010.www1.hp.com/wwpc/us/en/ho/WF13b/18972-236251-236261-24728-f17-65316-65318-65319.html</url>
+  <lang>
+    <postscript level="2" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>MLC,PML,PJL,PCL5,POSTSCRIPT</commandset>
+      <description>Hewlett-Packard Business Inkjet 2250</description>
+      <manufacturer>HEWLETT-PACKARD</manufacturer>
+      <model>HP BUSINESS INKJET 2250</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+    When used with HP's HPLIP driver, this printer
+    does the dithering and color adjustment internally. As input it
+    takes simple RGB data as used for screen display.&lt;p&gt;
+
+    For basic printing functionality use the Postscript PPD. For advanced functionality such as printer status and maintenance features, use the &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+    
+    Note that in contrary to most other current HP inkjet printers
+    there is no paper type sensor in the printer. You have to choose
+    one of the photo modes manually when using photo paper. There are
+    photo modes with 300 and 600 dpi.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: 4 cartridges: one for each color of CMYK. Also 4 replaceable printheads.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

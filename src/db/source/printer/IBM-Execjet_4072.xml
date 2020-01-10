@@ -1,0 +1,26 @@
+<printer id="printer/IBM-Execjet_4072">
+  <make>IBM</make>
+  <model>Execjet 4072</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>bj200</driver>
+  <comments>
+    <en>found on www.newdealinc.com/support/ts/272ibm.htm&lt;p&gt;
+
+      Consumables/Refills: cartridge, about 20$&lt;p&gt;</en>
+  </comments>
+</printer>

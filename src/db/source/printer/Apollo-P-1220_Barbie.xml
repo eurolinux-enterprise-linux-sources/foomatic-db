@@ -1,0 +1,42 @@
+<printer id="printer/Apollo-P-1220_Barbie">
+  <make>Apollo</make>
+  <model>P-1220 Barbie</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.myapollo.com/news/990602.htm</url>
+  <lang>
+    <pcl level="3e" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>pcl3</driver>
+  <comments>
+    <en>
+    Apollo is a subsidiary of HP, selling HP designs in a new casing.
+    &lt;p&gt;
+
+    This is a special design to make small girls wasting lots of
+    ink. A case with pink parts and flowers on it fitting nicely to the
+    &quot;Barbie&quot; dolls. In addition a Windows toy program to
+    design the hair of &quot;Barbie&quot; dolls comes with the
+    printer.&lt;p&gt;
+
+    This printer probably works best with one of the various deskjet
+    drivers; try all the &quot;cdj...&quot; ones,
+    &quot;gimp-print&quot;/&quot;stp&quot;,
+    &quot;pcl3&quot;/&quot;hpdj&quot;, etc.&lt;p&gt;
+
+      Consumables/Refills: Two HP cartridges&lt;p&gt;
+    </en>
+  </comments>
+</printer>

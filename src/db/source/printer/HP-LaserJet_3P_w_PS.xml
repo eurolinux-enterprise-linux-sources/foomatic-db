@@ -1,0 +1,62 @@
+<printer id="printer/HP-LaserJet_3P_w_PS">
+  <make>HP</make>
+  <model>LaserJet 3P w/PS</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="1" />
+    <pcl />
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+    
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    This printer only works &quot;Perfectly&quot; in the PCL mode
+    (ljet3/ljet3d Ghostscript drivers).&lt;p&gt;
+
+    Same as a IIIP, just with a postscript cartridge.&lt;p&gt;
+
+    Under Red Hat &quot;install a printer&quot; and select
+    &quot;PostScript&quot; as the printer.&lt;p&gt;
+
+    lpr installs and uses the Gnu Magicfilter by default.&lt;p&gt;
+
+    High quality print.&lt;p&gt;
+
+    Some pdf documents do not translate to a PostScript file that this
+    printer can print, even if Level 1 is explicitly selected on the
+    xpdf command line.  Same result with Adobe Acroreader.  May be
+    related to the age of the PS cartridge (1991).&lt;p&gt;
+
+    The old PS cartdrige cannot handle the output of some recent
+    applications.&lt;p&gt;
+
+    Using the ljet3 and ljet3d Ghostscript drivers can speed up
+    printing because your PC can do the converting from PS to ljet
+    much faster than the PS Cartridge&lt;p&gt;
+
+    In PS mode, input trays can be selected by the following PS
+    command: 'statusdict /setpapertray known {statusdict begin 0
+    setpapertray end} if {} pop' where '0' is the first
+    tray, '1' the second.&lt;p&gt;
+
+      Consumables/Refills: Toner cartridge $80&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

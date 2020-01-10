@@ -1,0 +1,39 @@
+<printer id="printer/Samsung-ML-7300N">
+  <make>Samsung</make>
+  <model>ML-7300N</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>
+
+    With built-in duplex unit and LAN connection.
+
+    Currently Samsung supports this printer with proprietary drivers
+    which come with the printer on its driver CD or can be downloaded
+    on the web sites of Samsung. Unfortunately, these drivers do not
+    work necessarily with all Linux distributions. You will therefore
+    probably get it more easily working by simply using it as a standard
+    PostScript printer with the PPD file from its driver CD.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: &lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

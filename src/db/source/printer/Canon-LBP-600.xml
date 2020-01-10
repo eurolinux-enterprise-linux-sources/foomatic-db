@@ -1,0 +1,14 @@
+<printer id="printer/Canon-LBP-600">
+  <make>Canon</make>
+  <model>LBP-600</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>Reputed not to work by &quot;Franko&quot;.  I guess it's just like the LBP-660.</en>
+  </comments>
+</printer>

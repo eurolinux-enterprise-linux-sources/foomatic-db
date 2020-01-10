@@ -1,0 +1,21 @@
+<printer id="printer/Epson-ActionLaser_1100">
+  <make>Epson</make>
+  <model>ActionLaser 1100</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4?" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>ljet3</driver>
+</printer>

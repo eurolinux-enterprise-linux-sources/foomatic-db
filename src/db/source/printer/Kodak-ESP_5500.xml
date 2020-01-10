@@ -1,0 +1,15 @@
+<printer id="printer/Kodak-ESP_5500">
+  <make>Kodak</make>
+  <model>ESP 5500</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <functionality>D</functionality>
+  <driver>c2esp</driver>
+  <drivers>
+    <driver>
+      <id>c2esp</id>
+    </driver>
+  </drivers>
+</printer>

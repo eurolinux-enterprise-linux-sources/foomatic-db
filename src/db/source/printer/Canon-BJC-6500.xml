@@ -1,0 +1,24 @@
+<printer id="printer/Canon-BJC-6500">
+  <make>Canon</make>
+  <model>BJC-6500</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1440</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>D</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>Is the same as the BJC-6200, but its a big printer (A3, 11x17inch).&lt;p&gt;
+
+      Consumables/Refills: 2 x printheads with 4/6 seperate ink tanks&lt;p&gt;</en>
+  </comments>
+</printer>

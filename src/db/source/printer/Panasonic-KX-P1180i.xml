@@ -1,0 +1,16 @@
+<printer id="printer/Panasonic-KX-P1180i">
+  <make>Panasonic</make>
+  <model>KX-P1180i</model>
+  <mechanism>
+    <dotmatrix />
+  </mechanism>
+  <lang>
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <comments>
+    <en>As a dot matrix printer it must be possible to print graphics with it.</en>
+  </comments>
+</printer>

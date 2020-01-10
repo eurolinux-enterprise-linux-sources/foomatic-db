@@ -1,0 +1,29 @@
+<printer id="printer/Xerox-Able_1406">
+  <make>Xerox</make>
+  <model>Able 1406</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>
+    Compatible to the HP LaserJet 4&lt;p&gt;
+
+      Consumables/Refills: &lt;p&gt;
+    </en>
+  </comments>
+</printer>

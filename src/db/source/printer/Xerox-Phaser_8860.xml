@@ -1,0 +1,64 @@
+<printer id="printer/Xerox-Phaser_8860">
+  <make>Xerox</make>
+  <model>Phaser 8860</model>
+  <mechanism>
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="5c" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Xerox;CMD:Adobe PostScript 3, PCL;MDL:Phaser 8860;CLS:Printer;DES:Xerox Phaser 8860, Color Printer, PostScript 3, Letter/A4 Size</ieee1284>
+      <commandset>Adobe PostScript 3, PCL</commandset>
+      <description>Xerox Phaser 8860, Color Printer, PostScript 3, Letter/A4 Size</description>
+      <manufacturer>Xerox</manufacturer>
+      <model>Phaser 8860</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>Postscript-Xerox</driver>
+  <drivers>
+    <driver>
+      <id>cljet5</id>
+    </driver>
+    <driver>
+      <id>hpijs-pcl5c</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Xerox</id>
+      <ppd>PPD/Xerox/xrx8860.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      Throughput = 30
+      
+      Foomatic entry made by PPDtoXML T/G 0.18 on 2008-05-25
+      
+      &lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 30 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

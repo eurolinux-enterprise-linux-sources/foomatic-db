@@ -1,0 +1,21 @@
+<printer id="printer/DEC-LA75_Plus">
+  <make>DEC</make>
+  <model>LA75 Plus</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>180</x>
+        <y>180</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>la75plus</driver>
+</printer>

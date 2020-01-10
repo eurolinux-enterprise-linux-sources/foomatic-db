@@ -1,0 +1,28 @@
+<printer id="printer/Oki-ML_320">
+  <make>Oki</make>
+  <model>ML 320</model>
+  <mechanism>
+    <dotmatrix />
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>EPSON,IBM,MICROLINE</commandset>
+      <description>OKIDATA ML320/1 TURBO</description>
+      <manufacturer>OKI DATA CORP</manufacturer>
+      <model>ML320/1TURBO</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>okiibm</driver>
+  <comments>
+    <en>Works without problems in the IBM emulation mode.&lt;p&gt;
+
+      Consumables/Refills: ribbon&lt;p&gt;</en>
+  </comments>
+</printer>

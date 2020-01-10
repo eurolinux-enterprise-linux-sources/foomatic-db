@@ -1,0 +1,22 @@
+<printer id="printer/Canon-iP4000">
+  <make>Canon</make>
+  <model>iP4000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>&lt;p&gt;
+
+      Consumables/Refills: &lt;p&gt;
+    </en>
+  </comments>
+</printer>

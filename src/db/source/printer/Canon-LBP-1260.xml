@@ -1,0 +1,26 @@
+<printer id="printer/Canon-LBP-1260">
+  <make>Canon</make>
+  <model>LBP-1260</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="5" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>Works fine with 7 MB installed&lt;p&gt;
+
+      Consumables/Refills: Toner Cartridge about 50 Irish Pounds&lt;p&gt;</en>
+  </comments>
+</printer>

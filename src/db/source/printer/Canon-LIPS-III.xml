@@ -1,0 +1,24 @@
+<printer id="printer/Canon-LIPS-III">
+  <make>Canon</make>
+  <model>LIPS-III</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>lips3</driver>
+  <comments>
+    <en>I have old LIPS III printer (Laser Shot A404 GII) which came with all LIPS-III command instructions documented.  Good old days.  If someone is interesed about command info to improve GS, contact me.  debian@aokiconsulting.com</en>
+  </comments>
+</printer>

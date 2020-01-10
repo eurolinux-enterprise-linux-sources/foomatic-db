@@ -1,0 +1,12 @@
+<printer id="printer/Canon-LBP-8A1">
+  <make>Canon</make>
+  <model>LBP-8A1</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>cjet</driver>
+</printer>

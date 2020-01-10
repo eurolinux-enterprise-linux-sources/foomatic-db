@@ -1,0 +1,63 @@
+<printer id="printer/HP-LaserJet_4200">
+  <make>HP</make>
+  <model>LaserJet 4200</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://h20022.www2.hp.com/busprod/overview/0,12512,series=84028%5Etype=18972%5Ecategory=64170,00.html?lsidebarLayId=106&amp;rsidebarLayId=63</url>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PJL,MLC,POSTSCRIPT,PJL,PCLXL,P</commandset>
+      <description>Hewlett-Packard LaserJet 4200</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>hp LaserJet 4200</model>
+    </general>
+    <snmp>
+      <description>hp LaserJet 4200</description>
+    </snmp>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+    PostScript Level 3, PCL5, PCL6, HP-GL/2&lt;p&gt;
+
+    Up to 35 pages/min.
+
+    48/64 MB std, depending on flavour (416 MB max.).&lt;p&gt;
+
+    For basic printing functionality use the Postscript PPD.
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;
+
+    Optional accessories are duplexer, additional trays up to 1500
+    sheet, hard drive, extra memory, ethernet adapter,
+    stapler/stacker.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Toner and drum in one cartridge (12000 pages)&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

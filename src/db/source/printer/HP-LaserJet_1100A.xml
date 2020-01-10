@@ -1,0 +1,66 @@
+<printer id="printer/HP-LaserJet_1100A">
+  <make>HP</make>
+  <model>LaserJet 1100A</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/eschome.html</url>
+  <lang>
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Hewlett-Packard;MDL:HP LaserJet 1100;DES:HP LaserJet 1100A Printer-Copier-Scanner;CMD:MLC,MFPDTF1,PCL,PJL;CLS:PRINTER;</ieee1284>
+      <commandset>MLC,MFPDTF1,PCL,PJL</commandset>
+      <description>HP LaserJet 1100A Printer-Copier-Scanner</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 1100</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+    Same as the 1100 with a copier/scanner. &quot;ljet4&quot; yields
+    much better prints than &quot;lj4dith&quot;, HPIJS gives probably
+    the best results.&lt;p&gt;
+
+    For basic printing functionality use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPIJS driver&lt;/a&gt;.  For
+    advanced functionality such as printer status, maintenance
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which
+    includes HPIJS). &lt;p&gt;
+
+    Stand-alone copying should just work, it does not need the
+    PC.&lt;p&gt;
+
+    Unfortunately, this printer has a little hardware problem: The
+    paper separation pad hardens with the time and the printer pulls
+    in several sheets of paper at once. HP is aware of this and
+    offered a kit to fix this without needing to disassemble the
+    printer for free. Unfortunately, HP discontinued this kit. You can
+    perhaps get these kits from other suppliers online for around 10
+    USD.&lt;p&gt;
+
+    The HP LaserJet 1100 has the same engine as the Canon LBP-320,
+    LBP-320 PRO, and LBP-350, and these have the same hardware
+    problem. It is quite feasible to solve this by gluing a 0.5mm
+    rubber strip over the hardened grey separation pad.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: HP UltraPrecise toner cartridge&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

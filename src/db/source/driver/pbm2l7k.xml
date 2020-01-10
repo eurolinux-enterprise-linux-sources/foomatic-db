@@ -1,0 +1,66 @@
+<driver id="driver/pbm2l7k">
+  <name>pbm2l7k</name>
+  <url>http://www.openprinting.org/download/printing/pbm2l7k/lexmark7000linux-990516.tar.bz2</url>
+  <thirdpartysupplied />
+  <execution>
+    <filter />
+    <prototype>gs -dBATCH -dPARANOIDSAFER -dNOPAUSE -dNOINTERPOLATE -q -sDEVICE=pnmraw -sOutputFile=- -r600 %A%Z - | pnmgamma %B | pnm2lex%C</prototype>
+  </execution>
+  <comments>
+    <en>
+    Should work on Lexmark 57xx, 7xxx, Z51, Z82 (many cases untested
+    due to lack of appropriate printers).&lt;P&gt;
+
+    Black/White printing at 600x600 dpi.&lt;P&gt;
+
+    Preliminary 600x600 dpi colour printing in CMY and CMYK mode -
+    tested on Lexmark 7000.&lt;P&gt;
+
+    &lt;I&gt;Note:&lt;/I&gt; Due to a Ghostscript bug users of
+    Ghostscript 5.50 or older must set the &quot;Memory Limit&quot;
+    (&quot;MemLimit&quot;, if you do not use Foomatic, use the
+    Ghostscript option &quot;-dMaxBitmap=value&quot;) option to 120 MB
+    and need at least this amount of free virtual memory to be able to
+    print in colour. For newer versions of Ghostscript there are no
+    special memory needs.&lt;P&gt;
+
+    Only 600dpi color is provided by foomatic yet!&lt;p&gt;
+
+    This driver is not maintained any more by its original author. We
+    have re-hosted it here on the OpenPrinting web site.&lt;p&gt;
+
+    If you want to know more about these printers and want to make driver
+    with more capabilities, like 1200x600 dpi, have a look at the
+    "&lt;a href="/driver/lx5000"&gt;lx5000&lt;/a&gt;" driver, documentation
+    of the printer's protocol, and maintenance tools &lt;a
+    href="/download/printing/lx5000/"&gt;here&lt;/a&gt;.&lt;p&gt;
+
+    Note that the "lx5000" driver does not work reliably, it often makes
+    Ghostscript hang in an infinite loop.&lt;p&gt;
+
+  </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Compaq-IJ900</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-5000</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-5700</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-7000</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-7200</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-Z51</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-Z82</id>
+    </printer>
+  </printers>
+</driver>

@@ -1,0 +1,27 @@
+<printer id="printer/HP-LaserJet">
+  <make>HP</make>
+  <model>LaserJet</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>laserjet</driver>
+  <comments>
+    <en>
+    
+    
+    </en>
+  </comments>
+</printer>

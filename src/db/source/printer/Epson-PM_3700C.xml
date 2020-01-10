@@ -1,0 +1,37 @@
+<printer id="printer/Epson-PM_3700C">
+  <make>Epson</make>
+  <model>PM 3700C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2880</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Probably the japanese equivalent of the Stylus Photo 1280/1290.&lt;p&gt;
+
+    48 nozzles per color; 6 color CMYKcm process.&lt;p&gt;
+
+    USB and Parallel.&lt;p&gt;
+
+    13 inch wide paper path.&lt;p&gt;
+
+    4 picoliter dots.
+
+    </en>
+  </comments>
+</printer>

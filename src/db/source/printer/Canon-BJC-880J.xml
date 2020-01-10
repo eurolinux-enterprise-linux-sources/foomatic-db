@@ -1,0 +1,22 @@
+<printer id="printer/Canon-BJC-880J">
+  <make>Canon</make>
+  <model>BJC-880J</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>bjc880j</driver>
+  <comments>
+    <en>Imported from old Red Hat japanese printer database</en>
+  </comments>
+</printer>

@@ -1,0 +1,78 @@
+<printer id="printer/Kyocera-FS-7000">
+  <make>Kyocera</make>
+  <model>FS-7000</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.kyoceramita.com/</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Kyocera;Model:Kyocera FS-7000;COMMAND SET: POSTSCRIPT,PJL,PCL</ieee1284>
+      <commandset>POSTSCRIPT,PJL,PCL</commandset>
+      <description>Kyocera FS-7000</description>
+      <manufacturer>Kyocera</manufacturer>
+      <model>Kyocera FS-7000</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Kyocera</driver>
+  <drivers>
+    <driver>
+      <id>gutenprint</id>
+    </driver>
+    <driver>
+      <id>hpijs-pcl5e</id>
+    </driver>
+    <driver>
+      <id>lj4dith</id>
+    </driver>
+    <driver>
+      <id>ljet4</id>
+    </driver>
+    <driver>
+      <id>ljet4d</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Kyocera</id>
+      <ppd>PPD/Kyocera/en/Kyocera_FS-7000_en.ppd</ppd>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      Use the
+      &lt;a href=&quot;/download/PPD/Kyocera/&quot;&gt;Kyocera PPD file&lt;/a&gt;
+      for PostScript,
+      &lt;a href=&quot;ppd-doc.html&quot;&gt;Instructions&lt;/a&gt; &lt;br&gt;
+      In case of less than 4MB memory 600dpi may not work for all printouts (use 300dpi instead) &lt;br&gt;
+      PCL5e as well (use ljet4 or ljet4d for PCL5e) &lt;br&gt;
+      In case of duplex option use ljet4d for PCL5e and duplex &lt;br&gt;
+    
+      &lt;p&gt;
+
+      Maximum paper width: 11.7 inches / 29.7 cm
+      (Wide format printer)&lt;p&gt;
+
+      Printing engine speed: 28 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

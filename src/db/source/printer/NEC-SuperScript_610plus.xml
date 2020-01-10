@@ -1,0 +1,21 @@
+<printer id="printer/NEC-SuperScript_610plus">
+  <make>NEC</make>
+  <model>SuperScript 610plus</model>
+  <mechanism>
+    <led />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://cssweb.nectech.com/sscript/ss610plus/index.htm</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>F</functionality>
+  <comments>
+    <en>Traditional &quot;GDI&quot; printer; PCL and PS level 1 support for apps running in Windows DOS box. Can only print via Samba if hooked-up to Windows host.</en>
+  </comments>
+</printer>

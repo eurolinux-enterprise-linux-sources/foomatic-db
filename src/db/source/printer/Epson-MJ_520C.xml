@@ -1,0 +1,38 @@
+<printer id="printer/Epson-MJ_520C">
+  <make>Epson</make>
+  <model>MJ 520C</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+  </lang>
+  <functionality>B</functionality>
+  <driver>stcolor</driver>
+  <comments>
+    <en>
+
+    Japanese version of the Epson Stylus Color 300.&lt;p&gt;
+
+    Works partially with the ghostscript 5.10 stcany.upp and stc2.upp
+    drivers and -sDEVICE=stcolor -dMicroweave. The printout is
+    readable but not good.&lt;p&gt;
+
+    Glenn Ramsey wrote a set of &quot;stc300&quot; uniprint drivers,
+    they are available in GNU/AFPL/ESP Ghostscript 7.05 and
+    newer.&lt;p&gt;
+
+    It probably does not work with Gimp-Print.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Ink cartridge (Epson P/N SO20138)&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

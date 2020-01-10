@@ -1,0 +1,19 @@
+<printer id="printer/Canon-LBP-4plus">
+  <make>Canon</make>
+  <model>LBP-4+</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>lbp8</driver>
+  <comments>
+    <en>Reported on Usenet by Mark Bennett-Leaver to work fine with the lbp8 driver.
+&lt;br&gt;Note that pages with lots of graphics will require additional printer memory.</en>
+  </comments>
+</printer>

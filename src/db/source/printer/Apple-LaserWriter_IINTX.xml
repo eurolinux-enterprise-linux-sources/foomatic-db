@@ -1,0 +1,24 @@
+<printer id="printer/Apple-LaserWriter_IINTX">
+  <make>Apple</make>
+  <model>LaserWriter IINTX</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.info.apple.com/info.apple.com/applespec/applespec.taf?cat=printer&amp;RID=18</url>
+  <lang>
+    <postscript level="1" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript1</driver>
+  <comments>
+    <en>&lt;p&gt;Set Switch 1 and 2 down, all others up, use serial connection at 9600 baud with XON/XOFF handshaking.  Send the printer postscript.  Apple's web pages have good information on switch settings, and even a suggested printcap file.  Search for &quot;LaserWriter AND unix&quot; in thier Older Hardware section. &lt;p&gt;You will need to build a funny serial cable to turn DSR/DTR handshaking into RTS/CTS.&lt;p&gt;
+
+      Consumables/Refills: Toner cartridge, around $60 new, refills okay&lt;p&gt; </en>
+  </comments>
+</printer>

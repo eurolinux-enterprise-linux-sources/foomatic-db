@@ -1,0 +1,43 @@
+<printer id="printer/Brother-HL-1260">
+  <make>Brother</make>
+  <model>HL-1260</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.brother.com/us-printer/info/br_1260.html</url>
+  <lang>
+    <postscript level="2" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PCL5,POSTSCRIPT2,PJL</commandset>
+      <model>Brother HL-1260</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>2MB standard, expandable to 26MB with standard 72 pin SIMMS.&lt;p&gt;
+
+    Brother publishes proprietary Linux drivers for CUPS and LPD for
+    most of their laser printers and multi-function devices, including
+    SANE drivers for the scanners. They can be downloaded free of
+    charge on their &lt;a
+    href=&quot;http://solutions.brother.com/linux/en_us/&quot;&gt;Linux driver
+    page&lt;/a&gt;.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Cartridge - HP LJ4 compatible&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

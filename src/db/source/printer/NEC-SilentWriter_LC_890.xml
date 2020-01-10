@@ -1,0 +1,25 @@
+<printer id="printer/NEC-SilentWriter_LC_890">
+  <make>NEC</make>
+  <model>SilentWriter LC 890</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>300</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="1" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>Also supports LaserJet (PCL 2 I believe) but why bother.
+NEC website has very detailed information (FAXBACK) in PDF format to be downloaded for free.
+Lists all the parts and part numbers.&lt;p&gt;
+
+      Consumables/Refills: OPC - $110 new $70 recon, Toner refill - $15&lt;p&gt;</en>
+  </comments>
+</printer>

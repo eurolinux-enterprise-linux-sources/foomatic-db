@@ -1,0 +1,37 @@
+<printer id="printer/Epson-EPL-N1600">
+  <make>Epson</make>
+  <model>EPL-N1600</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.epson.co.uk/product/printers/lasers/compare.htm</url>
+  <lang>
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PJL,EJL,ESCPL2-00,ESCP9-84,PRP</commandset>
+      <description>EPSON EPL-N1600</description>
+      <manufacturer>EPSON</manufacturer>
+      <model>EPL-N1600</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hpijs-pcl5e</driver>
+  <comments>
+    <en>&lt;p&gt;
+
+      Consumables/Refills: toner cartridge, drum cartridge&lt;p&gt;
+    </en>
+  </comments>
+</printer>

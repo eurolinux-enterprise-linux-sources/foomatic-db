@@ -1,0 +1,20 @@
+<printer id="printer/NEC-PC-PR150">
+  <make>NEC</make>
+  <model>PC-PR150</model>
+  <mechanism>
+    <resolution>
+      <dpi>
+        <x>320</x>
+        <y>320</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>pr150</driver>
+  <comments>
+    <en>Imported from old Red Hat japanese printer database</en>
+  </comments>
+</printer>

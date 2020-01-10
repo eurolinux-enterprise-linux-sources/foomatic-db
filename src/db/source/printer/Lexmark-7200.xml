@@ -1,0 +1,25 @@
+<printer id="printer/Lexmark-7200">
+  <make>Lexmark</make>
+  <model>7200</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.lexmark.com/printers/7200/7200.html</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>D</functionality>
+  <driver>pbm2l7k</driver>
+  <comments>
+    <en>Known to work with Henryk's l7k program; 600x600 or 600x300 only.&lt;p&gt;
+
+      Consumables/Refills: dual cartridges&lt;p&gt;</en>
+  </comments>
+</printer>

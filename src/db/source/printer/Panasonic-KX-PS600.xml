@@ -1,0 +1,14 @@
+<printer id="printer/Panasonic-KX-PS600">
+  <make>Panasonic</make>
+  <model>KX-PS600</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <lang>
+    <pcl level="?" />
+  </lang>
+  <functionality>D</functionality>
+  <comments>
+    <en>Probably PCL</en>
+  </comments>
+</printer>

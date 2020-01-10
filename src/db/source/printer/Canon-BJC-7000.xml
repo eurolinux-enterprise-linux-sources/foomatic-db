@@ -1,0 +1,19 @@
+<printer id="printer/Canon-BJC-7000">
+  <make>Canon</make>
+  <model>BJC-7000</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>D</functionality>
+  <driver>gutenprint</driver>
+</printer>

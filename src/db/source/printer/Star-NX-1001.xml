@@ -1,0 +1,15 @@
+<printer id="printer/Star-NX-1001">
+  <make>Star</make>
+  <model>NX-1001</model>
+  <mechanism>
+    <dotmatrix />
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>B</functionality>
+  <driver>eps9high</driver>
+</printer>

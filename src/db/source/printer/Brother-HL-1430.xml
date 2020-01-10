@@ -1,0 +1,52 @@
+<printer id="printer/Brother-HL-1430">
+  <make>Brother</make>
+  <model>HL-1430</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <commandset>PJL</commandset>
+      <manufacturer>Brother</manufacturer>
+      <model>HL-1430 series</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hl1250</driver>
+  <comments>
+    <en>
+
+    Do not confuse this printer with the &lt;a
+    href=&quot;show_printer.cgi?recnum=Brother-HL-1435&quot;&gt;Brother
+    HL-1435&lt;/a&gt; which is a &quot;Paperweight&quot;.&lt;p&gt;
+    
+    Probably very similar to the &lt;a
+    href=&quot;show_printer.cgi?recnum=Brother-HL-1440&quot;&gt;Brother
+    HL-1440&lt;/a&gt;&lt;p&gt;
+
+    Brother provides a &lt;a
+    href=&quot;http://solutions.brother.com/linux/&quot;&gt;driver&lt;/a&gt;,
+    too, but binary-only and only for LPD/LPRng. According to the
+    printout quality it is based on the &quot;ljet4&quot; Ghostscript
+    driver. &quot;pxlmono&quot;, &quot;gimp-print&quot; (600 dpi), and &quot;hpijs-pcl5e&quot; (600 dpi)
+    give a better grayscale quality and all special features of the
+    printer are accessible by PJL commands.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Separate Toner and Drum&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

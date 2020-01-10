@@ -1,0 +1,36 @@
+<printer id="printer/Generic-IBM-Compatible_Dot_Matrix_Printer">
+  <make>Generic</make>
+  <model>IBM-Compatible Dot Matrix Printer</model>
+  <mechanism>
+    <dotmatrix />
+    <color />
+  </mechanism>
+  <lang>
+    <escp />
+  </lang>
+  <functionality>A</functionality>
+  <driver>ibmpro</driver>
+  <comments>
+    <en>
+
+    This entry allows you to use any printer which understands the
+    protocol of the IBM Proprinter with Foomatic, at least with the
+    basic options. See your printer's manual to know whether your
+    printer supports the Proprinter protocol. It can be necessary to
+    set a DIP switch for that.&lt;p&gt;
+
+    Use it only for setting up your printer if your printer is not
+    explicitly listed in the &lt;a
+    href=&quot;printer_list.cgi&quot;&gt;Foomatic
+    database&lt;/a&gt;.&lt;p&gt;
+
+    If you use this entry to set up your printer, note that not all
+    features of your printer will be supported and that the options
+    offered to you do not all necessarily apply to your
+    printer.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: &lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,26 @@
+<printer id="printer/Lexmark-Winwriter_400">
+  <make>Lexmark</make>
+  <model>Winwriter 400</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="4" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>D</functionality>
+  <driver>ljetplus</driver>
+  <comments>
+    <en>Emulates HP Laserjet II under any OS, but needs Windows driver to get 600x300 dpi.&lt;p&gt;
+
+      Consumables/Refills: cartridge&lt;p&gt;</en>
+  </comments>
+</printer>

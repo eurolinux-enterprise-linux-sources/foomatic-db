@@ -1,0 +1,38 @@
+<printer id="printer/Samsung-ML-2151N">
+  <make>Samsung</make>
+  <model>ML-2151N</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>pxlmono</driver>
+  <comments>
+    <en>
+
+    As ML-2150, but with LAN connection.&lt;p&gt;
+
+    Currently Samsung supports this printer with proprietary drivers
+    which come with the printer on its driver CD or can be downloaded
+    on the web sites of Samsung. Unfortunately, these drivers do not
+    work necessarily with all Linux distributions. You will therefore
+    probably get it more easily working by using standard PCL drivers
+    as &quot;pxlmono&quot; or &quot;hpijs-pcl5e&quot;.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: &lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

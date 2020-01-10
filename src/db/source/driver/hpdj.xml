@@ -1,0 +1,201 @@
+<driver id="driver/hpdj">
+  <name>hpdj</name>
+  <url>http://home.vrweb.de/martin.lottermoser/pcl3/index.html</url>
+  <obsolete replace="pcl3" />
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=hpdj%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <comments>
+    <en>
+    Martin Lottermoser's general-purpose PCL 3+ Ghostscript
+    driver. The development of this driver is continued under the name
+    &quot;&lt;a href=&quot;show_driver.cgi?driver=pcl3&quot;&gt;pcl3&lt;/a&gt;&quot;. This
+    database entry serves for the case that your distro has the &quot;hpdj&quot;
+    driver compiled into Ghostscript and you do not want to recompile
+    it to get &quot;pcl3&quot; into it. If you compile Ghostscript you should
+    prefer to directly use &quot;pcl3&quot;.&lt;p&gt;
+
+    It is known to work reasonably well with a wide assortment of PCL
+    DeskJets. This driver has many options; be sure to consult the
+    man page gs-hpdj(1) for more information.&lt;p&gt;
+
+    For many printers, the &lt;a
+    href=&quot;show_driver.cgi?driver=hpijs&quot;&gt;HPIJS&lt;/a&gt; driver may
+    produce better color output.
+  </en>
+  </comments>
+  <printers>
+    <printer>
+      <id>printer/Apollo-P-1200</id>
+      <comments>
+        <en>Bound to work.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Apollo-P-1220_Barbie</id>
+    </printer>
+    <printer>
+      <id>printer/Apollo-P-1250</id>
+    </printer>
+    <printer>
+      <id>printer/Generic-PCL_3_Printer</id>
+    </printer>
+    <printer>
+      <id>printer/HP-2000C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-2500C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DesignJet_ColorPro_CAD</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_1220C</id>
+      <comments>
+        <en>Bound to work.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_340C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_350C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_400</id>
+      <comments>
+        <en>Tested in mono only</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_500</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_500C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_510</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_520</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_540</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_540C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_550C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_560C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_610C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_610CL</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_612C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_660C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_694C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_840C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_842C</id>
+      <comments>
+        <en>This driver produces the best text output, bar none.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_850C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_855C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_880C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_882C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-DeskJet_932C</id>
+      <comments>
+        <en>Works well and included with some distributions, including debian.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_300</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_330</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_350</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_625</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_635</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_LX</id>
+    </printer>
+    <printer>
+      <id>printer/HP-OfficeJet_Pro_1175C</id>
+    </printer>
+    <printer>
+      <id>printer/HP-PSC_500</id>
+    </printer>
+    <printer>
+      <id>printer/Lexmark-1020_Business</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-SuperScript_100C</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-SuperScript_150C</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-SuperScript_650C</id>
+    </printer>
+    <printer>
+      <id>printer/NEC-SuperScript_750C</id>
+    </printer>
+    <printer>
+      <id>printer/Samsung-SI-630A</id>
+    </printer>
+    <printer>
+      <id>printer/Sharp-AJ-1800</id>
+      <comments>
+        <en>pcl3 driver which prints b&amp;amp;w with some slight tweaking.</en>
+      </comments>
+    </printer>
+    <printer>
+      <id>printer/Xerox-DocuPrint_C11</id>
+      <comments>
+        <en>hpdj driver (updated to new name
+pcl3) works perfectly in B+W.
+
+Color works with 3-bit depth
+mode using the cdjcolor driver
+(from GS)</en>
+      </comments>
+    </printer>
+  </printers>
+</driver>

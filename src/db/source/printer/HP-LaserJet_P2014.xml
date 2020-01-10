@@ -1,0 +1,47 @@
+<printer id="printer/HP-LaserJet_P2014">
+  <make>HP</make>
+  <model>LaserJet P2014</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+    <margins>
+      <general>
+        <unit>mm</unit>
+        <relative />
+        <top>4</top>
+        <left>4</left>
+        <right>4</right>
+        <bottom>4</bottom>
+      </general>
+    </margins>
+  </mechanism>
+  <url>http://h10010.www1.hp.com/wwpc/us/en/sm/WF25a/18972-18972-3328059-14638-3328066-3435666.html</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <autodetect>
+    <parallel>
+      <ieee1284>MFG:Hewlett-Packard;MDL:HP LaserJet P2014;CMD:ACL;CLS:PRINTER;DES:HP LaserJet P2014;FWVER:20070910;</ieee1284>
+      <commandset>XQX</commandset>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet P2014</model>
+    </parallel>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>foo2xqx</driver>
+  <comments>
+    <en>
+
+    This printer is supported by the foo2xqx free software printer driver.
+    &lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Cartridge containing toner and imaging drum&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

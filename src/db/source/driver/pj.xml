@@ -1,0 +1,14 @@
+<driver id="driver/pj">
+  <name>pj</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -r180x180 -sDEVICE=pj%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/HP-PaintJet</id>
+    </printer>
+  </printers>
+</driver>

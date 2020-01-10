@@ -1,0 +1,28 @@
+<printer id="printer/HP-DesignJet_700">
+  <make>HP</make>
+  <model>DesignJet 700</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <pjl />
+  </lang>
+  <functionality>A</functionality>
+  <driver>gutenprint</driver>
+  <comments>
+    <en>
+
+    Large-format printer, works best with Gimp-Print.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Black ink cartridge&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

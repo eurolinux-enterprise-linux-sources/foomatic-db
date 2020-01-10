@@ -1,0 +1,55 @@
+<printer id="printer/HP-OfficeJet_LX">
+  <make>HP</make>
+  <model>OfficeJet LX</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>300</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com/cposupport/prodhome/ojlx.html</url>
+  <lang>
+    <pcl level="3" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Hewlett-Packard;MDL:OfficeJet;CMD:MLC,PCL,PML;</ieee1284>
+      <commandset>MLC,PCL,PML</commandset>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>OfficeJet</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+    Multi-function device (printer/copier/scanner/fax).&lt;p&gt;
+
+    For basic printing functionality use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPIJS driver &lt;/a&gt;. 
+    For advanced functionality such as printer status, maintenance 
+    features, scanning and photo card unload use the &lt;a href=&quot;
+    http://hplipopensource.com/&quot;&gt;HPLIP driver&lt;/a&gt; (which includes 
+    HPIJS). &lt;p&gt;
+
+    The printing engine of this device is the same as in the
+    monochrome DeskJet 520 printer, so printing will work with various
+    drivers.&lt;p&gt;
+
+    This printer has a 600x300-dpi-REt mode which is probably not accessable
+    with free software.&lt;p&gt;
+
+    Stand-alone copying should just work, it does not need the
+    PC.&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Black ink cartridge 51626A&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

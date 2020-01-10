@@ -1,0 +1,50 @@
+<printer id="printer/HP-DeskJet_600">
+  <make>HP</make>
+  <model>DeskJet 600</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="3" />
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>MLC,PCL,PML</commandset>
+      <description>Hewlett-Packard DeskJet 600</description>
+      <manufacturer>HEWLETT-PACKARD</manufacturer>
+      <model>DESKJET 600</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+    
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+    
+600 dpi in colour is not supported by the hardware.&lt;p&gt;
+
+    Older comments:&lt;p&gt;
+
+    Monochrome 600x600, color 300x300&lt;p&gt;
+
+    Can use cdj500, cdj550 driver as well for color support&lt;p&gt;
+
+    Must specify to get 600x600 resolution&lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Cartridge, either color or monochrome&lt;p&gt;
+    </en>
+  </comments>
+</printer>

@@ -1,0 +1,48 @@
+<printer id="printer/Sharp-ARP350">
+  <make>Sharp</make>
+  <model>ARP350</model>
+  <mechanism>
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+  </lang>
+  <functionality>B</functionality>
+  <driver>pxlmono</driver>
+  <drivers>
+    <driver>
+      <id>hpijs-pcl5e</id>
+    </driver>
+    <driver>
+      <id>lj4dith</id>
+    </driver>
+    <driver>
+      <id>lj5gray</id>
+    </driver>
+    <driver>
+      <id>ljet4</id>
+    </driver>
+    <driver>
+      <id>ljet4d</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>pxlmono</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+      Throughput = 35
+
+      Foomatic entry made by PPDtoXML T/G 0.06
+      </en>
+  </comments>
+</printer>

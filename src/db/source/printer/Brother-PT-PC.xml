@@ -1,0 +1,48 @@
+<printer id="printer/Brother-PT-PC">
+  <make>Brother</make>
+  <model>PT-PC</model>
+  <pcmodel>BRPTPC</pcmodel>
+  <mechanism>
+    <resolution>
+      <dpi>
+        <x>180</x>
+        <y>180</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.brother.co.uk/cms.cfm/s_page/55570/s_level/17290/s_product/PTPCU1</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Brother;CMD:PT-CBP;MDL:PC;CLS:PRINTER;</ieee1284>
+      <commandset>PT-CBP</commandset>
+      <description>Brother PT-PC</description>
+      <manufacturer>Brother</manufacturer>
+      <model>PT-PC</model>
+    </general>
+  </autodetect>
+  <functionality>D</functionality>
+  <driver>ptouch</driver>
+  <comments>
+    <en>
+
+      For arbitrary graphics, this printer can only print raster lines
+      24 pixels wide down the centre of the tape (and this way also
+      arbitrary fonts in low resolution).  It can print text using its
+      built-in fonts, but that would require a special text-to-PT-PC
+      driver.&lt;p&gt;
+
+      Consumables/Refills: Black on White Thermal Paper,
+	Fabric Tape Blue on White,
+	Flexi Tape,
+	Iron on Black Tape,
+	Security Tape Black on White,
+	Strong Adhesive Tape,
+	TX tape widths w: 1=6mm, 2=9mm, 3=12mm, 4=18mm, 5=24mm;
+	TX foreground colours f: 1=black, 2=red, 3=blue, 4=gold, 5=white;
+	TX background colours b: 1=clear, 2=white, 3=black, 4=red, 5=blue, 6=yellow, 7=green, 8=gold&lt;p&gt;
+    </en>
+  </comments>
+</printer>

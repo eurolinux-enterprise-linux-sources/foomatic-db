@@ -1,0 +1,15 @@
+<printer id="printer/Epson-LP_8000">
+  <make>Epson</make>
+  <model>LP 8000</model>
+  <mechanism>
+    <laser />
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>lp8000</driver>
+</printer>

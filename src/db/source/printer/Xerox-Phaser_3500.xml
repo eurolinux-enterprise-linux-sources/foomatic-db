@@ -1,0 +1,53 @@
+<printer id="printer/Xerox-Phaser_3500">
+  <make>Xerox</make>
+  <model>Phaser 3500</model>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Xerox;MDL:Xerox Phaser 3500;</ieee1284>
+      <manufacturer>Xerox</manufacturer>
+      <model>Xerox Phaser 3500</model>
+    </general>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>Postscript-Xerox</driver>
+  <drivers>
+    <driver>
+      <id>lj5gray</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Xerox</id>
+      <ppd>PPD/Xerox/xrx3500.ppd</ppd>
+    </driver>
+    <driver>
+      <id>pxlmono</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      Throughput = 35
+      
+      Foomatic entry made by PPDtoXML T/G 0.18 on 2008-05-21
+      
+      &lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 35 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

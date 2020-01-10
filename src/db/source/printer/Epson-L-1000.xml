@@ -1,0 +1,27 @@
+<printer id="printer/Epson-L-1000">
+  <make>Epson</make>
+  <model>L-1000</model>
+  <mechanism>
+    <dotmatrix />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>180</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epson</driver>
+  <comments>
+    <en>Used Redhat 6.1 Printtool.  Told it I had an Epson 24-pin.
+Works like a charm with &quot;Type A&quot; resolutions.&lt;p&gt;
+
+      Consumables/Refills: fabric ribbon; can be reinked with third party tool&lt;p&gt;</en>
+  </comments>
+</printer>

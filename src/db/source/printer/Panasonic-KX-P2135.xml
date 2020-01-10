@@ -1,0 +1,31 @@
+<printer id="printer/Panasonic-KX-P2135">
+  <make>Panasonic</make>
+  <model>KX-P2135</model>
+  <mechanism>
+    <dotmatrix />
+    <color />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>180</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.panasonic.com/office/printer/print.html</url>
+  <lang>
+    <escp />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>epsonc</driver>
+  <comments>
+    <en>Works fine in color and b&amp;amp;w with 
+ghostscript, magicfilter epsonlqc 
+setting. Capable of 360x180.
+Very quiet&lt;p&gt;
+
+      Consumables/Refills: ribbon blk KX-160 clr KX-165&lt;p&gt;</en>
+  </comments>
+</printer>

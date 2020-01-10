@@ -1,0 +1,22 @@
+<printer id="printer/Alps-MD-2300">
+  <make>Alps</make>
+  <model>MD-2300</model>
+  <mechanism>
+    <transfer />
+    <color />
+  </mechanism>
+  <lang>
+    <proprietary />
+  </lang>
+  <functionality>A</functionality>
+  <driver>ppmtomd</driver>
+  <comments>
+    <en>
+
+    J.C. Bradfield (jcb@dcs.ed.ac.uk) has written a fully functional
+    driver which converts PPM files (&quot;ppmtomd&quot;). He started
+    hacking ghostscript, but abandoned it.
+
+    </en>
+  </comments>
+</printer>

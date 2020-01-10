@@ -1,0 +1,44 @@
+<printer id="printer/HP-DeskJet_3845">
+  <make>HP</make>
+  <model>DeskJet 3845</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>4800</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com</url>
+  <lang>
+    <proprietary />
+  </lang>
+  <autodetect>
+    <usb>
+      <commandset>LDL,DYN</commandset>
+      <description>3845</description>
+      <manufacturer>HP</manufacturer>
+      <model>Deskjet 3840</model>
+    </usb>
+  </autodetect>
+  <functionality>B</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+    More or less the same as the HP DeskJet 3840.
+
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Separate black+color cartridge, used simultaniously&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

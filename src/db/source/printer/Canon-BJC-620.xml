@@ -1,0 +1,27 @@
+<printer id="printer/Canon-BJC-620">
+  <make>Canon</make>
+  <model>BJC-620</model>
+  <mechanism>
+    <inkjet />
+    <color />
+    <resolution>
+      <dpi>
+        <x>720</x>
+        <y>720</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>bjc600</driver>
+  <comments>
+    <en>Different uniprint drivers for 360/720dpi printing and different paper types.&lt;p&gt;
+
+      Consumables/Refills: JR Inkjet Cartridge Refill--about $3.00per fill&lt;p&gt;</en>
+  </comments>
+</printer>

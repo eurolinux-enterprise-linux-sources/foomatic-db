@@ -1,0 +1,14 @@
+<driver id="driver/jetp3852">
+  <name>jetp3852</name>
+  <url>http://www.ghostscript.com/</url>
+  <thirdpartysupplied />
+  <execution>
+    <ghostscript />
+    <prototype>gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPAUSE -dNOINTERPOLATE -sDEVICE=jetp3852%A%Z -sOutputFile=- -</prototype>
+  </execution>
+  <printers>
+    <printer>
+      <id>printer/IBM-3853_JetPrinter</id>
+    </printer>
+  </printers>
+</driver>

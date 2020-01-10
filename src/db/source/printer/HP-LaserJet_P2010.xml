@@ -1,0 +1,49 @@
+<printer id="printer/HP-LaserJet_P2010">
+  <make>HP</make>
+  <model>LaserJet P2010</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com</url>
+  <lang>
+    <pcl level="5e" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <usb>
+      <commandset>PJL,MLC,BIDI-ECP,PCL,DW-PCL</commandset>
+      <description>Hewlett-Packard LaserJet P2010 series</description>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet P2010 series</model>
+    </usb>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <comments>
+    <en>
+
+    For basic printing functionality use the &lt;a 
+    href=&quot;http://hplipopensource.com/&quot;&gt;HPIJS 
+    driver &lt;/a&gt;. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;
+
+    PCL 5e, out of the box, parallel and
+    USB connection,  250-sheet tray built-in, extra 250-sheet tray available.&lt;p&gt;
+
+    Inductive &quot;Instant On&quot; fuser for very fast pre-heating, first page
+    after around 8 seconds.&lt;p&gt;
+
+    </en>
+  </comments>
+</printer>

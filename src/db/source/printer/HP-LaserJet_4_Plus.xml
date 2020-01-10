@@ -1,0 +1,46 @@
+<printer id="printer/HP-LaserJet_4_Plus">
+  <make>HP</make>
+  <model>LaserJet 4 Plus</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.hp.com</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="5" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <parallel>
+      <commandset>PJL,PCL,POSTSCRIPT</commandset>
+      <manufacturer>Hewlett-Packard</manufacturer>
+      <model>HP LaserJet 4 Plus</model>
+    </parallel>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>hplip</driver>
+  <drivers>
+    <driver>
+      <id>hplip</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+    For basic printing functionality use the Postscript PPD. For advanced functionality such
+    as printer status and maintenance features, use the
+    &lt;a href=&quot;http://hplipopensource.com/&quot;&gt;
+    HPLIP driver&lt;/a&gt; (which includes HPIJS). &lt;p&gt;&lt;p&gt;
+
+      Consumables/Refills: Cartridge (UKP68)&lt;p&gt;
+    </en>
+  </comments>
+</printer>

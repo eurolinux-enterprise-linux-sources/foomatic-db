@@ -1,0 +1,29 @@
+<printer id="printer/Apple-12_640ps">
+  <make>Apple</make>
+  <model>12/640ps</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <postscript level="2" />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>Postscript</driver>
+  <comments>
+    <en>No specific Linux driver available.
+Works fine with Generic Postscript
+Driver from parallel port; I'm not sure
+if it works from the ethernet.&lt;p&gt;
+
+      Consumables/Refills: plain paper, same toner as HP&lt;p&gt;</en>
+  </comments>
+</printer>

@@ -1,0 +1,71 @@
+<printer id="printer/Kyocera-FS-1200">
+  <make>Kyocera</make>
+  <model>FS-1200</model>
+  <mechanism>
+    <laser />
+    <resolution>
+      <dpi>
+        <x>600</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.kyoceramita.com/</url>
+  <lang>
+    <postscript level="2" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Kyocera;Model:Kyocera FS-1200;COMMAND SET: POSTSCRIPT,PJL,PCL</ieee1284>
+      <commandset>POSTSCRIPT,PJL,PCL</commandset>
+      <description>Kyocera FS-1200</description>
+      <manufacturer>Kyocera</manufacturer>
+      <model>Kyocera FS-1200</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Kyocera</driver>
+  <drivers>
+    <driver>
+      <id>lj5gray</id>
+    </driver>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Kyocera</id>
+      <ppd>PPD/Kyocera/en/Kyocera_FS-1200_en.ppd</ppd>
+    </driver>
+    <driver>
+      <id>pxlmono</id>
+    </driver>
+  </drivers>
+  <comments>
+    <en>
+
+      4-12 MB RAM (depends on the model);
+      Works very good; tested on a SuSE 6.2 &lt;br&gt;
+      Use the
+      &lt;a href=&quot;/download/PPD/Kyocera/&quot;&gt;Kyocera PPD file&lt;/a&gt;
+      for PostScript,
+      &lt;a href=&quot;ppd-doc.html&quot;&gt;Instructions&lt;/a&gt; &lt;br&gt;
+      Use ljet4 for PCL5e &lt;br&gt;
+      In case of duplex option use ljet4d for PCL5e and duplex &lt;br&gt;
+      Using pxlmono for PCL6 may be the fastest way to get good printouts.
+    
+      &lt;p&gt;
+
+      Maximum paper width: 8.5 inches / 21.6 cm
+      (Standard format printer)&lt;p&gt;
+
+      Printing engine speed: 12 pages/min&lt;p&gt;
+
+
+    </en>
+  </comments>
+</printer>

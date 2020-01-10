@@ -1,0 +1,26 @@
+<printer id="printer/Canon-BJ-5">
+  <make>Canon</make>
+  <model>BJ-5</model>
+  <mechanism>
+    <inkjet />
+    <resolution>
+      <dpi>
+        <x>360</x>
+        <y>360</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <proprietary />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <functionality>A</functionality>
+  <driver>bj10e</driver>
+  <comments>
+    <en>Used APSfilter to generate printcap&lt;p&gt;
+
+      Consumables/Refills: BC-01 cartridge, $25&lt;p&gt;</en>
+  </comments>
+</printer>

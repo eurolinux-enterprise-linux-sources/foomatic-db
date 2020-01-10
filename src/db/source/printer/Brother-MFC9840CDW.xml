@@ -1,0 +1,44 @@
+<printer id="printer/Brother-MFC9840CDW">
+  <make>Brother</make>
+  <model>MFC9840CDW</model>
+  <mechanism>
+    <laser />
+    <color />
+    <resolution>
+      <dpi>
+        <x>2400</x>
+        <y>600</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <url>http://www.brother-usa.com/MFC/ModelDetail.aspx%sProductID=mfc9840cdw</url>
+  <lang>
+    <postscript level="3" />
+    <pcl level="6" />
+    <pjl />
+    <text>
+      <charset>us-ascii</charset>
+    </text>
+  </lang>
+  <autodetect>
+    <general>
+      <ieee1284>MFG:Brother;MDL:Brother MFC-9840CDW;</ieee1284>
+      <manufacturer>Brother</manufacturer>
+      <model>Brother MFC-9840CDW</model>
+    </general>
+  </autodetect>
+  <functionality>A</functionality>
+  <driver>Postscript-Brother</driver>
+  <drivers>
+    <driver>
+      <id>Postscript</id>
+    </driver>
+    <driver>
+      <id>Postscript-Brother</id>
+      <ppd>PPD/Brother/BR9840_2_GPL.ppd</ppd>
+    </driver>
+    <driver>
+      <id>pxlcolor</id>
+    </driver>
+  </drivers>
+</printer>
