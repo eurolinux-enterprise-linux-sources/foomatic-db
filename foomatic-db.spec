@@ -6,7 +6,7 @@
 Summary: Database of printers and printer drivers
 Name: foomatic-db
 Version: %{dbver_rel}
-Release: 40.%{dbver_snap}%{?dist}
+Release: 41.%{dbver_snap}%{?dist}
 License: GPLv2+
 Group: System Environment/Libraries
 Requires: %{name}-filesystem = %{version}-%{release}
@@ -15,6 +15,7 @@ Requires: %{name}-ppds = %{version}-%{release}
 Source0: http://www.openprinting.org/download/foomatic/foomatic-db-%{dbver_rel}-%{dbver_snap}.tar.gz
 
 Patch1: foomatic-db-device-ids.patch
+Patch2: foomatic-db-oki4350ppd.patch
 
 Url: http://www.openprinting.org
 BuildArch: noarch
@@ -103,6 +104,7 @@ popd
 # Kyocera FS-1118MFP (bug #782377)
 # Brother HL-2040 (bug #999040)
 %patch1 -p1
+%patch2 -p1
 
 # Use sed instead of perl in the PPDs (bug #512739).
 find db/source/PPD -type f -name '*.ppd' | xargs perl -pi -e 's,perl -p,sed,'
@@ -150,6 +152,9 @@ ln -sf ../../foomatic/db/source/PPD %{buildroot}%{_datadir}/cups/model/foomatic-
 %{_datadir}/cups/model/foomatic-db-ppds
 
 %changelog
+* Thu Jan 19 2017 Zdenek Dohnal <zdohnal@redhat.com> - 4.0-41.20130911
+- 1257028 - Can't print an envelope (Oki B4350)
+
 * Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.0-40.20130911
 - Mass rebuild 2013-12-27
 
