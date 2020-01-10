@@ -6,7 +6,7 @@
 Summary: Database of printers and printer drivers
 Name: foomatic-db
 Version: %{dbver_rel}
-Release: 39.%{dbver_snap}%{?dist}
+Release: 40.%{dbver_snap}%{?dist}
 License: GPLv2+
 Group: System Environment/Libraries
 Requires: %{name}-filesystem = %{version}-%{release}
@@ -150,6 +150,9 @@ ln -sf ../../foomatic/db/source/PPD %{buildroot}%{_datadir}/cups/model/foomatic-
 %{_datadir}/cups/model/foomatic-db-ppds
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.0-40.20130911
+- Mass rebuild 2013-12-27
+
 * Wed Sep 11 2013 Jiri Popelka <jpopelka@redhat.com> - 4.0-39.20130911
 - Updated to foomatic-db-4.0-20130911
 - Device ID for Brother HL-2040 (bug #999040)
